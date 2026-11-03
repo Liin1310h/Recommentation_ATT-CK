@@ -1,0 +1,8 @@
+﻿# third-party data and clones: never commit
+data/raw/
+attack_data/
+Security-Datasets/
+EVTX-ATTACK-SAMPLES/
+EVTX-ATT&CK*.csv
+__pycache__/
+*.pyc
