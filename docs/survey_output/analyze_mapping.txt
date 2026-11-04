@@ -1,0 +1,12 @@
+sheet rows 198
+ID field forms {'single': 184, 'NA': 7, 'multi': 7}
+rows without any .evtx name in text 31
+distinct repo files matched 163 of 277 | unmatched names 8
+matched only via rows without ID 5 ['discovery_uefi_settings_rweverything_sysmon_6.evtx', 'lm_sysmon_18_remshell_over_namedpipe.evtx', 'mssql_15281_xp_cmdshell_exec_failed_attempt.evtx', 'sysmon_1_exec_via_sql_xpcmdshell.evtx', 'sysmon_exec_from_vss_persistence.evtx']
+distinct IDs in sheet 59
+IDs with >=1 matched file 53 | >=3 13 | >=5 8
+top IDs by matched files [('T1088', 27), ('T1003', 15), ('T1134', 13), ('T1089', 10), ('T1055', 7), ('T1021', 6), ('T1085', 6), ('T1218', 6), ('T1068', 4), ('T1076', 4), ('T1175', 4), ('T1064', 3), ('T1078', 3), ('T1014', 2), ('T1028', 2)]
+unmatched sample ['enum_shares_target_sysmon_3_18.evtx', 'meterpreter_ps_cmd_process_listing_sysmon_10.evtx', 'priveschange_dirkjan.evtx', 'recon_sysmon_3_invoke_userhunter_sourcemachine.evtx', 'stsmon_uacme_33.evtx', 'susp_explorer_exec_root_cmdline_rimpq_cyberraiju.evtx', 'sysmon_1_ftp.evtx', 'sysmon_1_iis_pwd_and_config_discovery_appcmd.evtx']
+repo files not in any sheet row 114
+tactic field values 12 [('Privilege Escalation', 49), ('Lateral Movement', 32), ('Defense Evasion', 30), ('Credential Access', 29), ('Persistence', 19), ('Defense Evasion, Execution', 11), ('Execution', 9), ('Discovery', 9), ('Command and Control', 7), ('', 1), ('Initial Access', 1), ('Execution, Persistence', 1)]
+ALL IDS ['T1003', 'T1014', 'T1015', 'T1021', 'T1028', 'T1031', 'T1035', 'T1036', 'T1037', 'T1037.001', 'T1038', 'T1047', 'T1051', 'T1053', 'T1055', 'T1056', 'T1057', 'T1059', 'T1060', 'T1064', 'T1068', 'T1070', 'T1073', 'T1075', 'T1076', 'T1077', 'T1078', 'T1081', 'T1084', 'T1085', 'T1086', 'T1087', 'T1088', 'T1089', 'T1090', 'T1093', 'T1097', 'T1098', 'T1099', 'T1105', 'T1110', 'T1117', 'T1122', 'T1134', 'T1135', 'T1138', 'T1141', 'T1170', 'T1175', 'T1183', 'T1189', 'T1196', 'T1197', 'T1218', 'T1220', 'T1223', 'T1547', 'T1547.001', 'T1574']

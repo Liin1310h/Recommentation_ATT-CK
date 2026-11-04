@@ -1,0 +1,12 @@
+evtx 278 totalMB 46.5 median KB 68.0 p90 KB 68.0 max KB 10308.0
+filenames containing T-id: 3
+csv rows 4633 distinct files in csv 249
+csv names not in repo: 0 []
+repo names not in csv: 28 ['4799_remote_local_groups_enumeration.evtx', 'bits_openvpn.evtx', 'ca_petipotam_etw_rpc_efsr_5_6.evtx', 'de_timestomp_and_dll_sideloading_and_runpersist.evtx', 'efspotato_sysmon_17_18_privesc_seimpersonate_to_system.evtx', 'etw_rpc_zerologon.evtx', 'exec_emotet_ps_4104.evtx', 'exec_emotet_ps_800_get-item.evtx', 'exec_emotet_ps_800_invoke-item.evtx', 'exec_emotet_ps_800_new-item.evtx']
+files per tactic (csv): {'Command and Control': 5, 'Credential Access': 35, 'Defense Evasion': 36, 'Discovery': 10, 'Execution': 33, 'Lateral Movement': 47, 'Persistence': 22, 'Privilege Escalation': 61}
+events/file min/median/p90/max 1 5 27 869 files<=5 events 128
+top channels [('Microsoft-Windows-Sysmon/Operational', 2401), ('Security', 1496), ('Application', 393), ('Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational', 228), ('Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational', 61), ('System', 17), ('Microsoft-Windows-Bits-Client/Operational', 11), ('Microsoft-Windows-WinRM/Operational', 7)]
+top (channel,eid) [(('Security', '5145'), 950), (('Microsoft-Windows-Sysmon/Operational', '1'), 841), (('Microsoft-Windows-Sysmon/Operational', '7'), 613), (('Microsoft-Windows-Sysmon/Operational', '11'), 185), (('Application', '1040'), 178), (('Application', '1042'), 173), (('Microsoft-Windows-Sysmon/Operational', '13'), 162), (('Microsoft-Windows-Sysmon/Operational', '3'), 150), (('Microsoft-Windows-Sysmon/Operational', '10'), 140), (('Security', '4663'), 115), (('Microsoft-Windows-Sysmon/Operational', '8'), 101), (('Security', '5156'), 92), (('Microsoft-Windows-Sysmon/Operational', '12'), 80), (('Security', '4624'), 69), (('Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational', '1155'), 64)]
+rows with field non-empty: {'Image': 2140, 'CommandLine': 841, 'ParentImage': 841, 'RuleName': 213, 'TargetObject': 242, 'ScriptBlockText': 3}
+files with Sysmon channel events: 179
+RuleName present rows: 213

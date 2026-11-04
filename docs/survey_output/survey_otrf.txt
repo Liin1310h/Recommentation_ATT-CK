@@ -1,0 +1,19 @@
+yaml files 113
+type {'atomic': 104, 'compound': 9}
+platform {'AWS': 2, 'Linux': 3, 'Windows': 109, 'Azure': 1}
+no attack_mappings 0
+no files entry 0
+mappings per dataset: median 1 max 10
+distinct techniques 52 distinct sub-techniques 48
+techniques with >=1 datasets 52 | sub-techniques 48
+techniques with >=3 datasets 17 | sub-techniques 13
+techniques with >=5 datasets 12 | sub-techniques 7
+top techniques by datasets [('T1003', 26), ('T1021', 15), ('T1218', 10), ('T1055', 8), ('T1562', 7), ('T1587', 7), ('T1608', 7), ('T1204', 7), ('T1082', 7), ('T1033', 7), ('T1047', 6), ('T1041', 6)]
+tactics {'TA0005': 38, 'TA0006': 32, 'TA0007': 29, 'TA0008': 26, 'TA0002': 26, 'TA0004': 18, 'TA0003': 15, 'TA0042': 14, 'TA0010': 6, 'TA0009': 4, 'TA0011': 4, 'TA0001': 3}
+unparsed technique/sub-technique values 0 []
+ALL_TECHNIQUE_IDS ['T0000', 'T1003', 'T1012', 'T1018', 'T1021', 'T1027', 'T1033', 'T1037', 'T1041', 'T1047', 'T1049', 'T1053', 'T1055', 'T1056', 'T1057', 'T1059', 'T1069', 'T1078', 'T1082', 'T1087', 'T1098', 'T1105', 'T1110', 'T1112', 'T1114', 'T1123', 'T1134', 'T1135', 'T1190', 'T1197', 'T1203', 'T1204', 'T1210', 'T1218', 'T1220', 'T1222', 'T1505', 'T1518', 'T1530', 'T1543', 'T1546', 'T1547', 'T1548', 'T1550', 'T1552', 'T1558', 'T1562', 'T1574', 'T1580', 'T1587', 'T1606', 'T1608']
+ALL_SUBTECHNIQUE_IDS ['T1003.001', 'T1003.002', 'T1003.003', 'T1003.004', 'T1003.006', 'T1021.002', 'T1021.003', 'T1021.006', 'T1027.001', 'T1037.001', 'T1053.005', 'T1055.001', 'T1055.002', 'T1055.003', 'T1056.002', 'T1059.001', 'T1059.005', 'T1069.001', 'T1069.002', 'T1078.004', 'T1087.001', 'T1087.002', 'T1098.002', 'T1110.003', 'T1134.001', 'T1134.002', 'T1204.002', 'T1218.001', 'T1218.002', 'T1218.003', 'T1218.004', 'T1218.005', 'T1218.010', 'T1222.001', 'T1505.003', 'T1543.003', 'T1546.003', 'T1547.001', 'T1548.002', 'T1550.002', 'T1552.004', 'T1558.003', 'T1562.002', 'T1562.004', 'T1574.001', 'T1587.001', 'T1606.002', 'T1608.001']
+local zips 207 MB 486.5
+zip members by ext {'.json': 148, '.csv': 1, '.log': 174, '.cap': 48, '.pcapng': 12, '.pcap': 4, '.sha1sum': 8} bad zips 0
+bad zip paths (max 5) []
+json members 148 events total 1924582 median/p90/max 2205.0 25993 587286

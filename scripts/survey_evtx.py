@@ -1,14 +1,21 @@
+"""Survey of EVTX-ATTACK-SAMPLES (evtx files + evtx_data.csv), read-only.
+
+Fix log (2026-11-04):
+- Two-way name match between evtx_data.csv and the repo (case-insensitive file names):
+  'csv names not in repo' AND 'repo names not in csv', each with count and first 10 names.
+- Medians use statistics.median (before: sorted[len//2]).
+- .git directory is pruned from the walk.
+"""
 import csv, os, re, sys, statistics, collections
 root = sys.argv[1]
 files = []
-for dp, _, fn in os.walk(root):
-    if '.git' in dp.split(os.sep):
-        continue
+for dp, dirs, fn in os.walk(root):
+    dirs[:] = [d for d in dirs if d != '.git']
     for f in fn:
         if f.lower().endswith('.evtx'):
             files.append(os.path.join(dp, f))
 sz = sorted(os.path.getsize(f) for f in files)
-print('evtx', len(files), 'totalMB', round(sum(sz) / 2**20, 1), 'median KB', round(sz[len(sz)//2] / 1024, 1),
+print('evtx', len(files), 'totalMB', round(sum(sz) / 2**20, 1), 'median KB', round(statistics.median(sz) / 1024, 1),
       'p90 KB', round(sz[int(len(sz)*.9)] / 1024, 1), 'max KB', round(sz[-1] / 1024, 1))
 tid = re.compile(r'T\d{4}(?:[._]\d{3})?', re.I)
 withid = [f for f in files if tid.search(os.path.basename(f))]
@@ -29,12 +36,16 @@ with open(os.path.join(root, 'evtx_data.csv'), encoding='utf-8', errors='replace
             if r.get(c) not in (None, '', '-'):
                 has[c] += 1
 print('csv rows', rows, 'distinct files in csv', len(per_file))
-print('csv files not in repo evtx names:', len(set(per_file) - {os.path.basename(f) for f in files}))
+csv_names = {n.lower() for n in per_file}
+repo_names = {os.path.basename(f).lower() for f in files}
+csv_only = sorted(csv_names - repo_names); repo_only = sorted(repo_names - csv_names)
+print('csv names not in repo:', len(csv_only), csv_only[:10])
+print('repo names not in csv:', len(repo_only), repo_only[:10])
 for fn, t in file_tac.items():
     tac[t] += 1
 print('files per tactic (csv):', dict(tac))
 v = sorted(per_file.values())
-print('events/file min/median/p90/max', v[0], v[len(v)//2], v[int(len(v)*.9)], v[-1], 'files<=5 events', sum(1 for x in v if x <= 5))
+print('events/file min/median/p90/max', v[0], statistics.median(v), v[int(len(v)*.9)], v[-1], 'files<=5 events', sum(1 for x in v if x <= 5))
 print('top channels', chan.most_common(8))
 print('top (channel,eid)', eid.most_common(15))
 print('rows with field non-empty:', dict(has))

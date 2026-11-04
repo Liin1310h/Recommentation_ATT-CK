@@ -1,0 +1,8 @@
+status {'ok': 26, 'blocked_or_pointer': 4} events total 481
+events/file min/median/max 4 9.0 65 | files with <=5 events 5
+per technique [('T1055.001', 65), ('T1047', 57), ('T1135', 56), ('T1046', 45), ('T1003.001', 32), ('T1057', 32), ('T1112', 31), ('T1110.001', 23), ('T1070.001', 15), ('T1053.005', 14), ('T1012', 13), ('T1014', 10)]
+channels [('Microsoft-Windows-Sysmon/Operational', 257), ('Security', 149), ('Microsoft-Windows-PowerShell/Operational', 65), ('System', 10)]
+eventid [('1', 72), ('4104', 65), ('10', 63), ('5140', 56), ('7', 29), ('3', 24), ('13', 21), ('11', 17)]
+events with CommandLine field 86
+non-empty RuleName values [('RDP', 23), ('InvDB', 4), ('T1099', 4), ('EXE', 4), ('DLL', 4), ('Downloads', 4), ('InvDB-Ver', 2), ('InvDB-CompileTimeClaim', 2)]
+files with ATT&CK-like strings in content 3 [('T1046', 'T1099'), ('T1105', 'T1105'), ('T1129', 'T1137.006')]

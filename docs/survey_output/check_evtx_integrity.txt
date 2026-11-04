@@ -1,0 +1,18 @@
+files 278 bad magic 0 []
+total chunks 513 dirty-flag files 0
+same-name groups 1 {'uacme_59_sysmon.evtx': ['Privilege Escalation/UACME_59_Sysmon.evtx', 'UACME_59_Sysmon.evtx']}
+identical-content groups 1 [['Privilege Escalation/UACME_59_Sysmon.evtx', 'UACME_59_Sysmon.evtx']]
+sheet name not in repo: desktopimgdownldr.evtx -> closest: ['sysmon_11_1_lolbas_downldr_desktopimgdownldr.evtx']
+sheet name not in repo: enum_shares_target_sysmon_3_18.evtx -> closest: ['discovery_enum_shares_target_sysmon_3_18.evtx']
+sheet name not in repo: eventid_1.evtx -> closest: []
+sheet name not in repo: hijack.evtx -> closest: []
+sheet name not in repo: juicypotato.evtx -> closest: []
+sheet name not in repo: logonid.evtx -> closest: []
+sheet name not in repo: meterpreter_ps_cmd_process_listing_sysmon_10.evtx -> closest: ['discovery_meterpreter_ps_cmd_process_listing_sysmon_10.evtx']
+sheet name not in repo: priveschange_dirkjan.evtx -> closest: ['privexchange_dirkjan.evtx']
+sheet name not in repo: recon_sysmon_3_invoke_userhunter_sourcemachine.evtx -> closest: ['discovery_sysmon_3_invoke_userhunter_sourcemachine.evtx']
+sheet name not in repo: stsmon_uacme_33.evtx -> closest: ['sysmon_uacme_33.evtx']
+sheet name not in repo: susp_explorer_exec_root_cmdline_rimpq_cyberraiju.evtx -> closest: ['susp_explorer_exec_root_cmdline_@rimpq_@cyberraiju.evtx']
+sheet name not in repo: sysmon_1_ftp.evtx -> closest: ['exec_sysmon_1_ftp.evtx']
+sheet name not in repo: sysmon_1_iis_pwd_and_config_discovery_appcmd.evtx -> closest: ['discovery_sysmon_1_iis_pwd_and_config_discovery_appcmd.evtx']
+files per top-level folder {'(root)': 1, 'AutomatedTestingTools': 8, 'Command and Control': 6, 'Credential Access': 39, 'Defense Evasion': 36, 'Discovery': 11, 'Execution': 34, 'Lateral Movement': 47, 'Other': 8, 'Persistence': 22, 'Privilege Escalation': 66}
