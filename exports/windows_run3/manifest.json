@@ -1,0 +1,53 @@
+{
+  "alerts": {
+    "dev": 1258,
+    "test": 1205
+  },
+  "alerts_total": 2463,
+  "export": "windows_run3",
+  "files": {
+    "dev/alerts.jsonl": {
+      "lines": 1258,
+      "sha256": "430895c38d8913b6734d06a0f3a138bd1444c46b94afe3294eaf9ae7e64b86fe"
+    },
+    "dev/labels.jsonl": {
+      "lines": 1258,
+      "sha256": "68bc406dba2f9cef1b6bca7b8180b0c06b810c9e431ab60fe4316647ae574804"
+    },
+    "dev/scenarios.jsonl": {
+      "lines": 1258,
+      "sha256": "abdf97848580e2bf6318b8e9bb2dd93718b5c58f1410a24964954afe17a6d005"
+    },
+    "test/alerts.jsonl": {
+      "lines": 1205,
+      "sha256": "8e691501fe83d0e9f556a89258d7c0d8808b7f40f28c0ae31a68ee4f0ba5e7fe"
+    },
+    "test/labels.jsonl": {
+      "lines": 1205,
+      "sha256": "20d7b2c6effd90a0b18a8225daea34ce49a33ba1695c3dbcca0852b572432157"
+    },
+    "test/scenarios.jsonl": {
+      "lines": 1205,
+      "sha256": "39d97b9dc12710d64052328eb545645b2954bf66b34da7c389e0a07e84de13ee"
+    }
+  },
+  "label_conflict_total": 90,
+  "params": {
+    "dev_fraction": 0.5,
+    "expect_alerts": 2463,
+    "seed": 42,
+    "split_seed": 42,
+    "split_unit": "scenario_c"
+  },
+  "scenarios_b_crossing_split": 8,
+  "scenarios_c": {
+    "dev": 41,
+    "test": 40
+  },
+  "scripts_sha256": {
+    "count_gate.py": "5f1b08758c29eb164a82b3048af87e15ec78066ab2b17c90970e304e7dd28136",
+    "export_alerts.py": "b3214bc42d385e981ab981b5ab1f959372ab4fe8db61e0d9f25b24d017e6ef42"
+  },
+  "stix_sha256": "81113ba98afa2928f3dcff62022539f7ce30c315c32e14422f11ff95ce534352",
+  "test_zip_sha256": "c1956f9cff03853e0d4a775f320cfdea0e4ee5bb70e4eff5d655dfb3c6c5b378"
+}
