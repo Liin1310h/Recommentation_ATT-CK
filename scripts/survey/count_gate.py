@@ -493,19 +493,32 @@ def run_evtx(pl, root, sheet_rows, tmpdir):
             pl.process(src, run_id, labels, reason, flatten_xml(el, st))
 
 
-def otrf_ids(doc):
+RE_FULL_SUB = re.compile(r"^T\d{4}\.\d{3}$", re.I)
+
+
+def otrf_ids(doc, counters=None):
+    if counters is None:
+        counters = collections.Counter()
     out = []
     for m in doc.get("attack_mappings") or []:
         if not isinstance(m, dict):
             continue
-        t = (m.get("technique") or "").strip()
+        t = (m.get("technique") or "").strip().upper()
         if not t:
             continue
         s = (m.get("sub-technique") or "").strip()
-        if s and s.lower() != "none" and s.isdigit():
-            out.append(t.upper() + "." + s.zfill(3))
+        if not s or s.lower() == "none":
+            out.append(t)
+        elif s.isdigit() and len(s) <= 3:
+            out.append(t + "." + s.zfill(3))
+        elif RE_FULL_SUB.match(s):
+            s = s.upper()
+            if s.split(".")[0] != t:
+                counters["otrf_sub_not_under_technique"] += 1
+            out.append(s)
         else:
-            out.append(t.upper())
+            counters["otrf_sub_unparsed"] += 1
+            out.append(t)
     return out
 
 
@@ -532,7 +545,7 @@ def run_otrf(pl, root):
         if not any(str(p).strip().lower() == "windows" for p in plat):
             st["skipped_non_windows_meta"] += 1
             continue
-        raw = otrf_ids(doc)
+        raw = otrf_ids(doc, st)
         labels, reason = pl.register_run(src, raw)
         run_id = "otrf:" + str(doc.get("id") or os.path.basename(mp))
         paths = []
@@ -681,7 +694,13 @@ def build_report(pl, extra):
         "scenarios_c>=30": {"value": sc_c["total"]["scenarios"],
                             "result": "ĐẠT" if sc_c["total"]["scenarios"] >= 30 else "KHÔNG ĐẠT"},
     }
+    by_src = {s: collections.Counter() for s in SOURCE_ORDER}
+    for run, labels, s in pl.dedup.values():
+        for t in labels:
+            by_src[s][t] += 1
     return {
+        "alerts_per_technique_id_by_source": {
+            s: {k: by_src[s][k] for k in sorted(by_src[s])} for s in SOURCE_ORDER},
         "note": NOTE,
         "sources": src_out,
         "alerts_total": alerts,

@@ -42,3 +42,8 @@ Lần chạy đầu của điểm 7 sai do lỗi dữ liệu giả của harness
 | Thứ tự khi vừa bị `revoked` vừa `deprecated` | Không có object nào mang cả hai cờ trong STIX 20.0 nên không phát sinh |
 | Lỗi parse | 3 file `.evtx` → `wevtutil_error`; 2 đoạn XML Splunk → `xml_error`; 14 dòng JSON OTRF → `json_error` |
 | In tiếng Việt (ĐẠT/KHÔNG ĐẠT) qua pipe | `sys.stdout.reconfigure(encoding="utf-8")` |
+
+## Lần chạy 2 (sau sửa `otrf_ids` và tải LFS có chọn lọc)
+- Sửa `otrf_ids`: sub-technique dạng đầy đủ không còn bị bỏ; thêm bộ đếm `otrf_sub_not_under_technique`, `otrf_sub_unparsed` và bảng `alerts_per_technique_id_by_source`. 6/6 điểm kiểm tra ĐẠT.
+- LFS: 726 file con trỏ, 3,934 GB, file lớn nhất 378,1 MB. Tải 15 lô (50 đường dẫn/lô); lô 3 và 11 trả mã 2 (Windows Defender chặn file sau khi tải; không đặt exclusion). Sau tải: 724 có nội dung thật, 2 vẫn là con trỏ, 0 không tồn tại. `git status --porcelain` của attack_data: 17 dòng.
+- Kết quả: `docs/survey_output/count_gate_run2.json`; thời gian chạy 554,4 giây.
