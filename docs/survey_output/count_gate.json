@@ -1,0 +1,628 @@
+{
+  "alerts_by_source": {
+    "evtx": 844,
+    "otrf": 128733,
+    "splunk": 213
+  },
+  "alerts_per_technique_id": {
+    "T1003": 3694,
+    "T1003.001": 7078,
+    "T1003.002": 4322,
+    "T1003.003": 4642,
+    "T1003.004": 6098,
+    "T1003.006": 4070,
+    "T1012": 209,
+    "T1014": 5,
+    "T1016.001": 2,
+    "T1021": 1218,
+    "T1021.001": 34,
+    "T1021.002": 2816,
+    "T1021.003": 19410,
+    "T1021.006": 5360,
+    "T1036": 5,
+    "T1036.003": 4,
+    "T1037": 23,
+    "T1037.001": 77,
+    "T1046": 33,
+    "T1047": 5927,
+    "T1048.003": 4,
+    "T1049": 948,
+    "T1053": 7,
+    "T1053.005": 19298,
+    "T1055": 574,
+    "T1055.001": 1932,
+    "T1055.002": 446,
+    "T1055.003": 2452,
+    "T1055.012": 8,
+    "T1056.002": 94,
+    "T1057": 12,
+    "T1059": 395,
+    "T1059.001": 58,
+    "T1059.005": 621,
+    "T1068": 41,
+    "T1069.001": 1415,
+    "T1069.002": 365,
+    "T1070.006": 16,
+    "T1078": 10,
+    "T1078.002": 2,
+    "T1087.002": 196,
+    "T1090": 17,
+    "T1105": 5,
+    "T1110.001": 23,
+    "T1110.003": 3291,
+    "T1112": 341,
+    "T1123": 1525,
+    "T1129": 5,
+    "T1134": 37,
+    "T1134.001": 533,
+    "T1134.002": 533,
+    "T1135": 3299,
+    "T1189": 2,
+    "T1197": 238,
+    "T1210": 224,
+    "T1218": 951,
+    "T1218.001": 728,
+    "T1218.002": 779,
+    "T1218.003": 573,
+    "T1218.004": 330,
+    "T1218.005": 1176,
+    "T1218.010": 1090,
+    "T1218.011": 30,
+    "T1220": 677,
+    "T1222.001": 3487,
+    "T1505.003": 783,
+    "T1518": 43,
+    "T1543.003": 186,
+    "T1546.003": 24503,
+    "T1546.008": 3,
+    "T1546.012": 13,
+    "T1546.015": 20,
+    "T1547": 1,
+    "T1547.001": 9251,
+    "T1548.002": 1891,
+    "T1550.002": 4381,
+    "T1552.001": 3,
+    "T1558.003": 3291,
+    "T1574": 86,
+    "T1574.001": 1527,
+    "T1685": 16,
+    "T1685.001": 12225,
+    "T1686": 260
+  },
+  "alerts_total": 129790,
+  "gate": {
+    "alerts>=200": {
+      "result": "ĐẠT",
+      "value": 129790
+    },
+    "ids_with>=5_alerts>=30": {
+      "result": "ĐẠT",
+      "value": 75
+    },
+    "scenarios_c>=30": {
+      "result": "ĐẠT",
+      "value": 125
+    }
+  },
+  "ids_with_ge5_alerts": 75,
+  "labels": {
+    "distinct_raw_ids": 278,
+    "dropped": {
+      "T0000": "unknown",
+      "T1051": "deprecated",
+      "T1064": "deprecated",
+      "T1175": "deprecated"
+    },
+    "moved": [
+      "T1015->T1546.008",
+      "T1022->T1560",
+      "T1028->T1021.006",
+      "T1035->T1569.002",
+      "T1060->T1547.001",
+      "T1070.001->T1685.005",
+      "T1073->T1574.001",
+      "T1076->T1021.001",
+      "T1077->T1021.002",
+      "T1081->T1552.001",
+      "T1084->T1546.003",
+      "T1085->T1218.011",
+      "T1086->T1059.001",
+      "T1088->T1548.002",
+      "T1089->T1685",
+      "T1093->T1055.012",
+      "T1097->T1550.003",
+      "T1099->T1070.006",
+      "T1117->T1218.010",
+      "T1122->T1546.015",
+      "T1128->T1546.007",
+      "T1138->T1546.011",
+      "T1141->T1056.002",
+      "T1170->T1218.005",
+      "T1183->T1546.012",
+      "T1196->T1218.002",
+      "T1223->T1218.001",
+      "T1562->T1685",
+      "T1562.001->T1685",
+      "T1562.002->T1685.001",
+      "T1562.004->T1686",
+      "T1562.009->T1688",
+      "T1562.010->T1689",
+      "T1574.002->T1574.001"
+    ],
+    "pre": [
+      "T1586.001",
+      "T1587.002",
+      "T1587.003",
+      "T1588.002",
+      "T1589.001",
+      "T1589.002",
+      "T1590",
+      "T1590.002",
+      "T1590.005",
+      "T1592",
+      "T1595",
+      "T1595.001",
+      "T1598.002",
+      "T1608",
+      "T1608.001"
+    ],
+    "pre_count": 15
+  },
+  "leak_blocked_by_field_name": {
+    "CallTrace": 2,
+    "CommandLine": 28,
+    "Details": 1,
+    "ImageLoaded": 2,
+    "ParentCommandLine": 7,
+    "TargetFilename": 13
+  },
+  "multiplatform_splunk_all_yaml": {
+    "by_sourcetype": {
+      "MSExchange:Management": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 2
+      },
+      "OktaIM2:log": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 11,
+        "yaml_files": 14
+      },
+      "XmlWinEventLog": {
+        "distinct_environments": 4,
+        "distinct_valid_ids": 243,
+        "yaml_files": 691
+      },
+      "XmlWinEventLog:Microsoft-Windows-Sysmon/Operational": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 3,
+        "yaml_files": 3
+      },
+      "XmlWinEventLog:System": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "__json": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 5,
+        "yaml_files": 8
+      },
+      "_json": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "apache:access:kv": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 1
+      },
+      "apache:error": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 1
+      },
+      "auditd": {
+        "distinct_environments": 3,
+        "distinct_valid_ids": 34,
+        "yaml_files": 74
+      },
+      "aws:asl": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "aws:cloudfront:accesslogs": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "aws:cloudtrail": {
+        "distinct_environments": 3,
+        "distinct_valid_ids": 20,
+        "yaml_files": 40
+      },
+      "aws:cloudtrail:lake": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 13,
+        "yaml_files": 24
+      },
+      "azure:monitor:aad": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 17,
+        "yaml_files": 45
+      },
+      "azure:monitor:activity": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "bro:conn:json": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 3,
+        "yaml_files": 3
+      },
+      "cisco:ai:defense": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "cisco:asa": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 2
+      },
+      "cisco:cloud_security:dns": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "cisco:cloud_security:firewall": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "cisco:cloud_security:proxy": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "cisco:duo:administrator": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 11
+      },
+      "cisco:ios": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 2,
+        "yaml_files": 2
+      },
+      "cisco:isovalent": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 2
+      },
+      "cisco:isovalent:processConnect": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "cisco:isovalent:processExec": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 1,
+        "yaml_files": 2
+      },
+      "cisco:nvm:flowdata:v2": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 3,
+        "yaml_files": 3
+      },
+      "cisco:sdwan:access": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "cisco:sdwan:syslog": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 1,
+        "yaml_files": 2
+      },
+      "cisco:secure_access:security_events_ravpn": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "cisco:sfw:estreamer": {
+        "distinct_environments": 3,
+        "distinct_valid_ids": 3,
+        "yaml_files": 4
+      },
+      "crowdstrike:events:sensor": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 4,
+        "yaml_files": 4
+      },
+      "crushftp:sessionlogs": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "csv": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "gsuite:gmail:bigquery": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 4
+      },
+      "gws:reports:login": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 4,
+        "yaml_files": 5
+      },
+      "iis": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 2
+      },
+      "json_no_timestamp": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 1
+      },
+      "linux_messages_syslog": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 3
+      },
+      "linux_secure": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 13,
+        "yaml_files": 17
+      },
+      "log4j": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "mcp:jsonrpc": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "nginx:plus:access": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 3,
+        "yaml_files": 12
+      },
+      "nginx:plus:error": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 2,
+        "yaml_files": 1
+      },
+      "nginx:plus:kv": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 3,
+        "yaml_files": 2
+      },
+      "o365:graph:api": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "o365:graph:messagetrace": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "o365:management:activity": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 24,
+        "yaml_files": 48
+      },
+      "o365:reporting:messagetrace": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "ollama:server": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 0,
+        "yaml_files": 1
+      },
+      "osquery:results": {
+        "distinct_environments": 3,
+        "distinct_valid_ids": 16,
+        "yaml_files": 20
+      },
+      "splunkd_ui_access": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "stash": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "stream:tcp": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "suricata": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 7,
+        "yaml_files": 13
+      },
+      "sysmon:linux": {
+        "distinct_environments": 3,
+        "distinct_valid_ids": 43,
+        "yaml_files": 115
+      },
+      "vmw-syslog": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 18,
+        "yaml_files": 24
+      },
+      "zeek:http": {
+        "distinct_environments": 2,
+        "distinct_valid_ids": 4,
+        "yaml_files": 4
+      },
+      "zeek:ssh": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      },
+      "zscalernss-web": {
+        "distinct_environments": 1,
+        "distinct_valid_ids": 1,
+        "yaml_files": 1
+      }
+    },
+    "yaml_parse_errors": 0
+  },
+  "note": "upper bound: process-tree filter not applied",
+  "otrf_sysmon_12_13_14_eventtype_distinct": 5,
+  "otrf_sysmon_12_13_14_eventtype_top10": [
+    [
+      "CreateKey",
+      104788
+    ],
+    [
+      "SetValue",
+      47434
+    ],
+    [
+      "DeleteKey",
+      2306
+    ],
+    [
+      "DeleteValue",
+      1085
+    ],
+    [
+      "INFO",
+      43
+    ]
+  ],
+  "scenarios_b": {
+    "evtx": {
+      "largest_alerts": 412,
+      "scenarios": 8
+    },
+    "otrf": {
+      "largest_alerts": 112175,
+      "scenarios": 7
+    },
+    "splunk": {
+      "largest_alerts": 45,
+      "scenarios": 11
+    },
+    "total": {
+      "largest_alerts": 112175,
+      "scenarios": 26
+    }
+  },
+  "scenarios_c": {
+    "evtx": {
+      "largest_alerts": 84,
+      "scenarios": 74
+    },
+    "otrf": {
+      "largest_alerts": 27075,
+      "scenarios": 33
+    },
+    "splunk": {
+      "largest_alerts": 45,
+      "scenarios": 18
+    },
+    "total": {
+      "largest_alerts": 27075,
+      "scenarios": 125
+    }
+  },
+  "sources": {
+    "evtx": {
+      "drop_all_dropped": 21,
+      "drop_duplicate": 95,
+      "drop_filter_type": 33130,
+      "drop_no_label": 3260,
+      "events_read": 37350,
+      "files_read": 275,
+      "label_conflict": 13,
+      "name_conflict": 8,
+      "pass_4_1": 4220,
+      "pass_4_2": 939,
+      "pass_4_4": 939,
+      "pass_4_7": 844,
+      "runs_registered": 278,
+      "runs_without_mitre_label": 121,
+      "wevtutil_error": 3
+    },
+    "otrf": {
+      "drop_all_dropped": 168,
+      "drop_duplicate": 485363,
+      "drop_filter_type": 147170,
+      "drop_leak": 50,
+      "events_read": 761484,
+      "json_error": 14,
+      "label_conflict": 186108,
+      "pass_4_1": 614314,
+      "pass_4_2": 614146,
+      "pass_4_4": 614096,
+      "pass_4_7": 128733,
+      "runs_registered": 100,
+      "runs_without_mitre_label": 0,
+      "skipped_non_windows_meta": 4,
+      "zip_multi_match": 70,
+      "zip_not_found": 3,
+      "zips_read": 143
+    },
+    "splunk": {
+      "drop_duplicate": 173,
+      "drop_filter_type": 90,
+      "drop_leak": 3,
+      "events_read": 481,
+      "files_read": 30,
+      "lfs_pointer": 726,
+      "missing": 15,
+      "pass_4_1": 389,
+      "pass_4_2": 389,
+      "pass_4_4": 386,
+      "pass_4_7": 213,
+      "runs_registered": 597,
+      "runs_without_mitre_label": 0,
+      "xml_error": 2
+    },
+    "total": {
+      "drop_all_dropped": 189,
+      "drop_duplicate": 485631,
+      "drop_filter_type": 180390,
+      "drop_leak": 53,
+      "drop_no_label": 3260,
+      "events_read": 799315,
+      "files_read": 305,
+      "json_error": 14,
+      "label_conflict": 186121,
+      "lfs_pointer": 726,
+      "missing": 15,
+      "name_conflict": 8,
+      "pass_4_1": 618923,
+      "pass_4_2": 615474,
+      "pass_4_4": 615421,
+      "pass_4_7": 129790,
+      "skipped_non_windows_meta": 4,
+      "wevtutil_error": 3,
+      "xml_error": 2,
+      "zip_multi_match": 70,
+      "zip_not_found": 3,
+      "zips_read": 143
+    }
+  },
+  "subtechnique_ids_with_ge5_alerts": 45
+}
