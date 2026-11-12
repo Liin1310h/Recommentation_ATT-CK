@@ -1,0 +1,1923 @@
+{
+ "funnel": [
+  {
+   "alerts_dev": 15,
+   "alerts_test": 12,
+   "runs_labeled": 9,
+   "runs_with_alert": 9,
+   "technique": "T1003"
+  },
+  {
+   "alerts_dev": 29,
+   "alerts_test": 64,
+   "runs_labeled": 7,
+   "runs_with_alert": 6,
+   "technique": "T1003.001"
+  },
+  {
+   "alerts_dev": 105,
+   "alerts_test": 68,
+   "runs_labeled": 6,
+   "runs_with_alert": 5,
+   "technique": "T1003.002"
+  },
+  {
+   "alerts_dev": 82,
+   "alerts_test": 41,
+   "runs_labeled": 5,
+   "runs_with_alert": 5,
+   "technique": "T1003.003"
+  },
+  {
+   "alerts_dev": 61,
+   "alerts_test": 25,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1003.004"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1003.005"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 26,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1003.006"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1012"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 3,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1014"
+  },
+  {
+   "alerts_dev": 22,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1016"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 19,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1018"
+  },
+  {
+   "alerts_dev": 23,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1020"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 433,
+   "runs_labeled": 4,
+   "runs_with_alert": 4,
+   "technique": "T1021"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 9,
+   "runs_labeled": 6,
+   "runs_with_alert": 5,
+   "technique": "T1021.001"
+  },
+  {
+   "alerts_dev": 36,
+   "alerts_test": 175,
+   "runs_labeled": 11,
+   "runs_with_alert": 7,
+   "technique": "T1021.002"
+  },
+  {
+   "alerts_dev": 57,
+   "alerts_test": 397,
+   "runs_labeled": 9,
+   "runs_with_alert": 9,
+   "technique": "T1021.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1021.004"
+  },
+  {
+   "alerts_dev": 12,
+   "alerts_test": 451,
+   "runs_labeled": 11,
+   "runs_with_alert": 9,
+   "technique": "T1021.006"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 3,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1027"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1027.009"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1027.010"
+  },
+  {
+   "alerts_dev": 40,
+   "alerts_test": 0,
+   "runs_labeled": 5,
+   "runs_with_alert": 5,
+   "technique": "T1033"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 3,
+   "runs_labeled": 5,
+   "runs_with_alert": 3,
+   "technique": "T1036"
+  },
+  {
+   "alerts_dev": 10,
+   "alerts_test": 11,
+   "runs_labeled": 8,
+   "runs_with_alert": 7,
+   "technique": "T1036.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 6,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1037"
+  },
+  {
+   "alerts_dev": 20,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1037.001"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1040"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 10,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1046"
+  },
+  {
+   "alerts_dev": 237,
+   "alerts_test": 715,
+   "runs_labeled": 14,
+   "runs_with_alert": 13,
+   "technique": "T1047"
+  },
+  {
+   "alerts_dev": 90,
+   "alerts_test": 2,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1048.003"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 6,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1049"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1053"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 23,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1053.002"
+  },
+  {
+   "alerts_dev": 316,
+   "alerts_test": 69,
+   "runs_labeled": 14,
+   "runs_with_alert": 13,
+   "technique": "T1053.005"
+  },
+  {
+   "alerts_dev": 5729,
+   "alerts_test": 492,
+   "runs_labeled": 9,
+   "runs_with_alert": 6,
+   "technique": "T1055"
+  },
+  {
+   "alerts_dev": 30,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1055.001"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1055.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1055.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1055.012"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1057"
+  },
+  {
+   "alerts_dev": 59,
+   "alerts_test": 8,
+   "runs_labeled": 9,
+   "runs_with_alert": 9,
+   "technique": "T1059"
+  },
+  {
+   "alerts_dev": 227,
+   "alerts_test": 148,
+   "runs_labeled": 15,
+   "runs_with_alert": 15,
+   "technique": "T1059.001"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 16,
+   "runs_labeled": 6,
+   "runs_with_alert": 6,
+   "technique": "T1059.003"
+  },
+  {
+   "alerts_dev": 60,
+   "alerts_test": 331,
+   "runs_labeled": 4,
+   "runs_with_alert": 3,
+   "technique": "T1059.005"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1059.007"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 705,
+   "runs_labeled": 6,
+   "runs_with_alert": 5,
+   "technique": "T1068"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1069"
+  },
+  {
+   "alerts_dev": 318,
+   "alerts_test": 1,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1069.001"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 61,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1069.002"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 765,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1070"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1070.005"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 13,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1070.006"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1071"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1071.001"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1071.004"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 14,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1078"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1078.001"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1078.002"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1082"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 14,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1087.001"
+  },
+  {
+   "alerts_dev": 82,
+   "alerts_test": 53,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1087.002"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1090"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1090.001"
+  },
+  {
+   "alerts_dev": 289,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1090.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 4,
+   "runs_with_alert": 0,
+   "technique": "T1098"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 80,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1105"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 5,
+   "runs_labeled": 9,
+   "runs_with_alert": 4,
+   "technique": "T1110.003"
+  },
+  {
+   "alerts_dev": 37,
+   "alerts_test": 28,
+   "runs_labeled": 9,
+   "runs_with_alert": 6,
+   "technique": "T1112"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1119"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1123"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1125"
+  },
+  {
+   "alerts_dev": 9,
+   "alerts_test": 143,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1127"
+  },
+  {
+   "alerts_dev": 47,
+   "alerts_test": 19,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1127.001"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1133"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 19,
+   "runs_labeled": 6,
+   "runs_with_alert": 6,
+   "technique": "T1134"
+  },
+  {
+   "alerts_dev": 41,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1134.001"
+  },
+  {
+   "alerts_dev": 41,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1134.002"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 0,
+   "runs_labeled": 4,
+   "runs_with_alert": 2,
+   "technique": "T1135"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1136"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 5,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1136.001"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 5,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1140"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1176.001"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 4,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1185"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1187"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1189"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 10,
+   "runs_labeled": 6,
+   "runs_with_alert": 5,
+   "technique": "T1190"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 1,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1195.002"
+  },
+  {
+   "alerts_dev": 19,
+   "alerts_test": 0,
+   "runs_labeled": 3,
+   "runs_with_alert": 2,
+   "technique": "T1197"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1200"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 26,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1201"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 13,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1202"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1203"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 18,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1204"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 0,
+   "runs_labeled": 4,
+   "runs_with_alert": 2,
+   "technique": "T1204.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 115,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1210"
+  },
+  {
+   "alerts_dev": 12,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1216"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1217"
+  },
+  {
+   "alerts_dev": 129,
+   "alerts_test": 51,
+   "runs_labeled": 13,
+   "runs_with_alert": 12,
+   "technique": "T1218"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 59,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1218.001"
+  },
+  {
+   "alerts_dev": 346,
+   "alerts_test": 1,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1218.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1218.003"
+  },
+  {
+   "alerts_dev": 360,
+   "alerts_test": 108,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1218.004"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 12,
+   "runs_labeled": 7,
+   "runs_with_alert": 5,
+   "technique": "T1218.005"
+  },
+  {
+   "alerts_dev": 42,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1218.007"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1218.008"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1218.009"
+  },
+  {
+   "alerts_dev": 84,
+   "alerts_test": 328,
+   "runs_labeled": 5,
+   "runs_with_alert": 4,
+   "technique": "T1218.010"
+  },
+  {
+   "alerts_dev": 33,
+   "alerts_test": 17,
+   "runs_labeled": 11,
+   "runs_with_alert": 11,
+   "technique": "T1218.011"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1218.012"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1218.013"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1218.014"
+  },
+  {
+   "alerts_dev": 23,
+   "alerts_test": 71,
+   "runs_labeled": 4,
+   "runs_with_alert": 4,
+   "technique": "T1219"
+  },
+  {
+   "alerts_dev": 305,
+   "alerts_test": 170,
+   "runs_labeled": 4,
+   "runs_with_alert": 4,
+   "technique": "T1220"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1222"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 0,
+   "runs_labeled": 4,
+   "runs_with_alert": 2,
+   "technique": "T1222.001"
+  },
+  {
+   "alerts_dev": 295,
+   "alerts_test": 17,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1482"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 3,
+   "runs_labeled": 3,
+   "runs_with_alert": 2,
+   "technique": "T1484.001"
+  },
+  {
+   "alerts_dev": 7,
+   "alerts_test": 99,
+   "runs_labeled": 6,
+   "runs_with_alert": 4,
+   "technique": "T1485"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 130,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1486"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 22,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1490"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1491"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1491.001"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 6,
+   "runs_labeled": 5,
+   "runs_with_alert": 4,
+   "technique": "T1497"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1497.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1505"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1505.001"
+  },
+  {
+   "alerts_dev": 13,
+   "alerts_test": 1,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1505.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 23,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1505.004"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1518"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1526"
+  },
+  {
+   "alerts_dev": 230,
+   "alerts_test": 32,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1531"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1542.003"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 71,
+   "runs_labeled": 7,
+   "runs_with_alert": 6,
+   "technique": "T1543.003"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1546"
+  },
+  {
+   "alerts_dev": 9,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1546.001"
+  },
+  {
+   "alerts_dev": 603,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1546.002"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 27,
+   "runs_labeled": 4,
+   "runs_with_alert": 4,
+   "technique": "T1546.003"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 201,
+   "runs_labeled": 3,
+   "runs_with_alert": 3,
+   "technique": "T1546.008"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1546.009"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1546.011"
+  },
+  {
+   "alerts_dev": 18,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1546.012"
+  },
+  {
+   "alerts_dev": 21,
+   "alerts_test": 0,
+   "runs_labeled": 4,
+   "runs_with_alert": 3,
+   "technique": "T1546.015"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1547"
+  },
+  {
+   "alerts_dev": 6,
+   "alerts_test": 28,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1547.001"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1547.003"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 4,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1547.010"
+  },
+  {
+   "alerts_dev": 91,
+   "alerts_test": 3,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1547.012"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1547.014"
+  },
+  {
+   "alerts_dev": 65,
+   "alerts_test": 25,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1548"
+  },
+  {
+   "alerts_dev": 78,
+   "alerts_test": 113,
+   "runs_labeled": 33,
+   "runs_with_alert": 33,
+   "technique": "T1548.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1550"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 17,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1550.002"
+  },
+  {
+   "alerts_dev": 154,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1550.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1552"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 10,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1552.002"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1552.006"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 3,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1553.004"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 20,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1555"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1555.003"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1556.001"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1558"
+  },
+  {
+   "alerts_dev": 103,
+   "alerts_test": 45,
+   "runs_labeled": 3,
+   "runs_with_alert": 2,
+   "technique": "T1558.003"
+  },
+  {
+   "alerts_dev": 21,
+   "alerts_test": 181,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1560.001"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1560.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 6,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1561.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1563.002"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1564"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1564.004"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 4,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1566"
+  },
+  {
+   "alerts_dev": 392,
+   "alerts_test": 883,
+   "runs_labeled": 6,
+   "runs_with_alert": 6,
+   "technique": "T1566.001"
+  },
+  {
+   "alerts_dev": 5,
+   "alerts_test": 1,
+   "runs_labeled": 2,
+   "runs_with_alert": 1,
+   "technique": "T1566.002"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1567"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1567.002"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 9,
+   "runs_labeled": 3,
+   "runs_with_alert": 2,
+   "technique": "T1569.002"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 0,
+   "technique": "T1570"
+  },
+  {
+   "alerts_dev": 13,
+   "alerts_test": 53,
+   "runs_labeled": 4,
+   "runs_with_alert": 4,
+   "technique": "T1572"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 0,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1574"
+  },
+  {
+   "alerts_dev": 62,
+   "alerts_test": 23,
+   "runs_labeled": 8,
+   "runs_with_alert": 7,
+   "technique": "T1574.001"
+  },
+  {
+   "alerts_dev": 1,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1574.007"
+  },
+  {
+   "alerts_dev": 0,
+   "alerts_test": 2,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1574.008"
+  },
+  {
+   "alerts_dev": 2,
+   "alerts_test": 3,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1574.009"
+  },
+  {
+   "alerts_dev": 3,
+   "alerts_test": 0,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1574.011"
+  },
+  {
+   "alerts_dev": 14,
+   "alerts_test": 10,
+   "runs_labeled": 2,
+   "runs_with_alert": 2,
+   "technique": "T1649"
+  },
+  {
+   "alerts_dev": 53,
+   "alerts_test": 55,
+   "runs_labeled": 16,
+   "runs_with_alert": 15,
+   "technique": "T1685"
+  },
+  {
+   "alerts_dev": 326,
+   "alerts_test": 175,
+   "runs_labeled": 7,
+   "runs_with_alert": 5,
+   "technique": "T1685.001"
+  },
+  {
+   "alerts_dev": 4,
+   "alerts_test": 1,
+   "runs_labeled": 1,
+   "runs_with_alert": 1,
+   "technique": "T1685.005"
+  },
+  {
+   "alerts_dev": 120,
+   "alerts_test": 3,
+   "runs_labeled": 5,
+   "runs_with_alert": 5,
+   "technique": "T1686"
+  }
+ ],
+ "funnel_zero_alert": [
+  "T1055.002",
+  "T1055.003",
+  "T1071.001",
+  "T1098",
+  "T1123",
+  "T1218.003",
+  "T1218.008",
+  "T1505",
+  "T1542.003",
+  "T1547",
+  "T1547.014",
+  "T1556.001",
+  "T1570"
+ ],
+ "manifest_check": {
+  "files": 8,
+  "match": true
+ },
+ "missing_fields": [
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 17,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 17,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 6,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 6,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 8,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 107,
+   "n_missing": 4,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 107,
+   "n_missing": 4,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 107,
+   "n_missing": 4,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 107,
+   "n_missing": 4,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 107,
+   "n_missing": 103,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 9,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 9,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 20,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 20,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 860,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 860,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 24,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 81,
+   "n_missing": 33,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 81,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 81,
+   "n_missing": 33,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 81,
+   "n_missing": 33,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 81,
+   "n_missing": 48,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 181,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 181,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 5796,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 5796,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 1315,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 1315,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 1185,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 763,
+   "n_missing": 49,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 763,
+   "n_missing": 1,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 763,
+   "n_missing": 49,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 763,
+   "n_missing": 49,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 763,
+   "n_missing": 714,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 536,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 536,
+   "n_missing": 0,
+   "side": "dev",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 11,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 11,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 15,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 15,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 10,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 99,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 99,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 99,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 99,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 99,
+   "n_missing": 99,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 10,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 10,
+   "n_missing": 0,
+   "side": "test",
+   "source": "evtx"
+  },
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 46,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 46,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 1197,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 1197,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 30,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "ScriptBlockText",
+   "group": "powershell",
+   "n_alerts": 397,
+   "n_missing": 394,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 79,
+   "n_missing": 31,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 79,
+   "n_missing": 1,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 79,
+   "n_missing": 31,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 79,
+   "n_missing": 31,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 79,
+   "n_missing": 48,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 511,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 511,
+   "n_missing": 0,
+   "side": "test",
+   "source": "otrf"
+  },
+  {
+   "field": "Image",
+   "group": "file",
+   "n_alerts": 1299,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "TargetFilename",
+   "group": "file",
+   "n_alerts": 1299,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "image_load",
+   "n_alerts": 972,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "ImageLoaded",
+   "group": "image_load",
+   "n_alerts": 972,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "network",
+   "n_alerts": 512,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "process",
+   "n_alerts": 713,
+   "n_missing": 89,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "CommandLine",
+   "group": "process",
+   "n_alerts": 713,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "ParentImage",
+   "group": "process",
+   "n_alerts": 713,
+   "n_missing": 89,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "ParentCommandLine",
+   "group": "process",
+   "n_alerts": 713,
+   "n_missing": 89,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "NewProcessName",
+   "group": "process",
+   "n_alerts": 713,
+   "n_missing": 624,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "Image",
+   "group": "registry",
+   "n_alerts": 371,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  },
+  {
+   "field": "TargetObject",
+   "group": "registry",
+   "n_alerts": 371,
+   "n_missing": 0,
+   "side": "test",
+   "source": "splunk"
+  }
+ ],
+ "run_counts": {
+  "runs_in_sample": 557,
+  "runs_seen": 975,
+  "sample_codes": 557
+ }
+}
