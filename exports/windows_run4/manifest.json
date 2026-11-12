@@ -1,0 +1,491 @@
+{
+  "a2_equals_a": true,
+  "export": "windows_run4",
+  "files": {
+    "dev/alerts.jsonl": {
+      "lines": 11611,
+      "sha256": "287631c9cbfeda7a63f93890ed281edd5d56822aecac7d67699765755258a530"
+    },
+    "dev/labels.jsonl": {
+      "lines": 11611,
+      "sha256": "f27ef7a66aa969e176462d6a08cd437dd112505e836b4fdb7e518355cc3cf535"
+    },
+    "dev/run3_to_run4_alert_map.jsonl": {
+      "lines": 1258,
+      "sha256": "00df00867503909fae351ca107908f45bc7809cb97469b1f099c72b63ee369fb"
+    },
+    "dev/scenarios.jsonl": {
+      "lines": 11611,
+      "sha256": "4e326aa35a02deb7ce748ea23210895a2afffe091cebe7479ae5fab4b1d0e239"
+    },
+    "test/alerts.jsonl": {
+      "lines": 7439,
+      "sha256": "895ad8803fe88d4181f6e0667698f0ad683913b535bcc12fe65270d46a998938"
+    },
+    "test/labels.jsonl": {
+      "lines": 7439,
+      "sha256": "08dc9b29f087ac908de132be46e690e761166721880020898655c4278529c4ca"
+    },
+    "test/run3_to_run4_alert_map.jsonl": {
+      "lines": 1205,
+      "sha256": "1785dda76939d9645fbb5bcf37f005c88ca3b490ae2bc3851434c48dec94112c"
+    },
+    "test/scenarios.jsonl": {
+      "lines": 7439,
+      "sha256": "fc5bc45d3702924535250d23277f5d9df6f1360289930ef5a5b5a9b77797d9a0"
+    }
+  },
+  "old_dev_in_new_test": 0,
+  "params": {
+    "dedup_mode": "envelope_free",
+    "dev_fraction": 0.5,
+    "envelope_fields": [
+      "@timestamp",
+      "@version",
+      "AccountName",
+      "AccountType",
+      "Category",
+      "Computer",
+      "Correlation_ActivityID",
+      "Correlation_RelatedActivityID",
+      "CreationUtcTime",
+      "Domain",
+      "EventID_Qualifiers",
+      "EventReceivedTime",
+      "EventRecordID",
+      "EventTime",
+      "EventType",
+      "EventTypeOrignal",
+      "ExecutionProcessID",
+      "Execution_ProcessID",
+      "Execution_ThreadID",
+      "Keywords",
+      "Level",
+      "LogonGuid",
+      "LogonId",
+      "Message",
+      "NewProcessId",
+      "Opcode",
+      "OpcodeValue",
+      "ParentProcessGuid",
+      "ParentProcessId",
+      "PreviousCreationUtcTime",
+      "ProcessGuid",
+      "ProcessId",
+      "ProviderGuid",
+      "Provider_Guid",
+      "Provider_Name",
+      "RecordNumber",
+      "RuleName",
+      "Security_UserID",
+      "Severity",
+      "SeverityValue",
+      "SourceModuleName",
+      "SourceModuleType",
+      "SourceProcessGUID",
+      "SourceProcessGuid",
+      "SourceProcessId",
+      "SourceThreadId",
+      "SourceUser",
+      "SubjectLogonId",
+      "TargetLogonId",
+      "TargetProcessGUID",
+      "TargetProcessGuid",
+      "TargetProcessId",
+      "TargetUser",
+      "Task",
+      "ThreadID",
+      "TimeCreated",
+      "TimeCreated_SystemTime",
+      "UserID",
+      "UtcTime",
+      "Version",
+      "host",
+      "port",
+      "tags"
+    ],
+    "pid_alive": false,
+    "seed": 42,
+    "split_seed": 42
+  },
+  "run3_manifest_sha256": "fd8dcccdd9185d08dec39eb119db79fabfb0bddd8265cc4c9fd6a9500648c5ed",
+  "scripts_sha256": {
+    "count_gate.py": "5f1b08758c29eb164a82b3048af87e15ec78066ab2b17c90970e304e7dd28136",
+    "envelope_fields.json": "0eea359558a75cde4e3399375675d20100be001a994682a7798872dedd470144",
+    "export_alerts.py": "b3214bc42d385e981ab981b5ab1f959372ab4fe8db61e0d9f25b24d017e6ef42",
+    "export_alerts_v3.py": "b99cbbbd5f6506ee81a99b304ae7226e6b0201ea38609da5ea4ef5e54e99cb74"
+  },
+  "split_run4": {
+    "alerts": {
+      "dev": 11611,
+      "test": 7439
+    },
+    "composition": {
+      "counts": [
+        [
+          "dev",
+          "evtx",
+          "file",
+          17
+        ],
+        [
+          "dev",
+          "evtx",
+          "image_load",
+          6
+        ],
+        [
+          "dev",
+          "evtx",
+          "network",
+          8
+        ],
+        [
+          "dev",
+          "evtx",
+          "process",
+          107
+        ],
+        [
+          "dev",
+          "evtx",
+          "process_access",
+          12
+        ],
+        [
+          "dev",
+          "evtx",
+          "registry",
+          9
+        ],
+        [
+          "dev",
+          "otrf",
+          "file",
+          20
+        ],
+        [
+          "dev",
+          "otrf",
+          "image_load",
+          860
+        ],
+        [
+          "dev",
+          "otrf",
+          "network",
+          24
+        ],
+        [
+          "dev",
+          "otrf",
+          "process",
+          81
+        ],
+        [
+          "dev",
+          "otrf",
+          "process_access",
+          15
+        ],
+        [
+          "dev",
+          "otrf",
+          "registry",
+          181
+        ],
+        [
+          "dev",
+          "splunk",
+          "file",
+          5796
+        ],
+        [
+          "dev",
+          "splunk",
+          "image_load",
+          1315
+        ],
+        [
+          "dev",
+          "splunk",
+          "network",
+          1185
+        ],
+        [
+          "dev",
+          "splunk",
+          "process",
+          763
+        ],
+        [
+          "dev",
+          "splunk",
+          "process_access",
+          676
+        ],
+        [
+          "dev",
+          "splunk",
+          "registry",
+          536
+        ],
+        [
+          "test",
+          "evtx",
+          "file",
+          11
+        ],
+        [
+          "test",
+          "evtx",
+          "image_load",
+          15
+        ],
+        [
+          "test",
+          "evtx",
+          "network",
+          10
+        ],
+        [
+          "test",
+          "evtx",
+          "process",
+          99
+        ],
+        [
+          "test",
+          "evtx",
+          "process_access",
+          5
+        ],
+        [
+          "test",
+          "evtx",
+          "registry",
+          10
+        ],
+        [
+          "test",
+          "otrf",
+          "file",
+          46
+        ],
+        [
+          "test",
+          "otrf",
+          "image_load",
+          1197
+        ],
+        [
+          "test",
+          "otrf",
+          "network",
+          30
+        ],
+        [
+          "test",
+          "otrf",
+          "powershell",
+          397
+        ],
+        [
+          "test",
+          "otrf",
+          "process",
+          79
+        ],
+        [
+          "test",
+          "otrf",
+          "process_access",
+          44
+        ],
+        [
+          "test",
+          "otrf",
+          "registry",
+          511
+        ],
+        [
+          "test",
+          "splunk",
+          "file",
+          1299
+        ],
+        [
+          "test",
+          "splunk",
+          "image_load",
+          972
+        ],
+        [
+          "test",
+          "splunk",
+          "network",
+          512
+        ],
+        [
+          "test",
+          "splunk",
+          "process",
+          713
+        ],
+        [
+          "test",
+          "splunk",
+          "process_access",
+          1118
+        ],
+        [
+          "test",
+          "splunk",
+          "registry",
+          371
+        ]
+      ],
+      "flagged_lt_0_25": [
+        {
+          "dev": 5833,
+          "group": "file",
+          "test": 1356
+        },
+        {
+          "dev": 0,
+          "group": "powershell",
+          "test": 397
+        }
+      ]
+    },
+    "excluded_test_alerts_seen_in_dev": 0,
+    "run3_to_run4": {
+      "dev_to_dev": 1258,
+      "test_to_dev": 63,
+      "test_to_test": 1142
+    },
+    "scenarios_b_crossing_split": 20,
+    "scenarios_by_origin_side": {
+      "merged|dev": 15,
+      "merged|test": 10,
+      "new|dev": 131,
+      "new|test": 133,
+      "old_keep|dev": 26,
+      "old_keep|test": 30
+    }
+  },
+  "steps": {
+    "A_run3_old_logic": {
+      "alerts": 2463,
+      "alerts_by_source": {
+        "evtx": 89,
+        "otrf": 983,
+        "splunk": 1391
+      },
+      "ids_ge5": 39,
+      "label_conflict": {
+        "evtx": 0,
+        "otrf": 38,
+        "splunk": 52
+      },
+      "scenarios_c": 81,
+      "subtechnique_ids_ge5": 23
+    },
+    "B_run3_sample_new_logic": {
+      "alerts": 2461,
+      "label_conflict": {
+        "otrf": 38,
+        "splunk": 52
+      },
+      "sources": {
+        "evtx": {
+          "drop_filter_type": 33130,
+          "drop_tree_ambiguous": 24,
+          "drop_tree_not_in_tree": 47,
+          "drop_tree_not_sampled": 4057,
+          "events_read": 37350,
+          "pass_4_1": 4220,
+          "pass_4_2": 92,
+          "pass_4_4": 92,
+          "pass_tree": 92
+        },
+        "otrf": {
+          "drop_filter_type": 147170,
+          "drop_tree_ambiguous": 20985,
+          "drop_tree_not_in_tree": 7445,
+          "drop_tree_not_sampled": 584123,
+          "events_read": 761484,
+          "pass_4_1": 614314,
+          "pass_4_2": 1761,
+          "pass_4_4": 1761,
+          "pass_tree": 1761
+        },
+        "splunk": {
+          "drop_filter_type": 384944,
+          "drop_leak": 217,
+          "drop_tree_ambiguous": 77495,
+          "drop_tree_not_in_tree": 92591,
+          "drop_tree_not_sampled": 1756576,
+          "events_read": 2314575,
+          "pass_4_1": 1929631,
+          "pass_4_2": 2969,
+          "pass_4_4": 2752,
+          "pass_tree": 2969
+        }
+      }
+    },
+    "C_all_runs_new_logic": {
+      "alerts": 19050,
+      "alerts_by_source": {
+        "evtx": 309,
+        "otrf": 3485,
+        "splunk": 15256
+      },
+      "ids_ge5": 120,
+      "label_conflict": {
+        "otrf": 1764,
+        "splunk": 1912
+      },
+      "scenarios_c": 344,
+      "sources": {
+        "evtx": {
+          "drop_filter_type": 33130,
+          "drop_tree_ambiguous": 134,
+          "drop_tree_not_in_tree": 275,
+          "drop_tree_not_sampled": 3489,
+          "events_read": 37350,
+          "pass_4_1": 4220,
+          "pass_4_2": 322,
+          "pass_4_4": 322,
+          "pass_tree": 322
+        },
+        "otrf": {
+          "drop_filter_type": 147170,
+          "drop_leak": 12,
+          "drop_tree_ambiguous": 392059,
+          "drop_tree_not_in_tree": 212726,
+          "drop_tree_not_sampled": 2250,
+          "events_read": 761484,
+          "pass_4_1": 614314,
+          "pass_4_2": 7279,
+          "pass_4_4": 7267,
+          "pass_tree": 7279
+        },
+        "splunk": {
+          "drop_filter_type": 384944,
+          "drop_leak": 562,
+          "drop_tree_ambiguous": 1206371,
+          "drop_tree_not_in_tree": 664578,
+          "drop_tree_not_sampled": 19948,
+          "events_read": 2314575,
+          "pass_4_1": 1929631,
+          "pass_4_2": 38734,
+          "pass_4_4": 38172,
+          "pass_tree": 38734
+        }
+      },
+      "subtechnique_ids_ge5": 73
+    }
+  },
+  "test_zip_sha256": "139d3bc1afa99c60129965e03e99a0aeb2b06151dc8fb31870f3391d5e4570c7"
+}
