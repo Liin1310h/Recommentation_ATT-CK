@@ -1,0 +1,286 @@
+ma_run,dong,quyet_dinh,ly_do
+7239d114139d,1,chap_nhan,khoi chay dich vu psexesvc thuc thi tu xa
+7420b0ff7a3b,1,chap_nhan,reg truy van phien ban Internet Explorer trinh sat
+7420b0ff7a3b,2,bac,lap lai lenh reg query o dong 1
+74decdac873c,3,chap_nhan,powershell vo hieu hoa ScriptBlockLogging bang ma hoa base64
+74decdac873c,5,bac,tien trinh conhost hoat dong nen
+74decdac873c,6,bac,tien trinh conhost hoat dong nen
+74decdac873c,9,bac,tien trinh con whoami cua shell dong 3
+74decdac873c,10,bac,tien trinh con whoami cua shell dong 4
+75f0648827bb,7,bac,tien trinh conhost hoat dong nen
+75f0648827bb,8,bac,tien trinh conhost hoat dong nen
+75f0648827bb,13,chap_nhan,cmd tao scheduled task gia mao tren may tu xa
+75f0648827bb,14,bac,lap lai lenh cmd tao scheduled task o dong 13
+75f0648827bb,19,bac,tien trinh conhost hoat dong nen
+75f0648827bb,20,bac,tien trinh conhost hoat dong nen
+76c6260e5b32,1,chap_nhan,netsh mo port tuong lua inbound cho python tcp
+76c6260e5b32,2,bac,lap lai lenh netsh tcp o dong 1
+76c6260e5b32,3,chap_nhan,netsh mo port tuong lua inbound cho python udp
+76c6260e5b32,4,bac,lap lai lenh netsh udp o dong 3
+76c6260e5b32,5,chap_nhan,python khoi tao web server tren port 8000
+76c6260e5b32,6,bac,lap lai lenh python o dong 5
+777f6dec6ac9,1,chap_nhan,python thuc thi winpwnage bypass UAC
+777f6dec6ac9,3,bac,tien trinh con whoami kiem tra dac quyen sau leo thang
+77b895f94c90,35,bac,tien trinh tu dong hoa Ansible nap cau hinh Sysmon
+77b895f94c90,37,chap_nhan,reg can thiep ContextMenuHandlers vo hieu hoa Defender
+77b895f94c90,38,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,39,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,40,chap_nhan,reg thiet lap policy vo hieu hoa Windows Defender
+77b895f94c90,41,chap_nhan,reg tat DefenderApiLogger
+77b895f94c90,42,chap_nhan,reg tat DefenderAuditLogger
+77b895f94c90,43,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,44,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,45,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,46,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,47,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,48,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,49,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,50,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,51,bac,lap lai lenh reg hoac lenh don dep
+77b895f94c90,52,bac,lap lai lenh reg hoac lenh don dep
+780c20296c46,1,bac,tien trinh MpCmdRun khong co tham so
+780c20296c46,2,chap_nhan,MpCmdRun xoa toan bo du lieu nhan dien Defender
+7875f32576dd,22,bac,tien trinh conhost hoat dong nen
+7875f32576dd,24,bac,tien trinh conhost hoat dong nen
+7875f32576dd,496,bac,tien trinh conhost hoat dong nen
+7875f32576dd,497,bac,tien trinh conhost hoat dong nen
+7875f32576dd,500,chap_nhan,powershell sinh ra tu WMI vo hieu hoa ScriptBlockLogging
+7a9e9950869f,8,bac,tien trinh conhost hoat dong nen
+7a9e9950869f,9,bac,ipconfig renew IP khong phai tan cong
+7a9e9950869f,15,bac,powershell tuong tac he thong khong truc tiep thuc thi
+7a9e9950869f,28,chap_nhan,thuc thi hostname trinh sat he thong
+7a9e9950869f,29,chap_nhan,whoami do quet thong tin nguoi dung he thong
+7a9e9950869f,30,chap_nhan,powershell thuc thi NSudo de leo thang dac quyen TrustedInstaller
+7a9e9950869f,36,chap_nhan,powershell thuc thi BadPotato leo thang dac quyen SYSTEM
+7a9e9950869f,95,bac,tien trinh conhost hoat dong nen
+7a9e9950869f,97,bac,powershell tuong tac he thong khong truc tiep thuc thi
+7a9e9950869f,115,bac,tien trinh conhost hoat dong nen
+7a9e9950869f,123,bac,tien trinh conhost hoat dong nen
+7a9e9950869f,232,bac,tien trinh conhost hoat dong nen
+7aab3736a91c,1,chap_nhan,python pip cai dat goi phan mem redpy demo
+7af4942f89e4,1,chap_nhan,regsvr32 tai va thuc thi scrobj scriptlet tu URL
+7b8929959a8a,5,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,12,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,19,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,26,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,28,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,33,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,36,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,51,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+7b8929959a8a,52,chap_nhan,thuc thi ma doc sandcat C2 agent
+7b8929959a8a,139,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,337,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,342,bac,lap lai lenh reg hoac lenh don dep
+7b8929959a8a,343,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,344,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,345,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,374,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,401,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,409,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,419,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,546,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,561,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,576,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,580,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,588,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,590,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,616,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,854,bac,notepad mo file khong phai goc tan cong
+7b8929959a8a,863,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,890,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,893,bac,notepad mo file khong phai goc tan cong
+7b8929959a8a,979,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,1029,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2308,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2367,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2370,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2372,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2402,bac,notepad mo file khong phai goc tan cong
+7b8929959a8a,2480,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2497,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,2535,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,2568,bac,notepad mo file khong phai goc tan cong
+7b8929959a8a,2589,chap_nhan,wscript thuc thi tap tin ma doc exfil js
+7b8929959a8a,2593,bac,lap lai lenh kiem thu tren dong lenh
+7b8929959a8a,2603,bac,notepad mo file khong phai goc tan cong
+7b8929959a8a,2965,bac,lap lai lenh hoac tien trinh khong phai goc
+7b8929959a8a,3856,bac,lap lai lenh hoac tien trinh khong phai goc
+7d506c701ad2,1,chap_nhan,Register CimProvider nap DLL doc hai qua LOLBAS
+7d506c701ad2,2,bac,lap lai lenh Register CimProvider o dong 1
+7d69717ed2e5,1,chap_nhan,opa danh gia bundle tu share mang gia mao
+7dafe1597bc9,189,chap_nhan,cmd tao scheduled task khoi dong asyncrat khi dang nhap
+7dafe1597bc9,190,bac,tien trinh con schtasks cua shell cmd dong 189
+7dfddd53c1ff,301,chap_nhan,klist purge xoa Kerberos ticket cache
+7dfddd53c1ff,302,bac,lap lai lenh hoac tien trinh khong phai goc
+7dfddd53c1ff,495,bac,lap lai lenh hoac tien trinh khong phai goc
+7dfddd53c1ff,496,bac,lap lai lenh hoac tien trinh khong phai goc
+7e2854507af1,1,chap_nhan,rundll32 nap dll gia mao abcds dba goi MessageBoxThread
+7e2854507af1,2,chap_nhan,rundll32 nap dll gia mao abcds dba goi DllMain
+7e2854507af1,3,chap_nhan,rundll32 nap dll gia mao abcds dba goi RAFlush
+7e2854507af1,4,bac,lap lai lenh rundll32 o dong 1
+7e3995bd12de,5,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,12,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,19,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,26,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,28,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,33,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,36,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+7e3995bd12de,54,chap_nhan,thuc thi ma doc sandcat C2 agent
+7e3995bd12de,137,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,248,bac,lap lai lenh hoac tien trinh khong phai goc
+7e3995bd12de,252,bac,lap lai lenh reg hoac lenh don dep
+7e3995bd12de,253,bac,lap lai lenh hoac tien trinh khong phai goc
+7e3995bd12de,254,bac,lap lai lenh hoac tien trinh khong phai goc
+7e3995bd12de,262,bac,lap lai lenh kiem thu tren dong lenh
+7e3995bd12de,264,bac,lap lai lenh hoac tien trinh khong phai goc
+7e3995bd12de,268,chap_nhan,schtasks tao tac vu tat may tu dong
+7e4675d2f2ed,1,chap_nhan,thuc thi com-hijack chiem doat doi tuong COM
+7e551098850f,165,chap_nhan,khoi chay colorcpl kiem thu ky thuat LOLBAS
+7e551098850f,185,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+7e581abc5311,1,bac,khong_co_goc
+7e581abc5311,2,bac,notepad chay binh thuong
+7e581abc5311,3,bac,cmd khoi chay notepad khong chua ma doc
+7e581abc5311,5,bac,powershell khoi chay notepad khong chua ma doc
+7ecdc2135cc9,1,chap_nhan,vshadow thuc thi payload osk thong qua snapshot
+7ecdc2135cc9,4,chap_nhan,vshadow thuc thi payload notepad thong qua snapshot
+7eeff979f9ec,5,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,12,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,19,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,26,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,28,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,33,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,50,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+7eeff979f9ec,128,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,251,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,258,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,265,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,272,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,274,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,279,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,355,bac,tien trinh he thong Splunk Universal Forwarder
+7eeff979f9ec,379,bac,lap lai lenh kiem thu tren dong lenh
+7eeff979f9ec,404,bac,lap lai lenh hoac tien trinh khong phai goc
+7eeff979f9ec,408,bac,lap lai lenh reg hoac lenh don dep
+7eeff979f9ec,409,bac,lap lai lenh hoac tien trinh khong phai goc
+7eeff979f9ec,410,bac,lap lai lenh hoac tien trinh khong phai goc
+7f1c1645c844,15,bac,powershell tuong tac he thong khong chua ma doc
+7f1c1645c844,40,bac,notepad mo file khong phai tan cong
+7f1c1645c844,41,chap_nhan,thuc thi cong cu hiew32 sua doi tap tin nhi phan
+7fc273f7c282,18,bac,notepad mo file khong phai goc tan cong
+7fc273f7c282,30,bac,lap lai lenh kiem thu tren dong lenh
+7fc273f7c282,50,bac,notepad mo file khong phai goc tan cong
+7fc273f7c282,173,bac,lap lai lenh hoac tien trinh khong phai goc
+7fc273f7c282,198,chap_nhan,cmd thuc thi tap tin kich ban 1 bat
+801683b2a4a0,8,bac,trinh duyet iexplore khong phai goc tan cong
+801683b2a4a0,61,chap_nhan,thuc thi ZoomInstaller cai dat phan mem
+80535509b276,15,chap_nhan,Rubeus yeu cau va inject TGT pass the ticket
+805de3795f84,1,chap_nhan,remcom thuc thi tu xa payload calc qua IPC
+805de3795f84,2,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,3,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,4,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,5,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,6,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,7,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,8,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,9,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,10,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,11,bac,lap lai lenh hoac tien trinh khong phai goc
+805de3795f84,12,chap_nhan,cmd goi remcom thuc thi cmd tu xa
+805de3795f84,13,bac,lap lai lenh kiem thu tren dong lenh
+805de3795f84,14,bac,lap lai lenh kiem thu tren dong lenh
+805de3795f84,15,bac,lap lai lenh kiem thu tren dong lenh
+805de3795f84,16,bac,lap lai lenh kiem thu tren dong lenh
+822ed929848e,1,chap_nhan,plink thiet lap SSH remote port forwarding qua port 3389
+822ed929848e,2,bac,lap lai lenh hoac tien trinh khong phai goc
+822ed929848e,3,bac,lap lai lenh hoac tien trinh khong phai goc
+822ed929848e,4,bac,lap lai lenh hoac tien trinh khong phai goc
+822ed929848e,5,bac,lap lai lenh hoac tien trinh khong phai goc
+822ed929848e,8,chap_nhan,plink thiet lap SSH tunnel qua port 443
+822ed929848e,9,bac,lap lai lenh hoac tien trinh khong phai goc
+822ed929848e,10,chap_nhan,cmd goi plink thiet lap SSH tunnel qua port 443
+822ed929848e,11,bac,lap lai lenh kiem thu tren dong lenh
+82897761c6ef,99,bac,notepad mo file khong phai goc tan cong
+82897761c6ef,158,bac,cmd tuong tac he thong khong phai tien trinh goc
+82897761c6ef,159,chap_nhan,mmc mo domain msc kiem tra thong tin mien
+82897761c6ef,204,bac,cmd tuong tac he thong khong phai tien trinh goc
+82897761c6ef,205,chap_nhan,wmic truy van ten domain he thong
+82ef7742af66,74,chap_nhan,net view liet ke cac mien trong mang
+82ef7742af66,77,chap_nhan,nltest liet ke danh sach domain controllers
+82ef7742af66,80,chap_nhan,nltest truy van thong tin DC hien tai
+82ef7742af66,83,chap_nhan,dsquery tim kiem cac may tinh trong Active Directory
+82ef7742af66,88,chap_nhan,wmic truy van thong tin DC va domain roles
+82ef7742af66,92,chap_nhan,wmic truy van danh sach tai khoan may qua LDAP
+82ef7742af66,96,chap_nhan,cmd khoi chay powershell Get-ADComputer do quet may tinh
+82ef7742af66,100,chap_nhan,cmd khoi chay powershell truy van ds_computer
+82ef7742af66,107,chap_nhan,cmd khoi chay powershell PowerView Get-DomainComputer
+82ef7742af66,111,chap_nhan,cmd khoi chay powershell PowerView Get-DomainController
+83239b1b8783,1,chap_nhan,iexplore khoi chay tep tin doc hai updatevbs html
+83239b1b8783,3,chap_nhan,wscript thuc thi ma doc updatevbs vbs duoc tai ve
+83922ed39a26,3,chap_nhan,cmd thuc thi whoami qua smbexec tu xa
+83922ed39a26,4,bac,tien trinh con whoami cua shell dong 3
+83c493f3d4b0,1,chap_nhan,net user truy van danh sach nguoi dung domain
+83c493f3d4b0,3,bac,lap lai lenh net user o dong 1
+83d2c9375393,116,bac,lap lai lenh hoac tien trinh khong phai goc
+83d2c9375393,130,bac,lap lai lenh hoac tien trinh khong phai goc
+83d2c9375393,145,bac,cmd tuong tac he thong khong truc tiep thuc thi
+83d2c9375393,146,chap_nhan,sdel xoa vinh vien file malware de xoa dau vet
+83d9cf276374,1,bac,powershell tuong tac he thong
+83d9cf276374,54,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,60,bac,notepad mo file khong phai goc tan cong
+83d9cf276374,173,chap_nhan,net user do quet thong tin domain
+83d9cf276374,175,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,177,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,179,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,181,chap_nhan,dsquery truy van danh sach tai khoan user
+83d9cf276374,182,chap_nhan,wmic truy van samaccountname qua LDAP
+83d9cf276374,183,chap_nhan,cmd khoi chay powershell truy van ds_user qua LDAP
+83d9cf276374,188,chap_nhan,cmd khoi chay powershell Get-ADUser do quet nguoi dung
+83d9cf276374,191,chap_nhan,cmd khoi chay powershell PowerView Get-DomainUser
+83d9cf276374,204,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,206,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,208,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,210,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,212,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,213,bac,lap lai lenh hoac tien trinh khong phai goc
+83d9cf276374,214,bac,lap lai lenh kiem thu tren dong lenh
+83d9cf276374,220,bac,lap lai lenh kiem thu tren dong lenh
+83d9cf276374,223,bac,lap lai lenh kiem thu tren dong lenh
+83d9cf276374,226,bac,lap lai lenh kiem thu tren dong lenh
+83d9cf276374,228,bac,lap lai lenh kiem thu tren dong lenh
+83db91d689cb,1,chap_nhan,PurpleSharp thuc thi mo phong hanh vi tan cong
+83db91d689cb,2,bac,lap lai lenh PurpleSharp o dong 1
+8410a4fd1a9a,1,bac,khong_co_goc
+847fbeb5d7d9,1,chap_nhan,hh thuc thi tap tin tro giup CHM doc hai
+847fbeb5d7d9,2,bac,lap lai lenh hh o dong 1
+84ee24a119bd,1,bac,khong_co_goc
+85e0a73768f1,1,bac,mstsc khong co tham so
+85e0a73768f1,2,chap_nhan,mstsc mo ket noi RDP ra ben ngoai
+85e0a73768f1,3,bac,mstsc khong co tham so
+85e0a73768f1,4,chap_nhan,mstsc ket noi RDP kem thong tin dang nhap
+85e0a73768f1,5,bac,mstsc khong co tham so
+85e0a73768f1,6,chap_nhan,mstsc mo ket noi RDP den dia chi IP khac
+86285663298d,98,chap_nhan,reg tao khoa MiniNt de vo hieu hoa EventLog
+86285663298d,100,bac,lap lai lenh reg hoac lenh don dep
+86285663298d,116,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+86285663298d,117,bac,lap lai lenh reg hoac lenh don dep
+86285663298d,123,chap_nhan,reg tao khoa MiniNt tren ControlSet001
+86285663298d,144,bac,lap lai lenh reg hoac lenh don dep
+86285663298d,148,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+86285663298d,149,bac,lap lai lenh reg hoac lenh don dep
+86b8dd568e7f,1,chap_nhan,mmc khoi chay gpmc tu Temp kiem thu leo quyen
+8705e335e858,1,chap_nhan,Akagi thuc thi phuong phap UAC bypass so 58
+87731478030f,1,chap_nhan,cmd thuc thi pcalua khoi chay payload calc
+87731478030f,6,chap_nhan,cmd thuc thi forfiles khoi chay payload calc
+8785e62677c1,42,bac,lap lai lenh kiem thu tren dong lenh
+8785e62677c1,179,chap_nhan,cmd thuc thi tap tin kich ban 1 bat
+8785e62677c1,209,bac,lap lai lenh kiem thu tren dong lenh
+8785e62677c1,211,bac,lap lai lenh kiem thu tren dong lenh
+8785e62677c1,213,bac,lap lai lenh kiem thu tren dong lenh
+87bab297d189,1,chap_nhan,shakeitoff khai thac UAC bypass bang msi
+87bab297d189,2,bac,lap lai lenh shakeitoff
+87bab297d189,3,bac,lap lai lenh shakeitoff
+8865bb36fecb,60,bac,tien trinh MMC khoi chay nen khong truc tiep thuc thi
+8865bb36fecb,61,chap_nhan,rundll32 duoc khoi chay tu MMC DCOM thuc thi evil dll
+8875b5eb313c,2,chap_nhan,cmd khoi chay whoami thu thap thong tin nguoi dung
+8875b5eb313c,6,bac,lap lai lenh cmd whoami

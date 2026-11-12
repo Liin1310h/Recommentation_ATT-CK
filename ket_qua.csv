@@ -1,0 +1,668 @@
+ma_run,dong,quyet_dinh,ly_do
+056282378562,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+056282378562,51,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+056282378562,135,bac,lenh truy van thong tin he thong cua Ansible
+0593048cea23,1,chap_nhan,thuc thi RoguePotato leo thang dac quyen va mo reverse shell qua nc64
+06068a81d5d4,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+06068a81d5d4,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+06068a81d5d4,136,bac,lenh truy van thong tin he thong cua Ansible
+06068a81d5d4,360,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,361,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,362,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,363,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,364,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,365,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,366,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,367,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,368,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,369,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+06068a81d5d4,370,chap_nhan,sua doi registry SafeBoot de thiet lap duy tri quyen truy cap
+063c1f4e7748,32,chap_nhan,cmd thuc thi file batch dis_reg.bat sua doi hang loat registry he thong
+06628992589f,7,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+06628992589f,8,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+06628992589f,17,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+06628992589f,18,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+06628992589f,33,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+06628992589f,34,chap_nhan,thuc thi ma doc payload.exe tu thu muc Downloads
+07a4973408ba,1,chap_nhan,dung netsh sua doi luat tuong lua mo cong 450
+07a4973408ba,3,chap_nhan,dung netsh sua doi luat tuong lua mo cong 450
+07a4973408ba,4,chap_nhan,dung netsh sua doi luat tuong lua mo cong 450
+07a4973408ba,6,chap_nhan,dung netsh sua doi luat tuong lua mo cong 450
+07c5650a070d,1,chap_nhan,cmd khoi chay wmic do quet thong tin he dieu hanh tu xa
+07c5650a070d,2,bac,tien trinh conhost con cua dong 1
+07c5650a070d,3,bac,tien trinh con cua dong 1 da chap_nhan
+07c5650a070d,6,chap_nhan,cmd khoi chay wmic do quet thong tin he dieu hanh tu xa
+07c5650a070d,7,bac,tien trinh conhost con cua dong 6
+07c5650a070d,8,bac,tien trinh con cua dong 6 da chap_nhan
+07c5650a070d,18,bac,tien trinh conhost thu thap log nen
+07c5650a070d,24,bac,tien trinh conhost thu thap log nen
+07fcc8b06dbb,1,bac,cai dat phan mem IObit Unlocker binh thuong
+082ea276ab22,1,chap_nhan,dich vu doc hai ten ngau nhien khoi chay tu services.exe
+08ba87a5bc99,1,chap_nhan,khoi chay Microsoft Edge kem tham so che dau khoi phuc phien
+092eaceca490,3,chap_nhan,cmd khoi chay powershell ma hoa de tat ghi log
+092eaceca490,4,bac,tien trinh con cua dong 3 da chap_nhan
+092eaceca490,6,chap_nhan,cmd khoi chay powershell ma hoa de tat ghi log
+092eaceca490,8,bac,tien trinh con cua dong 6 da chap_nhan
+098896ee078a,1,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,4,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,5,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,38,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,39,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,64,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,65,bac,lenh ping kiem tra mang hoac tao do tre
+098896ee078a,8,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,10,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,18,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,19,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,24,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,25,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,32,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,33,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,42,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,43,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,60,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,61,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,72,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,73,bac,lenh timeout tao thoi gian cho giua cac buoc
+098896ee078a,12,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,13,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,20,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,21,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,28,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,29,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,36,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,37,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,62,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,63,bac,lenh taskkill don dep tien trinh sau thu nghiem
+098896ee078a,56,bac,dung sc dung va xoa dich vu thu nghiem
+098896ee078a,57,bac,dung sc dung va xoa dich vu thu nghiem
+098896ee078a,58,bac,dung sc dung va xoa dich vu thu nghiem
+098896ee078a,59,bac,dung sc dung va xoa dich vu thu nghiem
+098896ee078a,70,bac,tien trinh conhost hoat dong nen
+098896ee078a,71,bac,tien trinh conhost hoat dong nen
+098896ee078a,2,chap_nhan,7z giai nen bo cong cu ma doc tu file enc-toolset.7z
+098896ee078a,3,chap_nhan,7z giai nen bo cong cu ma doc tu file enc-toolset.7z
+098896ee078a,6,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,7,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,14,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,15,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,22,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,23,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,30,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,31,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,40,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,41,chap_nhan,thuc thi CreateNamedPipe tao named pipe gia lap kenh C2
+098896ee078a,46,chap_nhan,dung sc tao va khoi chay dich vu de thuc thi ma doc
+098896ee078a,47,chap_nhan,dung sc tao va khoi chay dich vu de thuc thi ma doc
+098896ee078a,48,chap_nhan,dung sc tao va khoi chay dich vu de thuc thi ma doc
+098896ee078a,49,chap_nhan,dung sc tao va khoi chay dich vu de thuc thi ma doc
+098896ee078a,52,chap_nhan,thuc thi file ma doc b6a1458f396.exe sinh ra boi dich vu
+098896ee078a,53,chap_nhan,thuc thi file ma doc b6a1458f396.exe sinh ra boi dich vu
+098896ee078a,66,chap_nhan,dung curl gui yeu cau mang gia lap ket noi den may chu C2
+098896ee078a,67,chap_nhan,dung curl gui yeu cau mang gia lap ket noi den may chu C2
+0993b90c40ff,15,chap_nhan,powershell khoi chay tien trinh con cmd.exe
+0995384aa317,8,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,9,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,10,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,12,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,27,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,28,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,29,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,31,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,33,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,34,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+0995384aa317,36,chap_nhan,lenh do quet quan he tin cay domain va thong tin he thong
+09c83eb696e6,1,chap_nhan,cscript thuc thi memdump.vbs dump bo nho qua comsvcs
+0b06fab89496,1,chap_nhan,cmd thuc thi lenh ipconfig bi lam roi bang dau nhay kep
+0b06fab89496,2,chap_nhan,cmd thuc thi lenh do quet duoc lam roi bang bien moi truong
+0b34b8db777c,274,chap_nhan,reg them UserInitMprLogonScript de duy tri quyen khi dang nhap
+0b34b8db777c,305,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+0b34b8db777c,306,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+0b34b8db777c,393,bac,lenh truy van thong tin he thong cua Ansible
+0b34b8db777c,420,bac,tien trinh khoi dong RunOnce mac dinh cua he thong
+0b34b8db777c,440,bac,mo trinh soan thao Notepad++ thong thuong
+0b34b8db777c,441,bac,mo cong cu regedit khong co tham so
+0b34b8db777c,484,bac,shell cmd tuong tac khong co tham so va khong co con
+0b89a3948816,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0b89a3948816,51,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+0b89a3948816,54,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+0b89a3948816,143,bac,lenh truy van thong tin he thong cua Ansible
+0c926e9eab57,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+0c926e9eab57,50,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+0c926e9eab57,127,bac,lenh truy van thong tin he thong cua Ansible
+0c926e9eab57,148,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,152,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,153,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,155,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,163,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,165,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+0c926e9eab57,200,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,240,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,248,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,249,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,251,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,252,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,253,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,254,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,276,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,277,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,278,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,279,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,280,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,281,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,282,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,283,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,285,chap_nhan,lenh do quet thong tin he thong va mang
+0c926e9eab57,286,chap_nhan,lenh do quet thong tin he thong va mang
+0d0a92164004,1,chap_nhan,wbadmin bat dau khoi phuc file tu ban sao luu
+0d0a92164004,2,chap_nhan,wbadmin bat dau khoi phuc file tu ban sao luu
+0ed1ab17d5d8,114,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,115,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,116,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,118,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,120,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,121,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,122,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,123,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,125,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,127,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,129,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,131,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,162,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,178,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,180,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,181,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,197,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,198,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,199,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,200,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,201,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,203,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,204,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,205,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,206,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,207,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,208,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,209,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,210,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,212,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,214,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,215,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,218,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,219,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,220,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,221,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,222,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,223,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,224,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,240,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,242,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,244,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,247,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,248,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,249,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,251,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,252,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,253,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,254,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,255,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,256,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,257,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,258,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,259,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,261,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,263,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,264,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,266,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,273,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0ed1ab17d5d8,284,chap_nhan,lenh thuc thi tap lenh powershell kiem thu chinh sach va do quet
+0fc4eedb74f0,58,chap_nhan,reg sua doi SafeBoot AlternateShell de duy tri quyen truy cap
+0fc4eedb74f0,60,chap_nhan,reg sua doi SafeBoot AlternateShell de duy tri quyen truy cap
+0fc4eedb74f0,62,chap_nhan,reg sua doi SafeBoot AlternateShell de duy tri quyen truy cap
+0fc4eedb74f0,64,chap_nhan,reg sua doi SafeBoot AlternateShell de duy tri quyen truy cap
+0fc4eedb74f0,65,chap_nhan,reg sua doi SafeBoot AlternateShell de duy tri quyen truy cap
+0fc813778e53,1,chap_nhan,cmd mo backdoor cmdow qua Remote Desktop
+0fd20363a1a5,1,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,3,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,6,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,8,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,9,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,10,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,11,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,13,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,15,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,63,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,68,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,69,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,70,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,71,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,72,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,73,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,74,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,79,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,81,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,83,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,87,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,88,chap_nhan,lenh tai tep doc hai va do quet thong tin he thong
+0fd20363a1a5,80,bac,shell cmd tuong tac khong co tham so va khong co con
+0fd20363a1a5,82,bac,mo ung dung PowerShell ISE thong thuong
+0fd20363a1a5,86,bac,mo trinh duyet Internet Explorer truy cap trang web
+114a2095f6d8,62,chap_nhan,at tao tac vu lich tu xa thuc thi payload metE.exe
+114a2095f6d8,68,chap_nhan,at xoa tac vu lich tu xa
+1171c77a1a06,1,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,2,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,3,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,4,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,5,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,6,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,7,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,8,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,9,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,10,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,11,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,12,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,13,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,14,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+1171c77a1a06,15,chap_nhan,reg them khoa COM de thiet lap duy tri quyen truy cap
+123774845456,58,chap_nhan,dung Rubeus giam sat va thu thap ve Kerberos
+123774845456,59,chap_nhan,dung runas khoi chay shell cmd voi dac quyen Administrator
+123774845456,63,chap_nhan,dung Rubeus thuc hien tan cong pass-the-ticket
+123f479f604e,59,chap_nhan,cmd khoi chay tu services.exe de thuc thi powershell ma hoa doc hai
+123f479f604e,60,bac,tien trinh con cua dong 59 da chap_nhan
+12fb02c51723,15,bac,khong_chac shell powershell tuong tac khong co tham so va khong co con
+147391347ef6,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+147391347ef6,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+147391347ef6,54,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+147391347ef6,147,bac,lenh truy van thong tin he thong cua Ansible
+147391347ef6,335,chap_nhan,powershell khoi chay dotnet build va thuc thi Covenant C2 framework
+14b4a6060b08,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+14b4a6060b08,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+14b4a6060b08,136,bac,lenh truy van thong tin he thong cua Ansible
+14b4a6060b08,351,chap_nhan,net tao nhom dac quyen ESX Admins tren domain
+14b4a6060b08,353,chap_nhan,net tao nhom dac quyen ESX Admins tren domain
+154878dcd41a,1,bac,mo ung dung notepad thong thuong khong co dau hieu tan cong
+15a155a0dc37,143,bac,mo ung dung ftp thong thuong khong co tham so doc hai
+15a155a0dc37,144,bac,mo ung dung ftp thong thuong khong co tham so doc hai
+15a155a0dc37,574,chap_nhan,dung sc tao dich vu loi dung file Ftp.exe lam LOLBAS
+15a155a0dc37,575,chap_nhan,dung sc tao dich vu loi dung file Ftp.exe lam LOLBAS
+15a155a0dc37,576,chap_nhan,dung sc tao dich vu loi dung file Ftp.exe lam LOLBAS
+15a155a0dc37,577,chap_nhan,dung sc tao dich vu loi dung file Ftp.exe lam LOLBAS
+15ad61806414,1,chap_nhan,powershell xoa thu muc Windows Defender lam suy yeu he thong
+15ad61806414,2,chap_nhan,powershell xoa thu muc Windows Defender lam suy yeu he thong
+164fe22361c0,1,chap_nhan,reg them DLL vao khoa AppCertDlls de duy tri quyen truy cap
+16df0ae6410c,1,chap_nhan,dung curl voi URL ma hoa hex de tai tep doc hai
+16df0ae6410c,2,chap_nhan,dung curl voi URL ma hoa hex de tai tep doc hai
+16df0ae6410c,3,chap_nhan,dung curl voi URL ma hoa hex de tai tep doc hai
+174dad0169a4,1,chap_nhan,loi dung sdclt kickoffelev de leo thang dac quyen vuot UAC
+17b0838d057c,1,chap_nhan,loi dung khoang trang trong duong dan de thuc thi tap lenh msc gia mao
+17b0838d057c,2,chap_nhan,loi dung khoang trang trong duong dan de thuc thi tap lenh msc gia mao
+17b0838d057c,3,chap_nhan,loi dung khoang trang trong duong dan de thuc thi tap lenh msc gia mao
+182a16d9b340,1,chap_nhan,do quet danh tinh tai khoan sau khai thac ung dung
+182a16d9b340,3,chap_nhan,cmd khoi chay whoami tu ung dung Idera cdpserver bi khai thac
+182a16d9b340,4,chap_nhan,cmd khoi chay powershell tai payload test.exe tu ung dung Java
+182a16d9b340,5,chap_nhan,calc khoi chay tu ung dung Java bi khai thac
+182a16d9b340,6,chap_nhan,cmd khoi chay whoami tu dich vu ScreenConnect bi khai thac
+182a16d9b340,7,chap_nhan,thuc thi payload Java tu TeamCity bi khai thac
+18432787743a,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+18432787743a,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+18432787743a,167,bac,lenh truy van thong tin he thong cua Ansible
+19246f5e3a6b,1,chap_nhan,chay cong cu dieu khien tu xa TeamViewer tu thu muc Temp
+192ecfd7634f,1,chap_nhan,python thuc thi build_wheel cai dat goi ma nguon mo doc hai
+1990ab5939d2,1,chap_nhan,khoi chay qua dich vu WinRM wsmprovhost do quet hostname
+1ab3d1818438,1,chap_nhan,dung rundll32 thuc thi file DLL bat thuong trong Temp
+1ab3d1818438,2,chap_nhan,dung rundll32 thuc thi file DLL bat thuong trong Temp
+1acb8561c272,1,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,2,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,3,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,4,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,5,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,6,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,7,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,8,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,9,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,10,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,11,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,12,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,16,chap_nhan,thuc thi cong cu RemCom de di chuyen ngang
+1acb8561c272,13,bac,lenh powershell kiem tra su ton tai cua file
+1acb8561c272,15,bac,lenh powershell kiem tra su ton tai cua file
+1acb8561c272,14,chap_nhan,powershell tai cong cu RemCom tu GitHub ve he thong
+1bff8f10ccff,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1bff8f10ccff,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+1bff8f10ccff,146,bac,lenh truy van thong tin he thong cua Ansible
+1bff8f10ccff,167,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,168,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,169,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,170,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,171,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,172,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,173,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,174,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,175,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,176,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,177,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,178,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,179,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,180,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,181,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,182,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,183,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,184,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,185,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,186,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,187,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,188,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,189,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,190,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,191,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,192,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,193,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1bff8f10ccff,235,chap_nhan,powershell tai va thuc thi payload doc hai
+1c2f56c31beb,1,chap_nhan,tien trinh con cua winlogon chay shell cmd mo backdoor
+1c5b484c95c6,1,chap_nhan,reg them tien trinh khoi dong cung Windows Terminal
+1c5b484c95c6,2,chap_nhan,reg them tien trinh khoi dong cung Windows Terminal
+1c5b484c95c6,3,chap_nhan,reg them tien trinh khoi dong cung Windows Terminal
+1c5b484c95c6,4,chap_nhan,reg them tien trinh khoi dong cung Windows Terminal
+1cb72c8fd806,1,chap_nhan,thuc thi cong cu UACME leo thang dac quyen vuot UAC
+1cbcaffc9057,1,chap_nhan,reg sua doi AppPaths kiem soat khoi chay ung dung
+1ce5921a1c42,1,chap_nhan,thuc thi cong cu UACME leo thang dac quyen vuot UAC
+1ce75ea1564e,1,chap_nhan,dieu chinh quyen SeSecurityPrivilege tren tien trinh he thong
+1ce75ea1564e,2,chap_nhan,dieu chinh quyen SeSecurityPrivilege tren tien trinh he thong
+1ce75ea1564e,3,chap_nhan,dieu chinh quyen SeSecurityPrivilege tren tien trinh he thong
+1ce75ea1564e,4,chap_nhan,dieu chinh quyen SeSecurityPrivilege tren tien trinh he thong
+1d134ca79522,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+1d134ca79522,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+1d134ca79522,54,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+1d134ca79522,139,bac,lenh truy van thong tin he thong cua Ansible
+1d134ca79522,160,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,161,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,162,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,163,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,164,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,165,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+1d134ca79522,342,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,343,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,344,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,345,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,346,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,347,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,348,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,349,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,350,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,351,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,352,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,353,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,354,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,355,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,356,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,357,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,358,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,359,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,360,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,361,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,362,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,363,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,364,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,365,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,366,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,367,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,368,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,369,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,370,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,371,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,372,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,373,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,374,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,375,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,376,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,377,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,378,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,379,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,380,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,381,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,382,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,383,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,384,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,385,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,386,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,387,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,388,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d134ca79522,389,chap_nhan,reg sua doi hang loat chinh sach bao ve SmartScreen va Explorer
+1d3b636a7be5,8,chap_nhan,sc tao dich vu he thong moi
+1d3b636a7be5,16,chap_nhan,reg sua ImagePath cua dich vu de chiem quyen thuc thi
+1d666b545af2,1,chap_nhan,python thuc thi winpwnage leo thang dac quyen qua cliconfg
+1d9863fdd0e2,1,chap_nhan,calc khoi chay tu control.exe qua ky thuat DLL hijack
+1d9863fdd0e2,2,chap_nhan,dnscmd nap DLL doc hai qua serverlevelplugindll
+1dde2914e01c,1,chap_nhan,dung SharpRDP thuc hien ket noi va di chuyen ngang qua RDP
+1f4c0b2f74a0,1,bac,tien trinh rasautou khong co tham so
+1f4c0b2f74a0,2,bac,tien trinh rasautou chi goi tro giup
+1f4c0b2f74a0,3,chap_nhan,dung rasautou nap DLL va CPL doc hai de tiem ma
+1f4c0b2f74a0,4,chap_nhan,dung rasautou nap DLL va CPL doc hai de tiem ma
+1f4c0b2f74a0,5,chap_nhan,dung rasautou nap DLL va CPL doc hai de tiem ma
+1f4c0b2f74a0,6,chap_nhan,dung rasautou nap DLL va CPL doc hai de tiem ma
+1f4c0b2f74a0,7,chap_nhan,dung rasautou nap DLL va CPL doc hai de tiem ma
+1f4c0b2f74a0,8,chap_nhan,dung rasautou nap DLL doc hai trong thu muc temp
+20079dba8138,1,bac,khong_chac mo eventvwr khong sinh tien trinh con
+20079dba8138,2,chap_nhan,eventvwr bi loi dung de vuot UAC khoi chay powershell
+2068b5264ed2,1,chap_nhan,powershell tai payload qua DownloadData va thuc thi trong bo nho
+20d139443dce,1,chap_nhan,tien trinh khoi chay tu macro Excel doc hai
+20d139443dce,3,chap_nhan,tien trinh khoi chay tu macro Excel doc hai
+20d139443dce,5,chap_nhan,tien trinh khoi chay tu macro Excel doc hai
+223a4842ca49,1,chap_nhan,cmd shell dac quyen he thong khoi chay tu winlogon
+22e6f674e906,1,chap_nhan,dung klist purge de xoa ve Kerberos trong bo nho
+238a7e45b998,1,chap_nhan,iscsicpl khoi chay boi ma doc vuot UAC
+238a7e45b998,3,chap_nhan,iscsicpl khoi chay boi ma doc vuot UAC
+238a7e45b998,5,chap_nhan,cmd khoi chay iscsicpl tu Cobalt Strike beacon
+238a7e45b998,6,bac,tien trinh conhost con cua dong 5
+238a7e45b998,7,bac,tien trinh con cua dong 5 da chap_nhan
+23d24855f11d,1,chap_nhan,WMI ActiveScript Consumer scrcons thuc thi tap lenh duy tri quyen
+23d24855f11d,508,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,512,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,513,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,514,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,515,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,517,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+23d24855f11d,551,bac,tien trinh khoi dong moi truong nguoi dung mac dinh
+25462fce7d21,72,chap_nhan,winrs thuc thi lenh do quet ipconfig tu xa
+25462fce7d21,74,chap_nhan,cmd tren may chu nhan lenh winrs thuc thi ipconfig
+25462fce7d21,75,bac,tien trinh con cua dong 74 da chap_nhan
+25462fce7d21,76,chap_nhan,winrs thuc thi lenh do quet netstat tu xa
+25462fce7d21,78,chap_nhan,cmd tren may chu nhan lenh winrs thuc thi netstat
+25462fce7d21,79,bac,tien trinh con cua dong 78 da chap_nhan
+25810eefe295,1,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,2,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,3,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,4,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,5,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,6,chap_nhan,appcmd do quet va liet ke cac module IIS
+25810eefe295,7,chap_nhan,appcmd cai dat them module xac thuc cho IIS
+25810eefe295,8,chap_nhan,appcmd cai dat them module xac thuc cho IIS
+25810eefe295,9,chap_nhan,appcmd cai dat them module xac thuc cho IIS
+25810eefe295,98,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,99,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,100,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,101,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,102,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,103,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,104,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,105,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,106,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,107,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,108,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,109,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,110,chap_nhan,appcmd cai dat backdoor module cho may chu web IIS
+25810eefe295,111,chap_nhan,appcmd tat tinh nang ghi nhat ky web server
+25810eefe295,112,chap_nhan,appcmd tat tinh nang ghi nhat ky web server
+25810eefe295,113,chap_nhan,appcmd tat tinh nang ghi nhat ky web server
+25810eefe295,114,chap_nhan,appcmd tat tinh nang ghi nhat ky web server
+25810eefe295,115,chap_nhan,gacutil cai dat assembly vao kho GAC de duy tri quyen
+25810eefe295,116,chap_nhan,gacutil cai dat assembly vao kho GAC de duy tri quyen
+25810eefe295,117,chap_nhan,gacutil cai dat assembly vao kho GAC de duy tri quyen
+25ce8bbbb5af,1,chap_nhan,cmd thuc thi rundll32 goi RunHTMLApplication chay ma doc JavaScript
+2773d1861628,1,chap_nhan,thuc thi LocalPotato doc file SAM tu ban sao VSS
+2773d1861628,4,chap_nhan,thuc thi ma khai thac FolderContentsDeleteToFolderDelete leo thang quyen
+279a86126c5b,1,chap_nhan,cmd liet ke tat ca file thuc thi trong Program Files
+28edd04ac949,1,chap_nhan,powershell tat luat Attack Surface Reduction cua Defender
+28edd04ac949,4,chap_nhan,cmd thay doi hanh dong mac dinh khi Defender phat hien ma doc
+2a3bdd972219,1,bac,hoat dong nen splunk forwarder thu thap nhat ky
+2a42f4ada452,1,chap_nhan,cmd chay powershell tat he thong ngan ngua xam nhap IPS cua Defender
+2a42f4ada452,8,chap_nhan,cmd chay powershell tat he thong ngan ngua xam nhap IPS cua Defender
+2a42f4ada452,12,chap_nhan,cmd chay powershell tat he thong ngan ngua xam nhap IPS cua Defender
+2a42f4ada452,15,chap_nhan,cmd chay powershell tat he thong ngan ngua xam nhap IPS cua Defender
+2aba3076a627,1,chap_nhan,thuc thi cong cu UACME leo thang dac quyen vuot UAC
+2af71e1543e8,1,chap_nhan,dung dumpcap cua Wireshark de liet ke card mang va danh chan
+2b41932b0f0c,1,chap_nhan,powershell thuc thi tap lenh doc hai tu goi MSIX MaliciousApp
+2b41932b0f0c,2,chap_nhan,powershell thuc thi tap lenh doc hai tu goi MSIX FakeInstaller
+2b41932b0f0c,3,chap_nhan,powershell tai va thuc thi payload doc hai tu goi MSIX
+2bc7014e494c,1,bac,hoat dong he thong va tien trinh nen splunk forwarder
+2d006287f4f3,1,chap_nhan,thuc thi chost de tiem ma doc tu payload.bin vao conhost
+2d50560fd09c,1,bac,hoat dong nen xu ly loi WerFault va LogonUI
+2da350e9f758,35,chap_nhan,thuc thi cong cu PurpleSharp mo phong tan cong Kerberos
+2f47b599f98d,1,chap_nhan,dung NetExec PetitPotam de ep buoc xac thuc SMB
+30716f23c7af,1,chap_nhan,thuc thi NetworkServiceExploit leo thang dac quyen len SYSTEM
+30af3a14dad5,183,chap_nhan,cmd thuc thi file batch kaboom.bat do quet thong tin domain
+30ba1435031f,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30ba1435031f,51,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+30ba1435031f,52,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+30ba1435031f,139,bac,lenh truy van thong tin he thong cua Ansible
+30ba1435031f,163,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30ba1435031f,171,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30ba1435031f,175,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30ba1435031f,176,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30ba1435031f,202,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30ba1435031f,244,chap_nhan,powershell khoi chay hang loat cong cu proxy execution microsoft workflow compiler
+30daacbe2220,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+30daacbe2220,50,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+30daacbe2220,51,chap_nhan,chay agent Caldera sandcat tu thu muc Public
+30daacbe2220,135,bac,lenh truy van thong tin he thong cua Ansible
+30daacbe2220,152,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30daacbe2220,160,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30daacbe2220,161,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30daacbe2220,162,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30daacbe2220,163,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+30daacbe2220,165,bac,tien trinh khoi tao moi truong nguoi dung binh thuong
+310c45b9452a,1,chap_nhan,thuc thi cong cu UACME leo thang dac quyen vuot UAC
+3125bc9661e6,2,chap_nhan,regsvr32 tai va thuc thi tap lenh tu xa scrobj.dll
+3125bc9661e6,3,chap_nhan,cmd khoi chay notepad tu tac vu BITS de duy tri quyen
+3125bc9661e6,4,bac,tien trinh con cua dong 3 da chap_nhan
+36950b23e61d,1,chap_nhan,python thuc thi winpwnage leo thang dac quyen qua sysprep
+36d748833762,1,chap_nhan,thuc thi KeeFarce trich xuat mat khau tu bo nho KeePass
+3921ca8a4921,2,chap_nhan,goi MSI khoi chay payload meterpreter mo ket noi nguoc
+3921ca8a4921,4,bac,tien trinh con cua dong 2 da chap_nhan
+3c59a6536ff8,2,chap_nhan,cmd khoi chay tu winrshost de do quet ipconfig tu xa
+3c59a6536ff8,3,bac,tien trinh con cua dong 2 da chap_nhan
+3e1e19017a4c,1,chap_nhan,thuc thi cong cu UACME leo thang dac quyen vuot UAC
+4244df7fe171,1,chap_nhan,python thuc thi winpwnage leo thang dac quyen qua migwiz
+000955abec04,1,chap_nhan,dung PSTools PsGetsid do quet he thong
+000955abec04,2,chap_nhan,dung PSTools PsInfo do quet thong tin he thong
+000955abec04,3,chap_nhan,dung PSTools pslist liet ke tien trinh he thong
+000955abec04,4,chap_nhan,dung PSTools PsService do quet dich vu he thong
+000955abec04,5,chap_nhan,dung PSTools psloglist doc nhat ky he thong
+0062ade32b52,11,bac,mo trinh duyet firefox hoat dong nguoi dung binh thuong
+01644202b43f,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+01644202b43f,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+01644202b43f,154,bac,lenh truy van thong tin he thong cua Ansible
+01644202b43f,340,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,341,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,342,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,343,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,344,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,345,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,346,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,347,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,348,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,349,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,350,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+01644202b43f,351,chap_nhan,regedit xuat khoa SAM SYSTEM SECURITY de trich xuat thong tin dang nhap
+016ab9637a31,1,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,2,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,4,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,5,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,7,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,8,chap_nhan,wscript chay SyncAppvPublishingServer.vbs tai va thuc thi ma doc tu xa
+016ab9637a31,10,bac,tien trinh he thong thuc thi binh thuong khong co tham so doc hai
+016ab9637a31,11,bac,tien trinh he thong thuc thi binh thuong khong co tham so doc hai
+016ab9637a31,12,bac,goi tap lenh vbs khong co tham so ma doc
+016ab9637a31,13,bac,goi tap lenh vbs khong co tham so ma doc
+016ab9637a31,14,chap_nhan,cmd chen lenh vao SyncAppvPublishingServer.vbs de chay ung dung trai phep
+016ab9637a31,15,chap_nhan,cmd chen lenh vao SyncAppvPublishingServer.vbs de chay ung dung trai phep
+017c9af1b752,2,bac,ung dung tin nhan Session hoat dong binh thuong
+017c9af1b752,3,chap_nhan,sua cau hinh khoi dong dich vu SSDPSRV thanh tu dong
+017c9af1b752,4,chap_nhan,dung SharpChrome trich xuat toan bo cookie Chrome
+026b7ab6a287,1,chap_nhan,net use ket noi o dia WebDAV de truyen du lieu ra ngoai
+039ac65cf5fa,1,chap_nhan,thuc thi cong cu UACME de leo thang dac quyen vuot UAC
+03c1e48a1474,1,chap_nhan,dung PPLBlade vuot PPL dump bo nho tien trinh lsass
+03c1e48a1474,2,chap_nhan,dung mimikatz trich xuat mat khau tu sekurlsa logonpasswords
+03c1e48a1474,3,chap_nhan,dung mimikatz trich xuat hash tai khoan krbtgt
+03c1e48a1474,4,chap_nhan,dung PsExec thuc thi mimikatz tu xa dump lsa
+04ae4c7576b9,1,chap_nhan,cmd shell khoi chay tu trinh duyet Internet Explorer iexplore

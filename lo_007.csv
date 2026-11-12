@@ -1,0 +1,241 @@
+ma_run,dong,quyet_dinh,ly_do
+b05ddf980825,16,chap_nhan,PurpleSharp mo phong cac ky thuat tan cong qua playbook
+b05ddf980825,31,bac,lap lai thuc thi PurpleSharp o dong 16
+b1a5dc482865,8,bac,tien trinh conhost hoat dong nen
+b1a5dc482865,9,chap_nhan,ipconfig lam moi dia chi ip mang
+b1a5dc482865,15,bac,lap lai lenh kiem thu tren dong lenh
+b1a5dc482865,28,chap_nhan,hostname kiem tra ten may nan nhan
+b1a5dc482865,29,chap_nhan,whoami kiem tra thong tin nguoi dung hien tai
+b1a5dc482865,30,chap_nhan,powershell khoi chay NSudoLG leo thang dac quyen
+b1a5dc482865,36,chap_nhan,powershell khoi chay BadPotato leo thang dac quyen
+b1a5dc482865,95,bac,tien trinh conhost hoat dong nen
+b1a5dc482865,97,bac,lap lai lenh kiem thu tren dong lenh
+b1a5dc482865,115,bac,tien trinh conhost hoat dong nen
+b1a5dc482865,123,bac,tien trinh conhost hoat dong nen
+b1a5dc482865,232,bac,tien trinh conhost hoat dong nen
+b1e843542f39,3,bac,tien trinh conhost hoat dong nen
+b1e843542f39,4,chap_nhan,python thuc thi public-poc khai thac lo hong
+b1e843542f39,5,bac,lap lai chay public-poc o dong 4
+b1e843542f39,15,bac,tien trinh conhost hoat dong nen
+b1e843542f39,17,bac,tien trinh conhost hoat dong nen
+b1e843542f39,18,bac,tien trinh conhost hoat dong nen
+b1e843542f39,19,bac,tien trinh conhost hoat dong nen
+b1e843542f39,20,bac,tien trinh con whoami cua python dong 4
+b1e843542f39,21,bac,tien trinh con whoami cua python dong 4
+b1e843542f39,22,bac,tien trinh con whoami cua python dong 5
+b1e843542f39,23,bac,tien trinh con whoami cua python dong 5
+b28614fedebc,1,bac,khong_co_goc
+b2a8581d0c21,1,chap_nhan,osk ban phim ao duoc khoi chay thay the backdoor
+b4c8d835941a,1,chap_nhan,python thuc thi winpwnage vuot qua uac
+b5091659ac7e,1,chap_nhan,curl tai kich ban lol bat tu may chu tu xa
+b5091659ac7e,2,bac,lap lai lenh curl o dong 1
+b5091659ac7e,3,bac,lap lai lenh curl o dong 1
+b5091659ac7e,4,chap_nhan,cmd thuc thi powershell tai va thuc thi lol ps1
+b5091659ac7e,9,bac,lap lai lenh cmd tai va thuc thi lol ps1 o dong 4
+b5091659ac7e,14,bac,lap lai lenh cmd tai va thuc thi lol ps1 o dong 4
+b5285033f745,5,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,12,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,19,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,26,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,28,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,33,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,36,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,53,chap_nhan,splunkd gia mao c2 agent ket noi dieu khien tu xa
+b5285033f745,130,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,225,bac,lap lai lenh hoac tien trinh khong phai goc
+b5285033f745,236,bac,lap lai lenh reg hoac lenh don dep
+b5285033f745,239,bac,lap lai lenh hoac tien trinh khong phai goc
+b5285033f745,241,bac,lap lai lenh hoac tien trinh khong phai goc
+b5285033f745,243,bac,lap lai lenh kiem thu tren dong lenh
+b5285033f745,245,bac,lap lai lenh hoac tien trinh khong phai goc
+b5285033f745,250,bac,notepad mo file khong phai goc tan cong
+b5285033f745,313,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,5,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,12,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,19,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,26,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,28,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,33,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,36,bac,lap lai lenh kiem thu tren dong lenh
+b52a4ec9b8c0,53,chap_nhan,splunkd gia mao c2 agent ket noi dieu khien tu xa
+b52a4ec9b8c0,136,bac,lap lai lenh kiem thu tren dong lenh
+b552aa3b5477,1,bac,khong_co_goc
+b58cc6ab4da5,1,chap_nhan,a exe ma doc khoi chay mo phong tan cong
+b6adb110c166,1,chap_nhan,Flash_update ma doc gia mao cap nhat adobe flash
+b705021e23cd,1,bac,lap lai lenh hoac tien trinh khong phai goc
+b7b64dc939dc,43,bac,lap lai lenh reg hoac lenh don dep
+b7b64dc939dc,65,bac,lap lai lenh kiem thu tren dong lenh
+b7b64dc939dc,66,bac,lap lai lenh hoac tien trinh khong phai goc
+b7b64dc939dc,73,bac,lap lai lenh hoac tien trinh khong phai goc
+b7b64dc939dc,132,bac,tien trinh he thong Splunk Universal Forwarder
+b7b64dc939dc,134,bac,tien trinh he thong Splunk Universal Forwarder
+b7b64dc939dc,145,bac,tien trinh he thong Splunk Universal Forwarder
+b7b64dc939dc,162,bac,tien trinh he thong Splunk Universal Forwarder
+b7b64dc939dc,234,bac,lap lai lenh reg hoac lenh don dep
+b7b64dc939dc,236,bac,lap lai lenh kiem thu tren dong lenh
+b81668067bbd,1,bac,lap lai lenh reg hoac lenh don dep
+b81668067bbd,2,bac,lap lai lenh reg hoac lenh don dep
+b81c2bfc8b7d,2,bac,tien trinh conhost hoat dong nen
+b81c2bfc8b7d,4,bac,tien trinh conhost hoat dong nen
+b81c2bfc8b7d,5,bac,lap lai lenh hoac tien trinh khong phai goc
+b81c2bfc8b7d,7,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,22,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,32,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,40,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,48,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,50,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,55,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,58,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,121,bac,tien trinh he thong Splunk Universal Forwarder
+b823f607247b,124,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,159,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,302,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,306,bac,lap lai lenh reg hoac lenh don dep
+b823f607247b,307,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,308,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,316,bac,lap lai lenh kiem thu tren dong lenh
+b823f607247b,330,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+b823f607247b,346,bac,trinh duyet firefox mo hoat dong thuong
+b823f607247b,358,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,363,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,371,bac,notepad mo file khong phai goc tan cong
+b823f607247b,580,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+b823f607247b,589,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,592,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,598,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,622,bac,lap lai lenh hoac tien trinh khong phai goc
+b823f607247b,648,bac,notepad mo file khong phai goc tan cong
+b9169b852da6,9,chap_nhan,n exe ma doc khoi chay
+b9169b852da6,10,bac,lap lai chay n exe o dong 9
+b9169b852da6,11,bac,lap lai chay n exe o dong 9
+b92f4cde6a2b,1,chap_nhan,SharpSCCM thuc thi lenh tu xa qua SCCM
+b9ad54ad4c63,1,chap_nhan,regsvr32 tai va thuc thi launcher sct tu xa
+b9ad54ad4c63,2,bac,lap lai lenh regsvr32 o dong 1
+ba4811af3939,1,chap_nhan,mypon python gia mao thuc thi ma nguon
+bbe98683c4f6,1,chap_nhan,AutoIt3 thuc thi kich ban tu dong hoa doc hai
+bbe98683c4f6,2,bac,lap lai lenh AutoIt3 o dong 1
+bbe98683c4f6,3,bac,lap lai lenh AutoIt3 o dong 1
+bbe98683c4f6,4,bac,lap lai lenh AutoIt3 o dong 1
+bbe98683c4f6,5,chap_nhan,powershell tai bo cai dat autoit doc hai
+bbe98683c4f6,9,bac,lap lai lenh kiem thu tren dong lenh
+bbe98683c4f6,13,bac,lap lai lenh kiem thu tren dong lenh
+bbe98683c4f6,17,bac,lap lai lenh kiem thu tren dong lenh
+bbe98683c4f6,21,bac,lap lai lenh kiem thu tren dong lenh
+bbe98683c4f6,26,bac,lap lai lenh kiem thu tren dong lenh
+bc5da19800be,1,bac,khong_co_goc
+bc8acc279484,198,bac,trinh duyet firefox mo hoat dong thuong
+bc8acc279484,351,chap_nhan,7z giai nen payload doc hai
+bc8acc279484,393,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+bcdef8b9f0af,1,chap_nhan,whoami kiem tra thong tin nguoi dung he thong
+bcdef8b9f0af,2,bac,lap lai lenh whoami o dong 1
+bcdef8b9f0af,6,bac,cmd tuong tac he thong khong chua ma doc
+bcdef8b9f0af,9,bac,cmd tuong tac he thong khong chua ma doc
+bced0373abdb,1,chap_nhan,cmd tao file xml dinh nghia scheduled task
+bd9d1dec8b22,11,chap_nhan,payload exe thuc thi ma doc
+bdb054903245,5,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,12,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,19,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,26,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,28,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,33,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,36,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,53,chap_nhan,splunkd gia mao c2 agent ket noi dieu khien tu xa
+bdb054903245,54,chap_nhan,sandcat c2 agent ket noi may chu dieu khien
+bdb054903245,139,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,353,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,358,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,366,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,374,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,384,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,396,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,410,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,422,bac,lap lai lenh kiem thu tren dong lenh
+bdb054903245,437,bac,lap lai lenh kiem thu tren dong lenh
+bdd6c1871fcb,1,chap_nhan,python thuc thi module pip
+bdf2ccbb8266,1,chap_nhan,Furutaka tai driver dummy2 sys tan cong bring your own driver
+be09446fd67e,5,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,12,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,19,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,26,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,28,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,33,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,36,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,51,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,52,bac,tien trinh he thong Splunk Universal Forwarder
+be09446fd67e,140,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,981,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,987,bac,lap lai lenh reg hoac lenh don dep
+be09446fd67e,988,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,989,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,990,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,992,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,999,bac,lap lai lenh hoac tien trinh khong phai goc
+be09446fd67e,1042,bac,lap lai lenh kiem thu tren dong lenh
+be09446fd67e,1132,bac,powershell tuong tac he thong khong chua ma doc
+be09446fd67e,1133,chap_nhan,shell cmd thuc thi powershell ma hoa xao quyen
+be55d004c75f,1,chap_nhan,rundll32 goi ham doc hai RAFlush tu thu vien xmfav max
+bf171cceccd1,7,bac,khong_co_goc
+bf171cceccd1,8,bac,khong_co_goc
+bf8158a4b86e,1,chap_nhan,python thuc thi winpwnage vuot qua uac
+bfabfd0aef29,1,chap_nhan,reg add can thiep IFEO notepad bat global flag
+bfabfd0aef29,2,chap_nhan,reg add cau hinh SilentProcessExit cho notepad
+bfabfd0aef29,3,chap_nhan,reg add thiet lap MonitorProcess thuc thi khi notepad thoat
+bfabfd0aef29,4,bac,tien trinh kich hoat monitorprocess khong phai goc
+bfabfd0aef29,9,bac,lap lai notepad o dong 4
+c01439c03a52,1,bac,khong_co_goc
+c0f580c9d035,1,chap_nhan,UACME thuc hien ky thuat vuot qua uac so 39
+c1e75e86fc0b,1,bac,findstr khong phai goc tan cong
+c1e75e86fc0b,2,chap_nhan,netsh mo cong firewall cho chuong trinh server exe
+c1e75e86fc0b,3,chap_nhan,netsh don dep quy tac firewall sau tan cong
+c29930bed504,1,chap_nhan,cscript thuc thi kich ban doc hai trong autosnap
+c4b0b709accf,5,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,12,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,19,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,26,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,28,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,33,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,36,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,51,bac,lap lai lenh hoac tien trinh khong phai goc
+c4b0b709accf,52,bac,tien trinh he thong Splunk Universal Forwarder
+c4b0b709accf,168,bac,lap lai lenh kiem thu tren dong lenh
+c4b0b709accf,221,chap_nhan,cmd xoa nhat ky usn bang fsutil xoa dau vet
+c4b0b709accf,235,chap_nhan,cmd tao lai nhat ky usn qua fsutil
+c532955872a6,1,chap_nhan,mmc nap console msc tuy chinh
+c532955872a6,2,chap_nhan,mmc thuc thi AI Prompts msc doc hai
+c532955872a6,3,bac,lap lai lenh mmc o dong 2
+c532955872a6,4,bac,lap lai lenh mmc o dong 2
+c56aa86e5b81,351,bac,tien trinh bao loi he thong werfault
+c56aa86e5b81,373,bac,lap lai lenh kiem thu tren dong lenh
+c56aa86e5b81,470,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,475,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,478,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,491,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,494,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,498,bac,tien trinh btool kiem tra cau hinh he thong
+c56aa86e5b81,504,bac,tien trinh he thong Splunk Universal Forwarder
+c56aa86e5b81,506,bac,tien trinh he thong Splunk Universal Forwarder
+c56aa86e5b81,517,bac,tien trinh he thong Splunk Universal Forwarder
+c56aa86e5b81,534,bac,tien trinh he thong Splunk Universal Forwarder
+c56aa86e5b81,572,bac,lap lai lenh hoac tien trinh khong phai goc
+c56aa86e5b81,581,bac,lap lai lenh reg hoac lenh don dep
+c56aa86e5b81,584,bac,lap lai lenh hoac tien trinh khong phai goc
+c56aa86e5b81,585,bac,lap lai lenh hoac tien trinh khong phai goc
+c56aa86e5b81,597,bac,lap lai lenh kiem thu tren dong lenh
+c56aa86e5b81,686,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+c56aa86e5b81,689,bac,lap lai lenh kiem thu tren dong lenh
+c56aa86e5b81,900,chap_nhan,mmc mo Windows Firewall chinh sua firewall
+c6bcb52afb03,1,bac,khong_co_goc
+c702c119e0b2,1,chap_nhan,anydesk lay id dieu khien tu xa
+c77c896960d2,1,chap_nhan,reg add can thiep IFEO narrator cai dat debugger bam tru
+c790e5f661a5,2,chap_nhan,msra khoi chay shell cmd thuc thi whoami
+c902a7ea456e,19,chap_nhan,3CXDesktopApp phan mem bi chuoi cung ung chen ma doc
+c902a7ea456e,20,bac,lap lai thuc thi 3CXDesktopApp o dong 19
+c902a7ea456e,27,bac,lap lai thuc thi 3CXDesktopApp o dong 19
+c902a7ea456e,28,bac,lap lai thuc thi 3CXDesktopApp o dong 19
+c939c7029edf,2,chap_nhan,mshta thuc thi scriptlet tu xa qua javascript GetObject
+ca9e4020c68e,17,chap_nhan,wscript thuc thi kich ban 2 vbs doc hai
+ca9e4020c68e,41,bac,lap lai lenh wscript o dong 17
+ca9e4020c68e,62,bac,lap lai lenh wscript o dong 17
+ca9e4020c68e,182,bac,lap lai lenh wscript o dong 17
+ca9e4020c68e,186,bac,lap lai lenh wscript o dong 17
+caa0e367e31a,1,chap_nhan,git cau hinh core symlinks cho phep tao lien ket mem

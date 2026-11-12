@@ -1,0 +1,996 @@
+{
+  "A0": {
+    "alerts_total": 2463,
+    "dev": 1258,
+    "files": {
+      "dev/alerts.jsonl": {
+        "lines": 1258,
+        "match": true,
+        "sha256": "430895c38d8913b6734d06a0f3a138bd1444c46b94afe3294eaf9ae7e64b86fe"
+      },
+      "dev/labels.jsonl": {
+        "lines": 1258,
+        "match": true,
+        "sha256": "68bc406dba2f9cef1b6bca7b8180b0c06b810c9e431ab60fe4316647ae574804"
+      },
+      "dev/scenarios.jsonl": {
+        "lines": 1258,
+        "match": true,
+        "sha256": "abdf97848580e2bf6318b8e9bb2dd93718b5c58f1410a24964954afe17a6d005"
+      },
+      "test/alerts.jsonl": {
+        "lines": 1205,
+        "match": true,
+        "sha256": "8e691501fe83d0e9f556a89258d7c0d8808b7f40f28c0ae31a68ee4f0ba5e7fe"
+      },
+      "test/labels.jsonl": {
+        "lines": 1205,
+        "match": true,
+        "sha256": "20d7b2c6effd90a0b18a8225daea34ce49a33ba1695c3dbcca0852b572432157"
+      },
+      "test/scenarios.jsonl": {
+        "lines": 1205,
+        "match": true,
+        "sha256": "39d97b9dc12710d64052328eb545645b2954bf66b34da7c389e0a07e84de13ee"
+      }
+    },
+    "files_matched": 6,
+    "ok": true,
+    "scenarios_c": {
+      "dev": 41,
+      "test": 40
+    },
+    "test": 1205,
+    "totals_match_manifest": true
+  },
+  "A1": {
+    "by_channel_event": {
+      "microsoft-windows-powershell/operational|4103": {
+        "both_sides": false,
+        "otrf_alerts": 126,
+        "xml_alerts": 0
+      },
+      "microsoft-windows-powershell/operational|4104": {
+        "both_sides": false,
+        "otrf_alerts": 1,
+        "xml_alerts": 0
+      },
+      "microsoft-windows-sysmon/operational|1": {
+        "both_sides": true,
+        "otrf_alerts": 24,
+        "otrf_only_already_excluded": {
+          "EventTime": 7,
+          "ExecutionProcessID": 7,
+          "RecordNumber": 7,
+          "ThreadID": 7
+        },
+        "otrf_only_fields": {
+          "AccountName": 7,
+          "AccountType": 7,
+          "Category": 7,
+          "Domain": 7,
+          "EventType": 7,
+          "OpcodeValue": 7,
+          "ProviderGuid": 22,
+          "TimeCreated": 17,
+          "UserID": 7
+        },
+        "xml_alerts": 377,
+        "xml_only_already_excluded": {
+          "EventRecordID": 377,
+          "Execution_ProcessID": 377,
+          "Execution_ThreadID": 377,
+          "TimeCreated_SystemTime": 377
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 377,
+          "Security_UserID": 377
+        }
+      },
+      "microsoft-windows-sysmon/operational|10": {
+        "both_sides": true,
+        "otrf_alerts": 11,
+        "otrf_only_already_excluded": {
+          "EventTime": 7,
+          "ExecutionProcessID": 7,
+          "ProcessId": 3,
+          "RecordNumber": 7,
+          "ThreadID": 7
+        },
+        "otrf_only_fields": {
+          "AccountName": 7,
+          "AccountType": 7,
+          "Category": 7,
+          "Domain": 7,
+          "EventType": 7,
+          "OpcodeValue": 7,
+          "ProviderGuid": 11,
+          "SourceUser": 4,
+          "TargetUser": 4,
+          "TimeCreated": 4,
+          "UserID": 7
+        },
+        "xml_alerts": 141,
+        "xml_only_already_excluded": {
+          "EventRecordID": 141,
+          "Execution_ProcessID": 141,
+          "Execution_ThreadID": 141,
+          "TimeCreated_SystemTime": 141
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 141,
+          "Security_UserID": 141
+        }
+      },
+      "microsoft-windows-sysmon/operational|11": {
+        "both_sides": true,
+        "otrf_alerts": 5,
+        "otrf_only_already_excluded": {
+          "EventTime": 2,
+          "ExecutionProcessID": 2,
+          "RecordNumber": 2,
+          "ThreadID": 2
+        },
+        "otrf_only_fields": {
+          "AccountName": 2,
+          "AccountType": 2,
+          "Category": 2,
+          "Domain": 2,
+          "EventType": 2,
+          "OpcodeValue": 2,
+          "ProviderGuid": 5,
+          "TimeCreated": 3,
+          "UserID": 2
+        },
+        "xml_alerts": 188,
+        "xml_only_already_excluded": {
+          "EventRecordID": 188,
+          "Execution_ProcessID": 188,
+          "Execution_ThreadID": 188,
+          "TimeCreated_SystemTime": 188
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 188,
+          "Security_UserID": 188
+        }
+      },
+      "microsoft-windows-sysmon/operational|12": {
+        "both_sides": true,
+        "otrf_alerts": 238,
+        "otrf_only_already_excluded": {
+          "EventTime": 118,
+          "ExecutionProcessID": 118,
+          "RecordNumber": 118,
+          "ThreadID": 118
+        },
+        "otrf_only_fields": {
+          "AccountName": 118,
+          "AccountType": 118,
+          "Category": 118,
+          "Domain": 118,
+          "EventTypeOrignal": 118,
+          "OpcodeValue": 118,
+          "ProviderGuid": 234,
+          "TimeCreated": 120,
+          "UserID": 118
+        },
+        "xml_alerts": 125,
+        "xml_only_already_excluded": {
+          "EventRecordID": 125,
+          "Execution_ProcessID": 125,
+          "Execution_ThreadID": 125,
+          "TimeCreated_SystemTime": 125
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 125,
+          "Security_UserID": 125
+        }
+      },
+      "microsoft-windows-sysmon/operational|13": {
+        "both_sides": true,
+        "otrf_alerts": 13,
+        "otrf_only_already_excluded": {
+          "EventTime": 3,
+          "ExecutionProcessID": 3,
+          "RecordNumber": 3,
+          "ThreadID": 3
+        },
+        "otrf_only_fields": {
+          "AccountName": 3,
+          "AccountType": 3,
+          "Category": 3,
+          "Domain": 3,
+          "EventTypeOrignal": 3,
+          "OpcodeValue": 3,
+          "ProviderGuid": 13,
+          "TimeCreated": 10,
+          "UserID": 3
+        },
+        "xml_alerts": 28,
+        "xml_only_already_excluded": {
+          "EventRecordID": 28,
+          "Execution_ProcessID": 28,
+          "Execution_ThreadID": 28,
+          "TimeCreated_SystemTime": 28
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 28,
+          "Security_UserID": 28
+        }
+      },
+      "microsoft-windows-sysmon/operational|22": {
+        "both_sides": true,
+        "otrf_alerts": 3,
+        "otrf_only_already_excluded": {
+          "EventTime": 3,
+          "ExecutionProcessID": 3,
+          "RecordNumber": 3,
+          "ThreadID": 3
+        },
+        "otrf_only_fields": {
+          "AccountName": 3,
+          "AccountType": 3,
+          "Category": 3,
+          "Domain": 3,
+          "EventType": 3,
+          "OpcodeValue": 3,
+          "ProviderGuid": 3,
+          "UserID": 3
+        },
+        "xml_alerts": 17,
+        "xml_only_already_excluded": {
+          "EventRecordID": 17,
+          "Execution_ProcessID": 17,
+          "Execution_ThreadID": 17,
+          "TimeCreated_SystemTime": 17
+        },
+        "xml_only_fields": {
+          "Level": 17,
+          "Provider_Guid": 17,
+          "Security_UserID": 17
+        }
+      },
+      "microsoft-windows-sysmon/operational|3": {
+        "both_sides": true,
+        "otrf_alerts": 4,
+        "otrf_only_already_excluded": {
+          "EventTime": 2,
+          "ExecutionProcessID": 2,
+          "RecordNumber": 2,
+          "ThreadID": 2
+        },
+        "otrf_only_fields": {
+          "AccountName": 2,
+          "AccountType": 2,
+          "Category": 2,
+          "Domain": 2,
+          "EventType": 2,
+          "OpcodeValue": 2,
+          "ProviderGuid": 4,
+          "TimeCreated": 2,
+          "UserID": 2
+        },
+        "xml_alerts": 90,
+        "xml_only_already_excluded": {
+          "EventRecordID": 90,
+          "Execution_ProcessID": 90,
+          "Execution_ThreadID": 90,
+          "TimeCreated_SystemTime": 90
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 90,
+          "Security_UserID": 90
+        }
+      },
+      "microsoft-windows-sysmon/operational|7": {
+        "both_sides": true,
+        "otrf_alerts": 534,
+        "otrf_only_already_excluded": {
+          "EventTime": 240,
+          "ExecutionProcessID": 240,
+          "RecordNumber": 240,
+          "ThreadID": 240
+        },
+        "otrf_only_fields": {
+          "AccountName": 240,
+          "AccountType": 240,
+          "Category": 240,
+          "Domain": 240,
+          "EventType": 240,
+          "OpcodeValue": 240,
+          "ProviderGuid": 430,
+          "TimeCreated": 294,
+          "UserID": 240
+        },
+        "xml_alerts": 448,
+        "xml_only_already_excluded": {
+          "EventRecordID": 448,
+          "Execution_ProcessID": 448,
+          "Execution_ThreadID": 448,
+          "TimeCreated_SystemTime": 448
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 448,
+          "Security_UserID": 448
+        }
+      },
+      "microsoft-windows-sysmon/operational|8": {
+        "both_sides": false,
+        "otrf_alerts": 0,
+        "xml_alerts": 1
+      },
+      "security|4688": {
+        "both_sides": true,
+        "otrf_alerts": 24,
+        "otrf_only_already_excluded": {
+          "EventTime": 7,
+          "ExecutionProcessID": 7,
+          "RecordNumber": 7,
+          "ThreadID": 7
+        },
+        "otrf_only_fields": {
+          "Category": 7,
+          "EventType": 7,
+          "OpcodeValue": 7,
+          "ProviderGuid": 22,
+          "TimeCreated": 17
+        },
+        "xml_alerts": 65,
+        "xml_only_already_excluded": {
+          "EventRecordID": 65,
+          "Execution_ProcessID": 65,
+          "Execution_ThreadID": 65,
+          "TimeCreated_SystemTime": 65
+        },
+        "xml_only_fields": {
+          "Provider_Guid": 65
+        }
+      }
+    },
+    "drop_dedup_list": [
+      "Computer",
+      "Correlation_ActivityID",
+      "Correlation_RelatedActivityID",
+      "CreationUtcTime",
+      "EventRecordID",
+      "EventTime",
+      "ExecutionProcessID",
+      "Execution_ProcessID",
+      "Execution_ThreadID",
+      "LogonGuid",
+      "LogonId",
+      "NewProcessId",
+      "ParentProcessGuid",
+      "ParentProcessId",
+      "PreviousCreationUtcTime",
+      "ProcessGuid",
+      "ProcessId",
+      "RecordNumber",
+      "SourceProcessGUID",
+      "SourceProcessGuid",
+      "SourceProcessId",
+      "SourceThreadId",
+      "SubjectLogonId",
+      "TargetLogonId",
+      "TargetProcessGUID",
+      "TargetProcessGuid",
+      "TargetProcessId",
+      "ThreadID",
+      "TimeCreated_SystemTime",
+      "UtcTime"
+    ],
+    "otrf_only_names_union": [
+      "AccountName",
+      "AccountType",
+      "Category",
+      "Domain",
+      "EventTime",
+      "EventType",
+      "EventTypeOrignal",
+      "ExecutionProcessID",
+      "OpcodeValue",
+      "ProcessId",
+      "ProviderGuid",
+      "RecordNumber",
+      "SourceUser",
+      "TargetUser",
+      "ThreadID",
+      "TimeCreated",
+      "UserID"
+    ],
+    "strip_fields_seen_before_strip_by_source": {
+      "evtx": {
+        "RuleName": 89
+      },
+      "otrf": {
+        "@timestamp": 871,
+        "@version": 516,
+        "EventReceivedTime": 516,
+        "Message": 556,
+        "RuleName": 832,
+        "Severity": 516,
+        "SeverityValue": 516,
+        "SourceModuleName": 516,
+        "SourceModuleType": 516,
+        "host": 516,
+        "port": 516,
+        "tags": 516
+      },
+      "splunk": {
+        "RuleName": 1326
+      }
+    },
+    "strip_list": [
+      "@timestamp",
+      "@version",
+      "EventReceivedTime",
+      "Message",
+      "RuleName",
+      "Severity",
+      "SeverityValue",
+      "SourceModuleName",
+      "SourceModuleType",
+      "host",
+      "port",
+      "tags"
+    ]
+  },
+  "A2": {
+    "alerts": 2463,
+    "alerts_in_groups": 4,
+    "alerts_removed_if_merged": 2,
+    "by_channel_event": {
+      "microsoft-windows-sysmon/operational|12": {
+        "alerts": 4,
+        "groups": 2
+      }
+    },
+    "by_source_pair": {
+      "evtx": {
+        "alerts": 2,
+        "groups": 1
+      },
+      "splunk": {
+        "alerts": 2,
+        "groups": 1
+      }
+    },
+    "cross_scenario_groups": 0,
+    "cross_source_groups": 0,
+    "cross_split_groups": 0,
+    "distinct_replacement_keys": 2461,
+    "envelope_fields_removed": [
+      "@timestamp",
+      "@version",
+      "AccountName",
+      "AccountType",
+      "Category",
+      "Computer",
+      "Correlation_ActivityID",
+      "Correlation_RelatedActivityID",
+      "CreationUtcTime",
+      "Domain",
+      "EventID_Qualifiers",
+      "EventReceivedTime",
+      "EventRecordID",
+      "EventTime",
+      "EventType",
+      "EventTypeOrignal",
+      "ExecutionProcessID",
+      "Execution_ProcessID",
+      "Execution_ThreadID",
+      "Keywords",
+      "Level",
+      "LogonGuid",
+      "LogonId",
+      "Message",
+      "NewProcessId",
+      "Opcode",
+      "OpcodeValue",
+      "ParentProcessGuid",
+      "ParentProcessId",
+      "PreviousCreationUtcTime",
+      "ProcessGuid",
+      "ProcessId",
+      "ProviderGuid",
+      "Provider_Guid",
+      "Provider_Name",
+      "RecordNumber",
+      "RuleName",
+      "Security_UserID",
+      "Severity",
+      "SeverityValue",
+      "SourceModuleName",
+      "SourceModuleType",
+      "SourceProcessGUID",
+      "SourceProcessGuid",
+      "SourceProcessId",
+      "SourceThreadId",
+      "SourceUser",
+      "SubjectLogonId",
+      "TargetLogonId",
+      "TargetProcessGUID",
+      "TargetProcessGuid",
+      "TargetProcessId",
+      "TargetUser",
+      "Task",
+      "ThreadID",
+      "TimeCreated",
+      "TimeCreated_SystemTime",
+      "UserID",
+      "UtcTime",
+      "Version",
+      "host",
+      "port",
+      "tags"
+    ],
+    "groups": 2,
+    "label_conflict_groups": 0
+  },
+  "A3": {
+    "evtx": {
+      "runs_reviewed": 27,
+      "runs_without_end_events": 24
+    },
+    "otrf": {
+      "ps_linked_by_pid": 330,
+      "runs_reviewed": 5
+    },
+    "splunk": {
+      "runs_reviewed": 70,
+      "runs_without_end_events": 57
+    }
+  },
+  "A4": {
+    "by_group": {
+      "file": {
+        "dev": 74,
+        "dev_ratio": 0.3834,
+        "flagged": false,
+        "test": 119,
+        "test_ratio": 0.6166
+      },
+      "image_load": {
+        "dev": 560,
+        "dev_ratio": 0.5703,
+        "flagged": false,
+        "test": 422,
+        "test_ratio": 0.4297
+      },
+      "network": {
+        "dev": 68,
+        "dev_ratio": 0.5965,
+        "flagged": false,
+        "test": 46,
+        "test_ratio": 0.4035
+      },
+      "powershell": {
+        "dev": 0,
+        "dev_ratio": 0.0,
+        "flagged": true,
+        "test": 127,
+        "test_ratio": 1.0
+      },
+      "process": {
+        "dev": 237,
+        "dev_ratio": 0.4837,
+        "flagged": false,
+        "test": 253,
+        "test_ratio": 0.5163
+      },
+      "process_access": {
+        "dev": 62,
+        "dev_ratio": 0.4052,
+        "flagged": false,
+        "test": 91,
+        "test_ratio": 0.5948
+      },
+      "registry": {
+        "dev": 257,
+        "dev_ratio": 0.6361,
+        "flagged": false,
+        "test": 147,
+        "test_ratio": 0.3639
+      }
+    },
+    "by_source_group": {
+      "evtx|file": {
+        "dev": 3,
+        "dev_ratio": 0.4286,
+        "flagged": false,
+        "test": 4,
+        "test_ratio": 0.5714
+      },
+      "evtx|image_load": {
+        "dev": 1,
+        "dev_ratio": 0.1667,
+        "flagged": true,
+        "test": 5,
+        "test_ratio": 0.8333
+      },
+      "evtx|network": {
+        "dev": 4,
+        "dev_ratio": 1.0,
+        "flagged": true,
+        "test": 0,
+        "test_ratio": 0.0
+      },
+      "evtx|process": {
+        "dev": 27,
+        "dev_ratio": 0.4091,
+        "flagged": false,
+        "test": 39,
+        "test_ratio": 0.5909
+      },
+      "evtx|process_access": {
+        "dev": 0,
+        "dev_ratio": 0.0,
+        "flagged": true,
+        "test": 1,
+        "test_ratio": 1.0
+      },
+      "evtx|registry": {
+        "dev": 0,
+        "dev_ratio": 0.0,
+        "flagged": true,
+        "test": 5,
+        "test_ratio": 1.0
+      },
+      "otrf|file": {
+        "dev": 3,
+        "dev_ratio": 0.6,
+        "flagged": false,
+        "test": 2,
+        "test_ratio": 0.4
+      },
+      "otrf|image_load": {
+        "dev": 294,
+        "dev_ratio": 0.5506,
+        "flagged": false,
+        "test": 240,
+        "test_ratio": 0.4494
+      },
+      "otrf|network": {
+        "dev": 2,
+        "dev_ratio": 0.2857,
+        "flagged": false,
+        "test": 5,
+        "test_ratio": 0.7143
+      },
+      "otrf|powershell": {
+        "dev": 0,
+        "dev_ratio": 0.0,
+        "flagged": true,
+        "test": 127,
+        "test_ratio": 1.0
+      },
+      "otrf|process": {
+        "dev": 34,
+        "dev_ratio": 0.7083,
+        "flagged": false,
+        "test": 14,
+        "test_ratio": 0.2917
+      },
+      "otrf|process_access": {
+        "dev": 4,
+        "dev_ratio": 0.3636,
+        "flagged": false,
+        "test": 7,
+        "test_ratio": 0.6364
+      },
+      "otrf|registry": {
+        "dev": 130,
+        "dev_ratio": 0.5179,
+        "flagged": false,
+        "test": 121,
+        "test_ratio": 0.4821
+      },
+      "splunk|file": {
+        "dev": 68,
+        "dev_ratio": 0.3757,
+        "flagged": false,
+        "test": 113,
+        "test_ratio": 0.6243
+      },
+      "splunk|image_load": {
+        "dev": 265,
+        "dev_ratio": 0.5995,
+        "flagged": false,
+        "test": 177,
+        "test_ratio": 0.4005
+      },
+      "splunk|network": {
+        "dev": 62,
+        "dev_ratio": 0.6019,
+        "flagged": false,
+        "test": 41,
+        "test_ratio": 0.3981
+      },
+      "splunk|process": {
+        "dev": 176,
+        "dev_ratio": 0.4681,
+        "flagged": false,
+        "test": 200,
+        "test_ratio": 0.5319
+      },
+      "splunk|process_access": {
+        "dev": 58,
+        "dev_ratio": 0.4113,
+        "flagged": false,
+        "test": 83,
+        "test_ratio": 0.5887
+      },
+      "splunk|registry": {
+        "dev": 127,
+        "dev_ratio": 0.8581,
+        "flagged": true,
+        "test": 21,
+        "test_ratio": 0.1419
+      }
+    },
+    "counts_by_source_group": {
+      "evtx|file": {
+        "dev": 3,
+        "test": 4
+      },
+      "evtx|image_load": {
+        "dev": 1,
+        "test": 5
+      },
+      "evtx|network": {
+        "dev": 4
+      },
+      "evtx|process": {
+        "dev": 27,
+        "test": 39
+      },
+      "evtx|process_access": {
+        "test": 1
+      },
+      "evtx|registry": {
+        "test": 5
+      },
+      "otrf|file": {
+        "dev": 3,
+        "test": 2
+      },
+      "otrf|image_load": {
+        "dev": 294,
+        "test": 240
+      },
+      "otrf|network": {
+        "dev": 2,
+        "test": 5
+      },
+      "otrf|powershell": {
+        "test": 127
+      },
+      "otrf|process": {
+        "dev": 34,
+        "test": 14
+      },
+      "otrf|process_access": {
+        "dev": 4,
+        "test": 7
+      },
+      "otrf|registry": {
+        "dev": 130,
+        "test": 121
+      },
+      "splunk|file": {
+        "dev": 68,
+        "test": 113
+      },
+      "splunk|image_load": {
+        "dev": 265,
+        "test": 177
+      },
+      "splunk|network": {
+        "dev": 62,
+        "test": 41
+      },
+      "splunk|process": {
+        "dev": 176,
+        "test": 200
+      },
+      "splunk|process_access": {
+        "dev": 58,
+        "test": 83
+      },
+      "splunk|registry": {
+        "dev": 127,
+        "test": 21
+      }
+    },
+    "flagged_groups": [
+      "powershell"
+    ],
+    "flagged_source_groups": [
+      "evtx|image_load",
+      "evtx|network",
+      "evtx|process_access",
+      "evtx|registry",
+      "otrf|powershell",
+      "splunk|registry"
+    ],
+    "threshold": 0.25
+  },
+  "A5": {
+    "missing": [
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.001/bmc_creation/bmc_creation.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.001/bmc_creation/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.001/mstsc_admini/mstsc_admini.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.001/mstsc_admini/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.001/rdp_creation/rdp_creation.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.001/rdp_creation/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.001/terminal_server_reg_created/terminal_server_reg_created.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.001/terminal_server_reg_created/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.001/unhide_file/unhide_file.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.001/unhide_file/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 1,
+          "first": "datasets/attack_techniques/T1071.004/long_dns_query/dns-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1021.002/atomic_red_team/atomic_red_team.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1021.002/atomic_red_team/dns-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 102,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-powershell.log"
+        },
+        "yaml": "datasets/attack_techniques/T1027/FuckThatPacker/FuckThatPacker.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1027/FuckThatPacker/windows-powershell.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1059/vmtoolsd/vmtoolsd_execution.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1059/vmtoolsd/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 4,
+          "first": "datasets/attack_techniques/T1040/windows_network_sniffing_tools/snapattack_windows.log"
+        },
+        "yaml": "datasets/attack_techniques/T1068/windows_suspicious_child_of_consent_exe/snapattack.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1068/windows_suspicious_child_of_consent.exe/snapattack_windows.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1070.004/automatic_file_deleted/automatic_file_deleted.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1070.004/automatic_file_deleted/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1070.004/bmc_file_deleted/bmc_file_deleted.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1070.004/bmc_file_deleted/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1070.004/rdp_deletion/rdp_deletion.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1070.004/rdp_deletion/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1070.004/terminal_server_reg_deleted/terminal_server_reg_deleted.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1070.004/terminal_server_reg_deleted/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1112/reg_profiles_private/reg_profiles_private.yml",
+        "yaml_dataset_path": "/datasets/attack_techniques/T1112/reg_profiles_private/windows-sysmon.log"
+      },
+      {
+        "category": "same_filename_in_other_dir",
+        "detail": {
+          "candidates": 209,
+          "first": "datasets/apt_simulations/ActiveMQ_exploit_Lockbit_Ransomware/windows-sysmon.log"
+        },
+        "yaml": "datasets/attack_techniques/T1566.001/datasets/data.yml",
+        "yaml_dataset_path": "/datasets/windows-sysmon.log"
+      }
+    ],
+    "missing_categories": {
+      "same_filename_in_other_dir": 15
+    },
+    "missing_count_from_iter_runs": 15,
+    "missing_count_replayed": 15,
+    "stash_sha256": {
+      "datasets/attack_techniques/T1021.003/lateral_movement/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1021.006/lateral_movement_psh/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1021.006/lateral_movement_pssession/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1027.010/manual_b64_decode_pwsh/manual_b64_decode_pwsh.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1033/AD_discovery/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1059.001/asyncrat_crypto_pwh_namespace/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1059.001/malicious_cmd_line_samples/windows-sysmon.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1059.001/trickbot_cmd_powershell/windows-sysmon.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1069.001/atomic_red_team/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1087.001/AD_discovery/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1112/vip_big_env_variable/vip_INTERNAL_DB_CACHE.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1140/snapattack/snapattack.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1201/pwd_policy_discovery/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1546.003/wmi_event_subscription/windows-sysmon.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1546.015/pwh_com_object/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/T1608/snapattack/snapattack.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "datasets/attack_techniques/t1592/pwh_av_recon/windows-powershell-xml.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "meta": {
+    "elapsed_seconds": 276.1,
+    "params": {
+      "dev_fraction": 0.5,
+      "seed": 42,
+      "split_seed": 42
+    },
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.12.10",
+    "sha256": {
+      "count_gate.py": "5f1b08758c29eb164a82b3048af87e15ec78066ab2b17c90970e304e7dd28136",
+      "export_alerts.py": "b3214bc42d385e981ab981b5ab1f959372ab4fe8db61e0d9f25b24d017e6ef42",
+      "survey_fix_diag.py": "b9fb02a6afe369ef35f5d77b72d06ce17b74e27b3980f41236b2d448bac570d8"
+    }
+  }
+}

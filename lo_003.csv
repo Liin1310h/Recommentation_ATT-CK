@@ -1,0 +1,251 @@
+ma_run,dong,quyet_dinh,ly_do
+5eac7788c7aa,1,chap_nhan,khoi chay wmic tao user backdoor tu xa
+5eac7788c7aa,6,bac,lap lai lenh wmic da duyet o dong 1
+5ed143d6f332,56,chap_nhan,khoi chay mmc eventvwr kiem thu leo thang UAC
+5f9af3b6fd93,1,chap_nhan,thuc thi msiexec cai dat goi msi doc hai
+5fd1935ee68d,1,bac,tien trinh he thong dsregcmd khong phai tan cong
+5fdb1d081dbb,1,chap_nhan,mshta thuc thi ma javascript doc hai tao popup
+6143693e0ffc,1,chap_nhan,reg ghi registry Run key thiet lap khoi dong cung he thong
+614dc037556d,1,chap_nhan,whoami do quet thong tin nguoi dung he thong
+619b59d5ccf8,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,36,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+619b59d5ccf8,53,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+619b59d5ccf8,54,chap_nhan,thuc thi ma doc sandcat C2 agent
+619b59d5ccf8,174,bac,Ansible cmd truy van thong tin registry
+621b418f0cb5,1,chap_nhan,winword mo tai lieu chua ma doc hoac khai thac loi
+621b418f0cb5,2,chap_nhan,giai nen tap tin bang cong cu 7zip gia mao
+621b418f0cb5,3,chap_nhan,thuc thi stager Northstar doc hai
+621b418f0cb5,4,chap_nhan,rundll32 goi oledb32 doc tap tin udl doc hai
+621b418f0cb5,5,chap_nhan,fontdiag chay may ao ngam gia lap he thong
+621b418f0cb5,6,chap_nhan,mountvol gan phan vung he thong EFI
+624b6b6a2843,1,chap_nhan,sdclt khoi chay cmd leo thang dac quyen UAC
+626b572e949e,1,chap_nhan,thuc thi ProcessHerpaderping de che giau ma doc mimikatz
+626b572e949e,2,bac,lap lai lenh ProcessHerpaderping o dong 1
+6276efdc049d,1,chap_nhan,thuc thi hostname trinh sat dinh danh may
+6276efdc049d,2,chap_nhan,whoami do quet thong tin nguoi dung he thong
+6276efdc049d,3,chap_nhan,cmd xoa shadow copies ngan chan khoi phuc du lieu
+6276efdc049d,6,chap_nhan,cmd goi wmic xoa shadow copies
+6276efdc049d,8,chap_nhan,cmd goi wbadmin xoa backup catalog
+6276efdc049d,12,chap_nhan,cmd vo hieu hoa khoi phuc he thong bang bcdedit
+6276efdc049d,15,chap_nhan,powershell goi wmi xoa toan bo shadow copies
+6276efdc049d,16,chap_nhan,cmd xoa cac tep tin sao luu he thong
+6276efdc049d,24,chap_nhan,cmd xoa ban sao luu system state bang wbadmin
+6276efdc049d,26,bac,lap lai lenh xoa shadow copies cua dong 3
+6276efdc049d,28,bac,lap lai lenh wmic xoa shadow copy o dong 6
+63207a2cdf56,1,chap_nhan,cmd thuc thi tap tin kich ban doc hai hive bat
+63311318a0c7,1,chap_nhan,cmd thay doi lien ket dinh dang file bang ftype
+6365e1da7c08,1,chap_nhan,csc bien dich ma nguon C sharp doc hai
+6365e1da7c08,3,chap_nhan,csc bien dich ma nguon C sharp doc hai
+6365e1da7c08,4,bac,lap lai tien trinh csc bien dich swetvsln
+6365e1da7c08,7,bac,lap lai tien trinh csc bien dich avdbqyi5
+6365e1da7c08,8,chap_nhan,csc bien dich ma nguon C sharp doc hai
+6365e1da7c08,11,bac,lap lai tien trinh csc bien dich tbj1ab1i
+641372e21d67,320,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+641372e21d67,330,chap_nhan,khoi chay notepad mo tap tin evil bat
+641372e21d67,346,bac,lap lai lenh notepad o dong 330
+641372e21d67,383,chap_nhan,shell cmd duoc sinh ra thuc thi tap tin evil bat
+641372e21d67,384,bac,tien trinh con cua dong 383
+641372e21d67,385,bac,tien trinh con cua dong 383
+641372e21d67,387,chap_nhan,cmd thuc thi kich ban evil bat
+6460e162485d,1,bac,powershell tuong tac he thong khong truc tiep thuc thi
+6460e162485d,2,bac,powershell tuong tac he thong khong truc tiep thuc thi
+6460e162485d,5,chap_nhan,powershell khoi chay voi tham so exec bypass
+646dd9f0a3a5,76,chap_nhan,ipconfig thu thap cau hinh mang he thong
+646dd9f0a3a5,79,chap_nhan,whoami do quet thong tin nguoi dung he thong
+646dd9f0a3a5,80,chap_nhan,query user kiem tra nguoi dung dang dang nhap
+646dd9f0a3a5,85,chap_nhan,cmd khoi chay powershell thuc thi lenh kiem thu
+646dd9f0a3a5,87,chap_nhan,cmd khoi chay powershell lay thong tin username
+646dd9f0a3a5,93,chap_nhan,cmd khoi chay powershell lay danh tinh hien tai
+646dd9f0a3a5,114,chap_nhan,cmd khoi chay powershell trich xuat bien moi truong
+64dc5a6c8263,39,chap_nhan,7z nen du lieu chuan bi danh cap thong tin
+64dc5a6c8263,87,bac,rundll32 khong co tham so thuc thi doc hai
+64dc5a6c8263,265,chap_nhan,cmd thuc thi not7z dat mat khau nen file
+64dc5a6c8263,289,chap_nhan,bitsadmin tai tep tin winrar tu ben ngoai
+64dc5a6c8263,304,chap_nhan,cmd cai dat winrar o che do im lang
+64dc5a6c8263,349,chap_nhan,cmd thuc thi notrar dat mat khau nen file
+65827773c0e6,1,chap_nhan,nxc thuc thi tan cong PetitPotam ep xac thuc SMB
+661d4f1ea472,1,chap_nhan,thuc thi mimikatz trich xuat thong tin xac thuc
+66eeed7313cb,1,chap_nhan,cmd thuc thi odbcconf load rsp payload doc hai
+66eeed7313cb,5,chap_nhan,cmd thuc thi odbcconf dang ky dll doc hai
+66eeed7313cb,9,bac,tien trinh con odbcconf cua cmd dong 5
+66eeed7313cb,11,bac,tien trinh con odbcconf cua cmd
+66eeed7313cb,12,bac,lap lai lenh odbcconf o dong 5
+66eeed7313cb,14,bac,lap lai lenh odbcconf o dong 1
+675118854b45,1,bac,explorer khoi chay giao dien khong phai goc tan cong
+675118854b45,3,chap_nhan,wscript thuc thi ma vbs doc hai trong file icon ico
+67895736d92d,1,chap_nhan,mimikatz trich xuat secrets va hash tu LSASS
+67b249f41f4b,17,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,22,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,35,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,45,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,62,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,74,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,89,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,125,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,132,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,139,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,146,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,148,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,153,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+67b249f41f4b,168,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+67b249f41f4b,171,chap_nhan,thuc thi ma doc sandcat C2 agent
+67b249f41f4b,254,bac,Ansible cmd truy van thong tin registry
+68d4d591af08,1,chap_nhan,seatbelt thu thap thong tin cau hinh he thong
+69fa32097481,1,chap_nhan,khoi chay aspnet_compiler kiem thu ky thuat LOLBAS
+69fa32097481,2,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,3,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,4,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,5,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,6,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,7,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,8,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,9,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,10,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,11,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,12,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,13,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,14,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,15,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,16,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,17,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,18,bac,lap lai lenh hoac tien trinh khong phai goc
+69fa32097481,19,bac,lap lai lenh hoac tien trinh khong phai goc
+6a1a93436f5e,1,chap_nhan,khoi chay BitLockerToGo tu thu muc Desktop de chen ma doc
+6a1a93436f5e,2,bac,lap lai lenh BitLockerToGo o dong 1
+6a1a93436f5e,3,bac,lap lai lenh BitLockerToGo o dong 1
+6a1a93436f5e,4,bac,lap lai lenh BitLockerToGo o dong 1
+6a1a93436f5e,5,bac,lap lai lenh BitLockerToGo
+6a1a93436f5e,6,chap_nhan,khoi chay BitLockerToGo phuc vu kiem thu DLL injection
+6a1a93436f5e,9,bac,lenh don dep he thong sau kiem thu
+6a1a93436f5e,13,bac,lenh don dep he thong sau kiem thu
+6a1a93436f5e,15,bac,lenh don dep he thong sau kiem thu
+6a9a9c0e9ef5,5,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,12,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,19,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,26,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,28,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,33,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6a9a9c0e9ef5,48,chap_nhan,thuc thi ma doc sandcat C2 agent
+6a9a9c0e9ef5,51,chap_nhan,chay ma doc an danh splunkd tu Public ket noi C2
+6a9a9c0e9ef5,136,bac,Ansible cmd truy van thong tin registry
+6a9a9c0e9ef5,363,bac,tien trinh he thong ie4uinit khoi tao cau hinh
+6a9a9c0e9ef5,367,bac,tien trinh he thong unregmp2
+6a9a9c0e9ef5,368,bac,rundll32 cau hinh bao mat IE
+6a9a9c0e9ef5,369,bac,rundll32 cau hinh bao mat IE
+6a9a9c0e9ef5,377,bac,tien trinh khoi dong RunWallpaperSetupInit
+6a9a9c0e9ef5,379,bac,tien trinh go van ban ctfmon
+6a9a9c0e9ef5,384,bac,trinh duyet Internet Explorer
+6af40be01ba5,1,chap_nhan,powershell thu thap va nen tai lieu thanh Draft zip
+6b14c93d74b0,1,chap_nhan,cmd thuc thi MSBuild bien dich va chay ma doc
+6be8fb293ce8,1,bac,tien trinh he thong SpeechRuntime khoi chay COM
+6be8fb293ce8,2,chap_nhan,powershell duoc khoi tao tu COM thuc thi payload calc
+6c7f7874c8ca,43,chap_nhan,sc xoa dich vu tu xa maliciousService
+6c7f7874c8ca,58,bac,tien trinh notepad khong lien quan den hanh vi doc hai
+6c7f7874c8ca,59,chap_nhan,schtasks tao tac vu tu xa thuc thi ma doc metE
+6c7f7874c8ca,60,chap_nhan,schtasks kich hoat chay tac vu tu xa evilTask
+6c7f7874c8ca,61,chap_nhan,schtasks xoa tac vu tu xa evilTask de xoa dau vet
+6ca82be158c1,7,bac,cmd tuong tac he thong khong phai goc tan cong
+6ca82be158c1,22,chap_nhan,winrs thuc thi lenh dieu khien tu xa
+6ca82be158c1,24,chap_nhan,shell cmd sinh ra tu WinrsHost thuc thi rundll32
+6ca82be158c1,25,bac,tien trinh con rundll32 cua shell dong 24
+6ca82be158c1,54,chap_nhan,winrs thuc thi lenh ipconfig tu xa
+6ca82be158c1,56,chap_nhan,shell cmd sinh ra tu WinrsHost thuc thi ipconfig
+6ca82be158c1,57,bac,tien trinh con ipconfig cua shell dong 56
+6cb35ff096f4,127,chap_nhan,rundll32 goi apphelp ShimFlushCache lam moi bo nho dem
+6cc0d235b441,1,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6cc0d235b441,3,bac,tien trinh tu dong hoa Ansible kiem tra he thong
+6cc0d235b441,31,bac,tien trinh khoi dong RunWallpaperSetup
+6cc0d235b441,44,bac,notepad mo tap tin vbs khong truc tiep thuc thi
+6cc0d235b441,120,chap_nhan,wscript thuc thi tap tin ma doc 1 vbs
+6cf773475adf,1,bac,powershell tuong tac he thong khong truc tiep thuc thi
+6cf773475adf,67,chap_nhan,powershell kiem thu viet tat tham so dong lenh
+6cf773475adf,68,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,69,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,70,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,71,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,72,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,73,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,81,chap_nhan,powershell kiem thu viet tat tham so EncodedCommand
+6cf773475adf,82,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,83,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,84,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,85,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,86,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,87,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,88,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,89,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,90,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,91,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,92,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,93,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,94,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,95,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,177,chap_nhan,thuc thi hostname trinh sat he thong
+6cf773475adf,178,chap_nhan,whoami do quet thong tin nguoi dung he thong
+6cf773475adf,179,chap_nhan,csc bien dich ma nguon C sharp doc hai
+6cf773475adf,181,chap_nhan,cmd khoi chay powershell tai va thuc thi Invoke Mimikatz
+6cf773475adf,183,chap_nhan,powershell import va thuc thi SharpHound
+6cf773475adf,184,chap_nhan,powershell tai tu xa va thuc thi SharpHound
+6cf773475adf,185,chap_nhan,powershell download cradle tai va thuc thi ma doc
+6cf773475adf,186,chap_nhan,powershell su dung Notepad va SendKeys de tai ma doc
+6cf773475adf,188,chap_nhan,cmd khoi chay powershell bypass AppPath
+6cf773475adf,190,chap_nhan,cmd khoi chay powershell tai payload qua MsXml2
+6cf773475adf,192,chap_nhan,cmd khoi chay powershell tai payload qua XML
+6cf773475adf,194,chap_nhan,cmd khoi chay mshta thuc thi script tu xa
+6cf773475adf,211,chap_nhan,powershell ghi va thuc thi ma tu Registry
+6cf773475adf,220,chap_nhan,powershell tao reverse shell qua TCP socket
+6cf773475adf,221,chap_nhan,powershell tao reverse shell qua TCP socket port 55555
+6cf773475adf,247,bac,lap lai lenh hostname da ton tai
+6cf773475adf,248,bac,lap lai lenh whoami da ton tai
+6cf773475adf,249,bac,lap lai tien trinh csc bien dich ma doc
+6cf773475adf,251,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,350,bac,lap lai lenh hostname da ton tai
+6cf773475adf,351,bac,lap lai lenh whoami da ton tai
+6cf773475adf,352,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,354,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,355,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,356,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,357,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,359,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,362,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,365,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,368,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,385,bac,lap lai lenh kiem thu tren dong lenh
+6cf773475adf,405,chap_nhan,whoami user liet ke SID va thong tin nguoi dung
+6cf773475adf,406,bac,lap lai lenh whoami da ton tai
+6cf773475adf,407,chap_nhan,powershell download cradle tai du lieu tu URL
+6cf773475adf,408,chap_nhan,powershell chay ngam tai va thuc thi ma doc aatox
+6cfad7c5c35c,1,chap_nhan,khoi chay chrome vo hieu hoa cac extension mo rong
+6d46a0812855,1,chap_nhan,python khoi chay khai thac wusa leo thang UAC
+6daeb6f0cf09,1,chap_nhan,wmic xoa shadow copies ngan chan phuc hoi he thong
+6e6e2b823179,1,bac,cmd tuong tac he thong khong phai tien trinh goc
+6e6e2b823179,2,chap_nhan,pcalua thuc thi payload calc thong qua LOLBAS
+6f3b2671a8d6,1,chap_nhan,cmd thuc thi sc truy van dich vu IKEEXT tu xa
+6f3b2671a8d6,2,bac,tien trinh conhost hoat dong nen
+6f3b2671a8d6,3,bac,tien trinh con sc cua shell cmd
+6f3b2671a8d6,4,bac,lap lai lenh cmd o dong 1
+6f3b2671a8d6,5,bac,tien trinh conhost hoat dong nen
+6f3b2671a8d6,6,bac,tien trinh con sc cua shell cmd
+6f4f2f04b368,1,chap_nhan,python chay winpwnage leo thang dac quyen UAC
+6f9a69f06c8f,58,bac,cmd tuong tac he thong khong truc tiep thuc thi
+6f9a69f06c8f,59,chap_nhan,cmd goi powershell khai thac MMC20 Application DCOM tu xa
+6f9a69f06c8f,74,chap_nhan,cmd khoi chay payload calc
+6fb9c876de0f,1,chap_nhan,thuc thi calc payload thu nghiem
+6fbcde067d51,16,bac,powershell tuong tac he thong khong phai shell chay truc tiep ma doc
+6fbcde067d51,27,chap_nhan,cmd thuc thi ma doc QKumYdZSplan tu thu muc Public
+6fdfba24ba71,1,chap_nhan,cmd thuc thi whoami thu thap thong tin nguoi dung
+710ba0e50f99,46,chap_nhan,mmc khoi chay gpme chinh sua GPO Active Directory doc hai
+713c27009c8d,1,bac,cmd tuong tac he thong khong chua ma doc
+71ca13396903,99,chap_nhan,thuc thi hostname trinh sat he thong
+71ca13396903,100,chap_nhan,whoami do quet thong tin nguoi dung he thong
+71ca13396903,101,chap_nhan,csc bien dich ma nguon C sharp doc hai
+71ca13396903,103,chap_nhan,cmd thuc thi bitsadmin tai file tu xa
+71ca13396903,105,chap_nhan,powershell thuc thi Start BitsTransfer tai file doc hai
+71ca13396903,106,chap_nhan,cmd tao BITS job dat notifycmdline thuc thi ma doc
+71ca13396903,113,chap_nhan,cmd thuc thi desktopimgdownldr tai file doc hai
