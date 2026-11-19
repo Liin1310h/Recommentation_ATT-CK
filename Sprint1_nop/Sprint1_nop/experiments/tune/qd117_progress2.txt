@@ -1,0 +1,4 @@
+warm mt1024 exit 0 min 10.7643883633333
+tune mt1024 exit 0 min 19.6423740833333
+warm mt2048 exit 0 min 9.44489468833333
+tune mt2048 exit 0 min 18.9062534

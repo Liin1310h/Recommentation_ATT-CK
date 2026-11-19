@@ -1,0 +1,2 @@
+eval exit 0 min 19.60084189
+compare exit 0
