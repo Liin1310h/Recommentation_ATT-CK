@@ -1,0 +1,110 @@
+verify_sources: OK (mọi giá trị khớp SOURCES.lock)
+P_chinh = 1283 alert; 12 điểm lưới
+{"order": 0, "params": {"retrieval.fusion.weights.embedding": 0.25, "retrieval.fusion.rrf_k": 10}, "top3": 0.255651, "n": 1283, "seconds": 276.5}
+{"order": 1, "params": {"retrieval.fusion.weights.embedding": 0.25, "retrieval.fusion.rrf_k": 30}, "top3": 0.244739, "n": 1283, "seconds": 29.2}
+{"order": 2, "params": {"retrieval.fusion.weights.embedding": 0.25, "retrieval.fusion.rrf_k": 60}, "top3": 0.239283, "n": 1283, "seconds": 23.9}
+{"order": 3, "params": {"retrieval.fusion.weights.embedding": 0.5, "retrieval.fusion.rrf_k": 10}, "top3": 0.250195, "n": 1283, "seconds": 23.9}
+{"order": 4, "params": {"retrieval.fusion.weights.embedding": 0.5, "retrieval.fusion.rrf_k": 30}, "top3": 0.234606, "n": 1283, "seconds": 23.7}
+{"order": 5, "params": {"retrieval.fusion.weights.embedding": 0.5, "retrieval.fusion.rrf_k": 60}, "top3": 0.22915, "n": 1283, "seconds": 23.7}
+{"order": 6, "params": {"retrieval.fusion.weights.embedding": 0.75, "retrieval.fusion.rrf_k": 10}, "top3": 0.24318, "n": 1283, "seconds": 24.1}
+{"order": 7, "params": {"retrieval.fusion.weights.embedding": 0.75, "retrieval.fusion.rrf_k": 30}, "top3": 0.234606, "n": 1283, "seconds": 24.1}
+{"order": 8, "params": {"retrieval.fusion.weights.embedding": 0.75, "retrieval.fusion.rrf_k": 60}, "top3": 0.232268, "n": 1283, "seconds": 23.8}
+{"order": 9, "params": {"retrieval.fusion.weights.embedding": 1.0, "retrieval.fusion.rrf_k": 10}, "top3": 0.241621, "n": 1283, "seconds": 24.0}
+{"order": 10, "params": {"retrieval.fusion.weights.embedding": 1.0, "retrieval.fusion.rrf_k": 30}, "top3": 0.236945, "n": 1283, "seconds": 24.0}
+{"order": 11, "params": {"retrieval.fusion.weights.embedding": 1.0, "retrieval.fusion.rrf_k": 60}, "top3": 0.233827, "n": 1283, "seconds": 23.8}
+{
+ "chosen": {
+  "order": 0,
+  "params": {
+   "retrieval.fusion.weights.embedding": 0.25,
+   "retrieval.fusion.rrf_k": 10
+  },
+  "top3": 0.255651
+ },
+ "points": [
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.25,
+    "retrieval.fusion.rrf_k": 10
+   },
+   "top3": 0.255651
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.25,
+    "retrieval.fusion.rrf_k": 30
+   },
+   "top3": 0.244739
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.25,
+    "retrieval.fusion.rrf_k": 60
+   },
+   "top3": 0.239283
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.5,
+    "retrieval.fusion.rrf_k": 10
+   },
+   "top3": 0.250195
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.5,
+    "retrieval.fusion.rrf_k": 30
+   },
+   "top3": 0.234606
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.5,
+    "retrieval.fusion.rrf_k": 60
+   },
+   "top3": 0.22915
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.75,
+    "retrieval.fusion.rrf_k": 10
+   },
+   "top3": 0.24318
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.75,
+    "retrieval.fusion.rrf_k": 30
+   },
+   "top3": 0.234606
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 0.75,
+    "retrieval.fusion.rrf_k": 60
+   },
+   "top3": 0.232268
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 1.0,
+    "retrieval.fusion.rrf_k": 10
+   },
+   "top3": 0.241621
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 1.0,
+    "retrieval.fusion.rrf_k": 30
+   },
+   "top3": 0.236945
+  },
+  {
+   "params": {
+    "retrieval.fusion.weights.embedding": 1.0,
+    "retrieval.fusion.rrf_k": 60
+   },
+   "top3": 0.233827
+  }
+ ]
+}

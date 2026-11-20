@@ -1,0 +1,425 @@
+verify_sources: OK (mọi giá trị khớp SOURCES.lock)
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]E:\t�i li\u1ec7u linh\AI_VIN\SOC\Sprint1_nop\Sprint1_nop\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\LENOVO\AppData\Local\Temp\fastembed_cache. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+E:\t�i li\u1ec7u linh\AI_VIN\SOC\Sprint1_nop\Sprint1_nop\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\LENOVO\AppData\Local\Temp\fastembed_cache\models--Qdrant--multilingual-e5-large-onnx. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Fetching 6 files:  17%|#6        | 1/6 [00:00<00:01,  2.78it/s]Fetching 6 files:  67%|######6   | 4/6 [00:02<00:01,  1.56it/s]Fetching 6 files:  83%|########3 | 5/6 [00:05<00:01,  1.21s/it]Fetching 6 files: 100%|##########| 6/6 [04:38<00:00, 78.74s/it]Fetching 6 files: 100%|##########| 6/6 [04:38<00:00, 46.46s/it]
+{
+ "alerts": 11562,
+ "alerts_after_cap": 2325,
+ "label_policy": {
+  "alerts": 11611,
+  "kept": 11562,
+  "excluded": {
+   "label_set_too_large": 49
+  },
+  "excluded_fraction": 0.0042,
+  "warning_excluded_fraction": false,
+  "label_set_size": {
+   "1": 11121,
+   "2": 355,
+   "3": 86,
+   "4": 15,
+   "5": 23,
+   "6": 1,
+   "7": 4,
+   "8": 2,
+   "13": 1,
+   "22": 1,
+   "29": 1,
+   "35": 1
+  },
+  "gold_non_leaf": 6279,
+  "gold_non_leaf_fraction": 0.5431,
+  "warning_gold_non_leaf": true
+ },
+ "sigma_fired_rules_mismatch_vs_tiers_jsonl": 0,
+ "bm25_query": {
+  "exclude_fields": [
+   "Channel",
+   "EventID",
+   "Hashes",
+   "Keywords",
+   "Level",
+   "Opcode",
+   "ProviderGuid",
+   "Provider_Guid",
+   "Provider_Name",
+   "Security_UserID",
+   "Task",
+   "TimeCreated",
+   "Version"
+  ],
+  "dedup_query_tokens": true
+ },
+ "bm25_top1_diagnostic_full_kb": {
+  "alerts_answered": 11561,
+  "distinct_top1_techniques": 160,
+  "most_common_top1": [
+   [
+    "T1202",
+    5333
+   ],
+   [
+    "T1546.013",
+    668
+   ],
+   [
+    "T1003.001",
+    666
+   ],
+   [
+    "T1105",
+    644
+   ],
+   [
+    "T1021.001",
+    514
+   ]
+  ],
+  "most_common_top1_share": 0.4613,
+  "most_common_top1_evidence_doc": [
+   [
+    "rule:f99abdf0-6283-4e71-bd2b-b5c048a94743",
+    5162
+   ],
+   [
+    "rule:b5b78988-486d-4a80-b991-930eff3ff8bf",
+    665
+   ],
+   [
+    "rule:08249dc0-a28d-4555-8ba5-9255a198e08c",
+    577
+   ]
+  ]
+ },
+ "hub_check_qd94": {
+  "bm25": {
+   "most_common_top1_evidence_doc": "rule:f99abdf0-6283-4e71-bd2b-b5c048a94743",
+   "share": 0.4465,
+   "threshold": 0.1,
+   "pass": false
+  },
+  "dense": {
+   "most_common_top1_evidence_doc": "rule:438025f9-5856-4663-83f7-52f878a70a50",
+   "share": 0.2357,
+   "threshold": 0.1,
+   "pass": false
+  },
+  "hybrid": {
+   "most_common_top1_evidence_doc": "rule:f99abdf0-6283-4e71-bd2b-b5c048a94743",
+   "share": 0.3159,
+   "threshold": 0.1,
+   "pass": false
+  },
+  "hybrid+graph:full": {
+   "most_common_top1_evidence_doc": "rule:f99abdf0-6283-4e71-bd2b-b5c048a94743",
+   "share": 0.3163,
+   "threshold": 0.1,
+   "pass": false
+  }
+ },
+ "dense_preprocessing_qd99": {
+  "token_budget": 510,
+  "docs": 3034,
+  "docs_chunked": 76,
+  "doc_vectors": 3171,
+  "doc_vectors_over_budget": 0,
+  "queries": 12411,
+  "queries_budgeted": 141,
+  "queries_over_budget": 0,
+  "truncated_after_preprocessing": 0,
+  "warning": null,
+  "chunked_doc_share_of_kb": 0.025,
+  "dense_top1_evidence_from_chunked_doc_share": 0.2882
+ },
+ "evidence_event_groups_qd101": [
+  "process",
+  "registry",
+  "process_access"
+ ],
+ "bm25|all|tier2_3": {
+  "n_alerts": 11562,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 3.89,
+  "coverage": 0.9999,
+  "top1_exact_id": 0.0668,
+  "top3_exact_id": 0.1162,
+  "top5_exact_id": 0.1296,
+  "top10_exact_id": 0.1559,
+  "top50_exact_id": 0.6985,
+  "mrr_exact_id": 0.1164,
+  "scenario_macro_top3_exact_id": 0.2044,
+  "top3_tactic": 0.7514
+ },
+ "bm25|all|tier1": {
+  "n_alerts": 849,
+  "n_scenarios": 137,
+  "n_effective_scenarios": 31.03,
+  "coverage": 1.0,
+  "top1_exact_id": 0.2968,
+  "top3_exact_id": 0.3769,
+  "top5_exact_id": 0.4158,
+  "top10_exact_id": 0.4782,
+  "top50_exact_id": 0.6431,
+  "mrr_exact_id": 0.3575,
+  "scenario_macro_top3_exact_id": 0.3204,
+  "top3_tactic": 0.6667
+ },
+ "bm25|capped|tier2_3": {
+  "n_alerts": 2325,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 51.24,
+  "coverage": 0.9996,
+  "top1_exact_id": 0.1312,
+  "top3_exact_id": 0.2159,
+  "top5_exact_id": 0.2529,
+  "top10_exact_id": 0.3166,
+  "top50_exact_id": 0.5596,
+  "mrr_exact_id": 0.1955,
+  "scenario_macro_top3_exact_id": 0.2099,
+  "top3_tactic": 0.5484
+ },
+ "bm25|all|tier2_3_evg": {
+  "n_alerts": 2370,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 21.96,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1544,
+  "top3_exact_id": 0.2734,
+  "top5_exact_id": 0.3118,
+  "top10_exact_id": 0.3776,
+  "top50_exact_id": 0.6224,
+  "mrr_exact_id": 0.2371,
+  "scenario_macro_top3_exact_id": 0.2162,
+  "top3_tactic": 0.5418
+ },
+ "bm25|capped|tier2_3_evg": {
+  "n_alerts": 1283,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 56.28,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1504,
+  "top3_exact_id": 0.2494,
+  "top5_exact_id": 0.2962,
+  "top10_exact_id": 0.3866,
+  "top50_exact_id": 0.6376,
+  "mrr_exact_id": 0.2292,
+  "scenario_macro_top3_exact_id": 0.2163,
+  "top3_tactic": 0.569
+ },
+ "dense|all|tier2_3": {
+  "n_alerts": 11562,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 3.89,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0244,
+  "top3_exact_id": 0.041,
+  "top5_exact_id": 0.0603,
+  "top10_exact_id": 0.0972,
+  "top50_exact_id": 0.6719,
+  "mrr_exact_id": 0.0625,
+  "scenario_macro_top3_exact_id": 0.1346,
+  "top3_tactic": 0.7011
+ },
+ "dense|all|tier1": {
+  "n_alerts": 849,
+  "n_scenarios": 137,
+  "n_effective_scenarios": 31.03,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1696,
+  "top3_exact_id": 0.2226,
+  "top5_exact_id": 0.2556,
+  "top10_exact_id": 0.3322,
+  "top50_exact_id": 0.5265,
+  "mrr_exact_id": 0.219,
+  "scenario_macro_top3_exact_id": 0.2276,
+  "top3_tactic": 0.5571
+ },
+ "dense|capped|tier2_3": {
+  "n_alerts": 2325,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 51.24,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0697,
+  "top3_exact_id": 0.1148,
+  "top5_exact_id": 0.1617,
+  "top10_exact_id": 0.2546,
+  "top50_exact_id": 0.5725,
+  "mrr_exact_id": 0.1266,
+  "scenario_macro_top3_exact_id": 0.1359,
+  "top3_tactic": 0.5329
+ },
+ "dense|all|tier2_3_evg": {
+  "n_alerts": 2370,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 21.96,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0629,
+  "top3_exact_id": 0.1013,
+  "top5_exact_id": 0.1498,
+  "top10_exact_id": 0.2456,
+  "top50_exact_id": 0.546,
+  "mrr_exact_id": 0.1162,
+  "scenario_macro_top3_exact_id": 0.1371,
+  "top3_tactic": 0.5004
+ },
+ "dense|capped|tier2_3_evg": {
+  "n_alerts": 1283,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 56.28,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0889,
+  "top3_exact_id": 0.1372,
+  "top5_exact_id": 0.1894,
+  "top10_exact_id": 0.3016,
+  "top50_exact_id": 0.6009,
+  "mrr_exact_id": 0.1502,
+  "scenario_macro_top3_exact_id": 0.1377,
+  "top3_tactic": 0.5347
+ },
+ "hybrid|all|tier2_3": {
+  "n_alerts": 11562,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 3.89,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0381,
+  "top3_exact_id": 0.0788,
+  "top5_exact_id": 0.1154,
+  "top10_exact_id": 0.1703,
+  "top50_exact_id": 0.6989,
+  "mrr_exact_id": 0.0941,
+  "scenario_macro_top3_exact_id": 0.2151,
+  "top3_tactic": 0.7809
+ },
+ "hybrid|all|tier1": {
+  "n_alerts": 849,
+  "n_scenarios": 137,
+  "n_effective_scenarios": 31.03,
+  "coverage": 1.0,
+  "top1_exact_id": 0.2085,
+  "top3_exact_id": 0.3404,
+  "top5_exact_id": 0.4276,
+  "top10_exact_id": 0.4853,
+  "top50_exact_id": 0.6443,
+  "mrr_exact_id": 0.3049,
+  "scenario_macro_top3_exact_id": 0.3288,
+  "top3_tactic": 0.6596
+ },
+ "hybrid|capped|tier2_3": {
+  "n_alerts": 2325,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 51.24,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1097,
+  "top3_exact_id": 0.2026,
+  "top5_exact_id": 0.2508,
+  "top10_exact_id": 0.3381,
+  "top50_exact_id": 0.5617,
+  "mrr_exact_id": 0.185,
+  "scenario_macro_top3_exact_id": 0.2211,
+  "top3_tactic": 0.5854
+ },
+ "hybrid|all|tier2_3_evg": {
+  "n_alerts": 2370,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 21.96,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0852,
+  "top3_exact_id": 0.1755,
+  "top5_exact_id": 0.2637,
+  "top10_exact_id": 0.3954,
+  "top50_exact_id": 0.6228,
+  "mrr_exact_id": 0.1725,
+  "scenario_macro_top3_exact_id": 0.2262,
+  "top3_tactic": 0.5743
+ },
+ "hybrid|capped|tier2_3_evg": {
+  "n_alerts": 1283,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 56.28,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1333,
+  "top3_exact_id": 0.2377,
+  "top5_exact_id": 0.2954,
+  "top10_exact_id": 0.392,
+  "top50_exact_id": 0.6383,
+  "mrr_exact_id": 0.2175,
+  "scenario_macro_top3_exact_id": 0.2271,
+  "top3_tactic": 0.6048
+ },
+ "hybrid+graph:full|all|tier2_3": {
+  "n_alerts": 11562,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 3.89,
+  "coverage": 1.0,
+  "top1_exact_id": 0.038,
+  "top3_exact_id": 0.0758,
+  "top5_exact_id": 0.1094,
+  "top10_exact_id": 0.1735,
+  "top50_exact_id": 0.7215,
+  "mrr_exact_id": 0.0965,
+  "scenario_macro_top3_exact_id": 0.2175,
+  "top3_tactic": 0.7828
+ },
+ "hybrid+graph:full|all|tier1": {
+  "n_alerts": 849,
+  "n_scenarios": 137,
+  "n_effective_scenarios": 31.03,
+  "coverage": 1.0,
+  "top1_exact_id": 0.2073,
+  "top3_exact_id": 0.3498,
+  "top5_exact_id": 0.424,
+  "top10_exact_id": 0.4959,
+  "top50_exact_id": 0.6702,
+  "mrr_exact_id": 0.2983,
+  "scenario_macro_top3_exact_id": 0.3314,
+  "top3_tactic": 0.6643
+ },
+ "hybrid+graph:full|capped|tier2_3": {
+  "n_alerts": 2325,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 51.24,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1105,
+  "top3_exact_id": 0.2022,
+  "top5_exact_id": 0.2572,
+  "top10_exact_id": 0.3497,
+  "top50_exact_id": 0.6022,
+  "mrr_exact_id": 0.1868,
+  "scenario_macro_top3_exact_id": 0.2225,
+  "top3_tactic": 0.5845
+ },
+ "hybrid+graph:full|all|tier2_3_evg": {
+  "n_alerts": 2370,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 21.96,
+  "coverage": 1.0,
+  "top1_exact_id": 0.0869,
+  "top3_exact_id": 0.17,
+  "top5_exact_id": 0.2388,
+  "top10_exact_id": 0.4084,
+  "top50_exact_id": 0.6814,
+  "mrr_exact_id": 0.1723,
+  "scenario_macro_top3_exact_id": 0.2229,
+  "top3_tactic": 0.565
+ },
+ "hybrid+graph:full|capped|tier2_3_evg": {
+  "n_alerts": 1283,
+  "n_scenarios": 172,
+  "n_effective_scenarios": 56.28,
+  "coverage": 1.0,
+  "top1_exact_id": 0.1341,
+  "top3_exact_id": 0.2354,
+  "top5_exact_id": 0.297,
+  "top10_exact_id": 0.4076,
+  "top50_exact_id": 0.6633,
+  "mrr_exact_id": 0.2196,
+  "scenario_macro_top3_exact_id": 0.2235,
+  "top3_tactic": 0.5994
+ }
+}
+exit 0

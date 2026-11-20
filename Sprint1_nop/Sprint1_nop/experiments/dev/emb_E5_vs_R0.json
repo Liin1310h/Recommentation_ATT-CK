@@ -1,0 +1,86 @@
+{
+ "base": "experiments/dev/emb_R0_bge_small_records.jsonl",
+ "new": "experiments/dev/emb_E5_large_records.jsonl",
+ "k": 3,
+ "population": "tier 2∪3, capped_in, evidence_event_groups",
+ "systems": {
+  "bm25": {
+   "n_alerts": 1283,
+   "n_scenarios": 172,
+   "top3_base": 0.2494,
+   "top3_new": 0.2494,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "hit10_base": 0.3866,
+   "hit10_new": 0.3866,
+   "hit50_base": 0.6376,
+   "hit50_new": 0.6376
+  },
+  "dense": {
+   "n_alerts": 1283,
+   "n_scenarios": 172,
+   "top3_base": 0.1512,
+   "top3_new": 0.1372,
+   "diff": -0.014,
+   "ci": [
+    -0.0533,
+    0.0238
+   ],
+   "p": 0.4792,
+   "hit10_base": 0.2502,
+   "hit10_new": 0.3016,
+   "hit50_base": 0.5807,
+   "hit50_new": 0.6009
+  },
+  "hybrid": {
+   "n_alerts": 1283,
+   "n_scenarios": 172,
+   "top3_base": 0.2463,
+   "top3_new": 0.2377,
+   "diff": -0.0086,
+   "ci": [
+    -0.0589,
+    0.0337
+   ],
+   "p": 0.7724,
+   "hit10_base": 0.3819,
+   "hit10_new": 0.392,
+   "hit50_base": 0.6376,
+   "hit50_new": 0.6383
+  },
+  "hybrid+graph:full": {
+   "n_alerts": 1283,
+   "n_scenarios": 172,
+   "top3_base": 0.2541,
+   "top3_new": 0.2354,
+   "diff": -0.0187,
+   "ci": [
+    -0.0647,
+    0.0226
+   ],
+   "p": 0.396,
+   "hit10_base": 0.3975,
+   "hit10_new": 0.4076,
+   "hit50_base": 0.6563,
+   "hit50_new": 0.6633
+  }
+ },
+ "rieng_base": {
+  "chi_bm25": 0.1442,
+  "chi_dense": 0.046,
+  "ca_hai": 0.1052
+ },
+ "rieng_new": {
+  "chi_bm25": 0.159,
+  "chi_dense": 0.0468,
+  "ca_hai": 0.0904
+ },
+ "tieu_chi_QD117": {
+  "dat": false,
+  "ghi_chu": "hybrid: CI 95% hiệu Top-K nằm trọn trên 0"
+ }
+}

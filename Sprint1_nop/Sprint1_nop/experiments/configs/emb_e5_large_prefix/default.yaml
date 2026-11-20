@@ -1,0 +1,8 @@
+# Manifest thử nghiệm QĐ 117 (multilingual-e5-large): như config/default.yaml, chỉ thay retrieval.yaml.
+_include:
+  - ../../../config/core.yaml
+  - ../../../config/knowledge.yaml
+  - retrieval.yaml
+  - ../../../config/llm.yaml
+  - ../../../config/evaluation.yaml
+  - ../../../config/data.yaml

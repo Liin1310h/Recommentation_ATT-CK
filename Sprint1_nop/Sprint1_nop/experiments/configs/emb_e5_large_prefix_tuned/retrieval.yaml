@@ -1,0 +1,146 @@
+# Thử nghiệm QĐ 117: multilingual-e5-large (fastembed) CÓ tiền tố 'query: ' / 'passage: '. Chỉ đổi model và tiền tố so với emb_jina_code (chưa tune).
+# TIÊU CHÍ KHAI BÁO TRƯỚC (2026-11-19, trước khi chạy): đổi model khi CI 95% hiệu Top-3 hybrid (e5 - bge-small) nằm trọn trên 0.
+# Tune hybrid trên dev (tune_dev.py, lưới khai báo sẵn; chọn embedding 0.25, rrf_k 10; Top-3 P_chinh 0.2557). Dev only.
+# So với lần không tiền tố (emb_e5_large): cùng tiêu chí, khác duy nhất ở tiền tố. Ghi 2026-11-19, trước khi chạy.
+# Truy hồi: BM25, dense, fusion, graph và các biến thể ablation.
+# Một phần của cấu hình dự án; được nạp qua config/default.yaml (_include).
+
+# ---------------- PLACEHOLDER cho các bước sau (chưa dùng ở D3) ----------------
+retrieval:
+  top_k: null                           # số technique gợi ý trả về
+  ranking_depth: 50                     # độ dài danh sách xếp hạng (> K, để tính Top-K mức parent); chung mọi cấu hình
+                                        # (quyết định 55, chốt 2026-11-05 trước kết quả)
+  node_score_aggregation: max           # gộp điểm theo node (technique hoặc sub-technique); max vs sum là ablation (D2 §1)
+  exclude_pre_for_host_logs: true       # D2 §2.1 (5), quyết định 42: không trả technique PRE (mọi tactic thuộc
+                                        # TA0042/TA0043) cho alert log host; GIỐNG NHAU ở mọi cấu hình so sánh
+  bm25:
+    # Quyết định 56 (chốt 2026-11-05, trước kết quả). Giá trị khởi đầu = mặc định của rank_bm25.BM25Okapi;
+    # chỉ chỉnh trên dev ở giai đoạn tune (D2 §6.2).
+    variant: okapi
+    k1: 1.5                             # tham số BM25 (độ bão hoà tần suất từ)
+    b: 0.3                              # tham số BM25 (chuẩn hoá độ dài văn bản). Khởi đầu 0.75; tune bước 1
+                                        # (16/11, lưới QĐ 94, P_chinh): chọn X = 0.05, b = 0.3, Top-3 0.249 so với
+                                        # 0.239 (experiments/tune/step1_bm25.json)
+    epsilon: 0.25                       # sàn idf của BM25Okapi
+    documents: [technique, rule]        # một chỉ mục: tài liệu technique (STIX) + tài liệu rule (Sigma, ánh xạ qua tag)
+    # Truy vấn = giá trị mọi field của alert, trừ dedup.<platform>.drop_fields và các field dưới (không lấy tên field)
+    # Quyết định 64 (2026-11-07, sửa quyết định 56; trên dev, trước mọi kết quả trên test): loại thêm field "phong bì"
+    # của event (phần <System> của Windows Event XML và bản NXLog/OTRF tương ứng). Các field này giống nhau ở mọi
+    # event cùng loại, không mô tả hành vi; Provider_Guid của Sysmon khớp nguyên văn GUID trong rule 18beca67 (tag
+    # T1112) và làm rule này đứng đầu 975/1,258 alert dev. Field hành vi (EventType, User, ...) vẫn giữ.
+    query_exclude_fields: [Hashes, Channel, EventID, Provider_Name, Provider_Guid, ProviderGuid, Task, Keywords,
+                           Level, Opcode, Version, Security_UserID, TimeCreated]
+    # Quyết định 64: mỗi token tính MỘT lần trong truy vấn (tương đương BM25 với k3 = 0). rank_bm25 cộng điểm cho
+    # mỗi lần lặp token trong query, nên token lặp nhiều trong một alert (vd "windows" 8 lần) bị nhân trọng số.
+    dedup_query_tokens: true
+    # Quyết định 94 (2026-11-12): token có df > X × số tài liệu chỉ mục BM25 (KHÔNG dùng alert) là stopword, bỏ khỏi
+    # tài liệu và truy vấn BM25 (dense không đổi). Giá trị khởi đầu; lưới tune dev run4: {0.02, 0.05, 0.10, null} × b.
+    doc_drop_query_excluded_fields: true   # QĐ 100: tài liệu rule bỏ tên + giá trị của field bị loại ở truy vấn (vd
+                                        # Hashes, EventID); cùng quy tắc với tài liệu dense (QĐ 99). false = trước 12/11
+    kb_stopword_df_fraction: 0.05
+    hub_max_top1_evidence_share: 0.10   # QĐ 94 (3): kiểm bắt buộc, tài liệu bằng chứng top-1 phổ biến nhất ≤ 10% alert
+    min_token_len: 2                    # bỏ token ngắn hơn
+    candidate_domain_from_logsource: true   # chỉ ứng viên thuộc domain của alert (sigma.logsource_domain_map)
+    # QĐ 102 (2026-11-12): chỉ LẬP CHỈ MỤC tài liệu technique của domain alert (BM25 và dense dùng chung tập tài
+    # liệu). false = lập chỉ mục cả Mobile / ICS (trước 12/11): không được trả về nhưng làm lệch idf, avgdl, stopword.
+    index_domain_from_logsource: true
+  embedding:
+    # Quyết định 72 (chốt 2026-11-07, trước mọi kết quả test). Model có sẵn, KHÔNG fine-tune.
+    backend: fastembed                  # fastembed | lsa — chọn TƯỜNG MINH; code không tự đổi khi lỗi cài đặt
+    library: fastembed                  # ONNX, chạy CPU; venv Python 3.14.6, fastembed 0.9.1 (QĐ 87)
+    cache_dir: null                     # thư mục model đã tải (điền lúc cài)
+    model_path: null                    # fastembed tự tải theo tên model (không dùng bản tải tay)
+    lsa:                                # chỉ dùng khi backend = lsa (dự phòng QĐ 72); giá trị khởi đầu, chỉnh trên dev
+      dims: 256
+      vocab_size: 10000                 # giữ từ có df cao nhất (min_df trở lên)
+      min_df: 2
+    model: intfloat/multilingual-e5-large   # thử nghiệm QĐ 117 (dev), 2026-11-19
+    model_revision: 3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3   # intfloat/multilingual-e5-large; HfApi sha, 2026-11-19
+    fine_tune: false
+    query_instruction: "query: "        # e5: tiền tố truy vấn (lần này có)
+    doc_instruction: "passage: "        # e5: tiền tố tài liệu (lần này có)
+    max_tokens: 512                     # tài liệu / truy vấn dài hơn bị cắt theo tokenizer của model
+    doc_cache_dir: experiments/cache/embeddings_e5_large_prefix
+    documents: same_as_bm25             # cùng văn bản tài liệu technique + rule như BM25 (text.py)
+    query: same_as_bm25                 # cùng chọn field như BM25 (QĐ 56, 64); giữ thứ tự field, không khử token lặp
+    query_stack_module_fields: [CallTrace]   # QĐ 98: ngoại lệ với QĐ 72, CHỈ truy vấn dense: stack trace -> tên module
+                                        # (bỏ thư mục, +offset, địa chỉ, lặp). BM25 / Sigma-match đọc nguyên bản. [] = tắt
+    # QĐ 99 (chỉ nhánh dense, chỉ backend có tokenizer; thiếu khoá / null = hành vi trước 12/11):
+    query_budget: waterfill             # truy vấn > max_tokens: field dài nhất bị cắt xuống cùng một mức vừa ngân sách
+    doc_drop_query_excluded_fields: true   # tài liệu rule bỏ giá trị của field bị loại ở truy vấn (vd Hashes)
+    doc_chunking: head_repeat           # tài liệu > max_tokens: chia đoạn theo dòng, mỗi đoạn mở đầu bằng phần đầu
+                                        # (rule: title + description; technique: name); điểm tài liệu = max các đoạn
+    similarity: cosine                  # vector chuẩn hoá; tìm vét cạn bằng numpy (không cần thư viện vector)
+    # Gộp theo node = retrieval.node_score_aggregation (max); lọc domain như BM25; tier 2: che tài liệu rule đã
+    # kích hoạt lúc truy vấn (QĐ 18), không mã hoá lại.
+    fallback: lsa                       # nếu không cài / không được dùng fastembed trước 2026-11-12: LSA (TF-IDF +
+    fallback_deadline: 2026-11-12       # SVD) bằng numpy trên cùng tài liệu; số chiều chọn trên dev (D2 §6.2)
+  fusion:
+    # Quyết định 73: hybrid = Reciprocal Rank Fusion của BM25 và embedding (giá trị khởi đầu, chỉnh trên dev).
+    method: rrf
+    rrf_k: 10                           # khởi đầu 60; tune bước 2 (16/11, QĐ 111, experiments/tune/step2_hybrid.json)
+    weights:                            # trọng số kết hợp điểm các nguồn (RRF có trọng số; khởi đầu bằng nhau)
+      bm25: 1.0
+      embedding: 0.25                   # khởi đầu 1.0; tune bước 2 (16/11): w = 0.25, rrf_k = 30, Top-3 0.246
+      graph: null
+    min_score: null                     # ngưỡng điểm tối thiểu
+  popularity:
+    # Quyết định 67 (chốt 2026-11-07, sửa trạng thái [mở] của quyết định 21). Không đọc nội dung alert.
+    source: sigma_rule_count            # điểm technique = số rule Sigma có logsource.product = nền tảng của alert, tag
+                                        # technique đó; tag chuẩn hoá bằng CÙNG quy tắc với Sigma-match (rule_tags:
+                                        # chuẩn hoá STIX, giữ con khi rule tag cả cha lẫn con, loại PRE với log host)
+    tie_break: attack_id_asc            # hoà điểm -> ID tăng dần; danh sách cắt ở ranking_depth
+    leave_rule_out: true                # tier 2: rule đã kích hoạt bị loại khỏi phép đếm (quyết định 18)
+    descriptive_alt_source: dev_label_frequency   # chỉ báo cáo mô tả, không dùng trong phép so sánh nào
+  llm:
+    use: false                          # Quyết định 68: truy hồi/xếp hạng không gọi LLM API (sửa [mở] của QĐ 25)
+                                        # QĐ 105: vẫn đúng cho nhánh xác nhận (tầng 0–3); LLM chỉ ở `llm_verifier`
+  explanation:
+    # Quyết định 80: giải thích = rule (lớp 1, tất định) + LLM (lớp 2, sau xếp hạng, ngoài mọi metric).
+    rule_layer: true                    # tactic, token khớp BM25, tài liệu tốt nhất, rule Sigma, đường đi KG
+    llm_layer:
+      enabled: false                    # QĐ 109: lớp 2 bị cắt trước freeze
+      model: null                       # [mở] tên + phiên bản model, chốt trước khi chạy
+      temperature: null                 # QĐ 108: không đặt tham số sampling (trước đây 0)
+      cache_dir: experiments/llm_cache  # khoá = sha256(prompt); demo đọc từ cache
+      may_change_ranking: false         # cố định: LLM không đổi thứ hạng, không thêm/bớt technique
+      reject_unsupported_ids: true      # ID technique/rule không có trong lớp 1 -> đánh dấu unsupported, không hiển thị
+      allowed_splits: [dev]             # không chạy trên test trước lần chạy test duy nhất
+  graph:
+    # Quyết định 78 (chốt 2026-11-07, trước mọi kết quả graph): Personalized PageRank trên KG, hạt giống = RRF của
+    # retriever nền (node technique) + tài liệu rule (node rule). alpha = 1 -> trùng retriever nền.
+    # Các số dưới là GIÁ TRỊ KHỞI ĐẦU, chỉ chỉnh trên dev (D2 §6.2).
+    method: ppr
+    alpha: 0.5                          # xác suất quay về hạt giống mỗi bước
+    max_iter: 50
+    tol: 1.0e-9
+    rule_seed_weight: 0.5              # QĐ 86: phần rule / phần technique (mỗi phần chuẩn hoá tổng = 1) -> rule chiếm w/(1+w)
+    seed_rrf_k: 5                       # QĐ 86: hạt giống hạng r = 1/(seed_rrf_k + r) trên thứ tự đã gộp; k nhỏ = dốc hơn
+    # Tune bước 3 (16/11, QĐ 111, experiments/tune/step3_graph.json): alpha 0.5, rule_seed_weight 0.5 (khởi đầu 1),
+    # seed_rrf_k 5, seed_rule_depth null (khởi đầu 20); Top-3 P_chinh 0.254 so với hybrid 0.246
+    seed_rule_depth: null               # QĐ 86: chỉ N rule đầu (sau leave-rule-out) làm hạt giống; null = không giới hạn
+    # Trọng số theo loại edge, dùng LÚC RETRIEVAL (không ghi vào graph khi build).
+    edge_weights:
+      subtechnique-of: 1.0
+      belongs-to-tactic: 1.0
+      tagged-with: 1.0
+      tagged-with-tactic: 1.0
+
+ablation:
+  # Toggle bật/tắt từng thành phần để đo đóng góp; KG là giả thuyết cần kiểm chứng.
+  # Graph luôn chứa đủ node/edge; các toggle dưới đây chỉ quyết định phần nào được DÙNG khi retrieval.
+  use_bm25: null
+  use_embedding: null
+  use_graph: null
+  use_rule_technique_edges: null        # dùng edge tagged-with (rule -> technique)?
+  use_rule_tactic_edges: null           # dùng edge tagged-with-tactic (rule -> tactic)?
+  # Quyết định 69 (chốt 2026-11-07, sửa trạng thái [mở] của QĐ 23): ablation theo vai trò graph, báo cáo MÔ TẢ
+  # (không vào Holm). Mỗi biến thể dùng cùng retriever nền và mọi tham số khác với cấu hình graph đầy đủ.
+  graph_variants:
+    - parent_to_child_only              # chỉ subtechnique-of theo chiều parent -> con (QĐ 32 bắt buộc)
+    - rule_technique_edges_only         # chỉ tagged-with (rule -> technique)
+    - full                              # mọi loại edge theo edge_weights
+  use_revoked_nodes: false              # dùng node revoked? (quyết định 56: không)
+  use_deprecated_nodes: false           # dùng node deprecated? (quyết định 56: không)
+                                        # D2: chỉ quyết định node deprecated có được vào Top-K; phải GIỐNG NHAU
+                                        # ở mọi cấu hình so sánh; không ảnh hưởng việc loại nhãn.
